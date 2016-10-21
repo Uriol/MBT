@@ -1,0 +1,76 @@
+section.footer {
+	width: 100%;
+	
+	position: relative;
+	background-color: rgb(20,20,20);
+}
+
+.footer_wrapper{
+	position: relative;
+	padding: 70px 20px 70px 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer_wrapper .mbt_logo{
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.footer_wrapper .mbt_logo img{
+	max-width: 220px;
+	display: inline-block;
+}
+
+.footer_wrapper .mbt_logo img:hover{
+	transform: scale(1.04);
+}
+
+.links_container {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.footer_wrapper .links_container a{
+	padding: 20px 15px 20px 15px;
+	font-family: avenir_medium;
+	color: rgba(255,255,255, 0.6);
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.footer_wrapper a:hover{
+	color: rgba(255,255,255, 1);
+
+}
+
+
+@media only screen
+and (max-width: 650px) {
+
+	.footer_wrapper .mbt_logo{
+		display: block;
+	}
+
+	.footer_wrapper .mbt_logo img{
+		max-width: 200px;
+	}
+
+	.links_container {
+		max-width: 250px;
+		text-align: center;
+		margin-top: 25px;
+		line-height: 30px;
+		margin-left: 0px;
+	}
+
+	.footer_wrapper .links_container a{
+		/*top: 25px;*/
+		padding: 0px 20px 0px 20px;
+		font-size: 15px;
+	}
+
+
+}

@@ -1,0 +1,242 @@
+article.header_container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 999;
+
+}
+
+.header_container .header_image_container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 40%;
+	margin: 0 auto;
+}
+
+.header_container .header_image_container #owl_carousel_header{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.header_container .header_image_container #owl_carousel_header .item{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding-bottom: 40%;
+}
+
+#owl_carousel_header {
+		background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,173,236,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,173,236,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,173,236,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,173,236,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,173,236,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(0,173,236,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00adec', GradientType=0 );
+}
+
+
+.header_container .header_image_container #owl_carousel_header .item.one{
+	background: url('../../img/header/s4_header.png');
+	background-size: cover;
+	background-position: center; 
+}
+
+.header_container .header_image_container #owl_carousel_header .item.two{
+	background: url('../../img/header/tin_header.png');
+	background-size: cover;
+	background-position: center; 
+}
+
+.header_container .header_image_container #owl_carousel_header .owl-pagination{
+	display: none;
+	margin-top: -55px;
+}
+
+.header_container .header_image_container #owl_carousel_header .owl-pagination .owl-page.active span{
+	background-color: rgb(255,255,255);
+}
+
+.header_container .header_image_container #owl_carousel_header .owl-pagination .owl-page.active:hover span{
+	background-color: rgb(255,255,255);
+}
+
+.header_container .header_image_container #owl_carousel_header .owl-pagination .owl-page:hover span{
+	background-color: rgb(255,255,255);
+}
+
+
+/* Arrows */
+/*.header_arrows_container{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+}
+
+.header_arrows_container .arrow_container{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.header_arrows_container .arrow_container:hover {
+	background-color: rgba(0,0,0,0.7);
+}
+
+.header_arrows_container .arrow_container.left{
+	float: left;
+	margin-left: 5%;
+}
+
+.header_arrows_container .arrow_container.right{
+	float: right;
+	margin-right: 5%;
+}
+
+.header_arrows_container .arrow_container .arrow_icon{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.header_arrows_container .arrow_container.left .arrow_icon{
+	background: url(../../img/general/left_arrow_circle.png);
+	background-size: cover;
+}
+
+.header_arrows_container .arrow_container.right .arrow_icon{
+	background: url(../../img/general/right_arrow_circle.png);
+	background-size: cover;
+}*/
+
+
+.header_image_container .arrow_wrapper_header .arrow_container_header{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	z-index: 99;
+	cursor: pointer;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.header_image_container .arrow_wrapper_header .arrow_container_header:hover{
+	background-color: rgba(0,0,0,0.9);
+	transform: scale(1.2);
+}
+
+.arrow_wrapper_header .arrow_container_header.left{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+}
+
+.arrow_wrapper_header .arrow_container_header.right{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50px;
+}
+
+.arrow_wrapper_header .arrow_container_header .arrow_icon{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.arrow_wrapper_header .arrow_container_header .arrow_icon.right{
+	background: url('../../img/general/right_arrow_circle.png');
+	background-size: cover;
+}
+
+.arrow_wrapper_header .arrow_container_header .arrow_icon.left{
+	background: url('../../img/general/left_arrow_circle.png');
+	background-size: cover;
+}
+
+
+/* Phone Portrait */
+@media only screen
+and (max-width: 540px) {
+	article.header_container {
+		 
+	}
+
+	.header_container .header_image_container {
+		padding-bottom: 60%;
+	}
+
+	.header_container .header_image_container #owl_carousel_header .item{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		padding-bottom: 60%;
+	}
+	.header_container .header_image_container #owl_carousel_header .item.one{
+		background: url('../../img/header/s4_header_small.png');
+		background-size: cover;
+		background-position: center; 
+	}
+
+	.header_container .header_image_container #owl_carousel_header .item.two{
+		background: url('../../img/header/tin_header_small.png');
+		background-size: cover;
+		background-position: center; 
+	}
+
+
+
+	.header_container .header_image_container #owl_carousel_header .owl-pagination{
+		margin-top: -45px;
+		display: block;
+	}
+}
+
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 768px) {
+	article.header_container {
+		
+	}
+
+
+
+	.header_container .header_image_container #owl_carousel_header .owl-pagination{
+		margin-top: -45px;
+		display: block;
+	}
+}
+
+/* Tablet */
+@media only screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+
+}
+
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1499px) {
+
+}
+
+/* Desktop Big */
+@media only screen
+and (min-width: 1500px) {
+
+}
+
+

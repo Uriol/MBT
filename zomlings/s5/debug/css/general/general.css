@@ -1,0 +1,95 @@
+/* Section tittle container */
+.section_title_container {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.section_title_container.videos{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.section_title_container.downloads{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* Fonts */
+@font-face {
+    font-family: rolling;
+    src: url('../../fonts/rolling.woff');
+}
+
+/* Fonts */
+@font-face {
+    font-family: burbank;
+    src: url('../../fonts/burbank.woff');
+}
+
+/* Fonts */
+@font-face {
+    font-family: calibri;
+    src: url('../../fonts/Calibri_Bold.ttf');
+}
+
+/* Fonts */
+@font-face {
+    font-family: avenir_medium;
+    src: url('../../fonts/avenir_medium.woff');
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: avenir_bold;
+    src: url('../../fonts/avenir_bold.woff');
+}
+
+
+
+/* Phone Portrait */
+@media only screen
+and (max-width: 540px) {
+
+
+
+}
+
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 768px) {
+
+
+}	
+
+/* Tablet */
+@media only screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+
+}
+
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1200px) {
+
+}
+
+/* Desktop Big */
+@media only screen
+and (min-width: 1201px) {
+
+}

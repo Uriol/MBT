@@ -1,0 +1,359 @@
+section.characters{
+	width: 100%;
+	position: relative;
+    overflow: hidden;
+}
+
+
+
+/* Top menu  --------------------------------------------------- */
+.characters_menu {
+	position: relative;
+	width: 100%;
+	z-index: 999;
+}
+
+.characters_menu_container{
+	width: 100%;
+	text-align: center;
+}
+
+/* Series Selector container */
+.series_selector_container {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+
+}
+
+.series_selector_container select{
+	margin: 0 auto;
+	margin-top: 125px;
+	border-radius: 5px;
+	border: 0;
+	font-family: calibri;
+	-webkit-appearance: none;
+	background: white;
+	font-size: 18px;
+	color: black;
+	padding: 10px 150px 10px 15px;
+	background-image: url(../../img/characters/select_arrow.png);
+	background-position: right center;
+    background-repeat: no-repeat;
+
+}
+
+.series_selector_container select:focus {
+	outline: none;
+}
+
+
+/* Wood title */
+.top_wood_image_container_characters {
+	width: 100%;
+	max-width: 1720px;
+	height: 95px;
+	position: absolute;
+	left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+/* Checklist ----------------------------------------- */
+.checklist_BG{
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+	padding-bottom: 90px;
+	padding-top: 170px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.checklist_container{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.serie_checklist_container{
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: none;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+
+/* Series checklist bg colors */
+
+
+/* General checklist */
+.character {
+	width: 11.11%;
+	margin-left: 0%;
+	float: left;
+	overflow: hidden;
+	margin-top: -10px;
+	
+}
+
+.character.extra_margin_three {
+	margin-left: 26.45%;
+}
+
+.character:hover {
+	transform: scale(1.05);
+}
+
+.character img{
+	position: relative;
+	width: 100%;
+}
+
+
+
+
+.characters_container_wrapper{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.characters_container{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.footer_wood{
+	width: 100%;
+	max-width: 1500px;
+	height: 95px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: -75px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
+/* Media queries ------------------------------------------------------------------- */
+/* Phone Portrait */
+@media only screen
+and (max-width: 399px) {
+
+	.checklist_BG{
+		top: 10px;
+		padding-top: 120px;
+		margin-top: 30px;
+		padding-bottom: 60px;
+	}
+
+	/* Wood title */
+	.top_wood_image_container_characters {
+		width: 100%;
+		max-width: 1720px;
+		height: 85px;
+	}
+	
+
+	/* selector */
+	.series_selector_container select{
+		margin-top: 115px;
+	}
+
+	/* 4 characters x row */
+	.character {
+		width: 14.28%;
+		margin-left: 0%;
+		float: left;
+		overflow: hidden;
+		margin-top: 0px;
+		cursor: pointer;
+	}
+
+
+
+	.characters_container{
+		width: 90%;
+	}
+
+	/* Bottom wood */
+	.footer_wood{
+		width: 100%;
+		max-width: 1107px;
+		height: 70px;
+		position: relative;
+		margin: 0 auto;
+		margin-top: -40px;
+	}
+
+	.character {
+		width: 25%;
+		margin-left: 0%;
+		float: left;
+		overflow: hidden;
+		margin-top: 0px;
+		cursor: pointer;
+	}
+
+
+
+}
+
+@media only screen
+and (min-width: 400px)
+and (max-width: 540px) {
+
+	.checklist_BG{
+		top: 10px;
+		padding-top: 120px;
+		padding-bottom: 70px;
+		margin-top: 30px;
+	}
+
+	
+	/* Selector */
+	.series_selector_container select{
+		margin-top: 115px;
+	}
+
+	/* 4 characters x row */
+	.character {
+		width: 14.28%;
+		margin-left: 0%;
+		float: left;
+		overflow: hidden;
+		margin-top: 0px;
+		cursor: pointer;
+	}
+
+
+
+	.characters_container{
+		width: 90%;
+	}
+
+	/* Bottom wood */
+	.footer_wood{
+		width: 100%;
+		max-width: 1265px;
+		height: 80px;
+		position: relative;
+		margin: 0 auto;
+		margin-top: -55px;
+	}
+
+	/* character pic */
+	.character {
+		width: 20%;
+		margin-left: 0%;
+		float: left;
+		overflow: hidden;
+		margin-top: 0px;
+		cursor: pointer;
+	}
+
+
+}
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 768px) {
+
+	.checklist_BG{
+		top: 10px;
+		padding-top: 130px;
+	}
+
+
+
+	.series_selector_container select{
+		margin-top: 115px;
+	}
+
+	/* 4 characters x row */
+	.character {
+		width: 14.28%;
+		margin-left: 0%;
+		float: left;
+		overflow: hidden;
+		margin-top: 0px;
+		cursor: pointer;
+	}
+
+
+
+	.characters_container{
+		width: 90%;
+	}
+
+
+	/* Bottom wood */
+	.footer_wood{
+		width: 100%;
+		max-width: 1344px;
+		height: 85px;
+		position: relative;
+		margin: 0 auto;
+		margin-top: -55px;
+	}
+
+
+
+
+
+}
+
+/* Tablet */
+@media only screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+
+	.characters_container{
+		width: 95%;
+	}
+
+
+}
+
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1200px) {
+
+	.characters_container{
+		width: 90%;
+	}
+
+	.shadow_characters_container{
+		width: 90%;
+	}
+
+}
+
+/* Desktop Big */
+@media only screen
+and (min-width: 1201px) {
+
+}
+
+
+

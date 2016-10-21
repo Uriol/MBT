@@ -1,0 +1,402 @@
+section.products{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.products_section_wrapper{
+	margin-top: 30px;
+	position: relative;
+}
+
+
+/* Top menu */
+.products_menu{
+	position: relative;
+	width: 100%;
+	z-index: 999;
+}
+
+.products_menu_container{
+	width: 100%;
+	text-align: center;
+}
+
+.top_wood_image_container {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+
+.products_menu img.top_wood_img{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+
+/* Series selector --------------------------------------------------- */
+.series_selector_container.products{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	color: white;
+}
+
+.series_selector_container.products select{
+	background: rgba(0,0,0,0.2);
+	background-image: url(../../img/products/selector_arrow.png);
+	background-position: right center;
+    background-repeat: no-repeat;
+    color: black;
+    margin-top: 30px;
+}
+
+
+/* --------------------------------------------------- */
+/* Carousel */
+.carousel_products_container_full{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 0px;
+}
+
+.series_products_box {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1024px;
+}
+
+
+.owl-carousel.products .item{
+	display: block;
+	margin: 0 auto;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	border-radius: 5px;
+}
+
+
+.owl-carousel.products .item .item_image{
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+}
+
+/* Product images ----------------------------------------------- */
+
+/* S1 */
+.owl-carousel.products .item .item_image#s1_1{
+	background: url('../../img/products/s1/one_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s1_2{
+	background: url('../../img/products/s1/tower_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s1_3{
+	background: url('../../img/products/s1/house_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s1_4{
+	background: url('../../img/products/s1/blister_house.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s1_5{
+	background: url('../../img/products/s1/blister_mansion.png');
+	background-size: cover;
+}
+
+
+/* S2 */
+.owl-carousel.products .item .item_image#s2_1{
+	background: url('../../img/products/s2/one_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s2_2{
+	background: url('../../img/products/s2/tower_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s2_3{
+	background: url('../../img/products/s2/house_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s2_4{
+	background: url('../../img/products/s2/blister_house.png');
+	background-size: cover;
+}
+
+
+/* S3 */
+.owl-carousel.products .item .item_image#s3_1{
+	background: url('../../img/products/s3/one_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s3_2{
+	background: url('../../img/products/s3/train_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s3_3{
+	background: url('../../img/products/s3/house_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s3_4{
+	background: url('../../img/products/s3/blister.png');
+	background-size: cover;
+}
+
+/* S4 */
+.owl-carousel.products .item .item_image#s4_1{
+	background: url('../../img/products/s4/one_pack.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s4_2{
+	background: url('../../img/products/s4/vehicle.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s4_3{
+	background: url('../../img/products/s4/bus.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s4_4{
+	background: url('../../img/products/s4/blister.png');
+	background-size: cover;
+}
+
+/* SPECIAL */
+.owl-carousel.products .item .item_image#s_1{
+	background: url('../../img/products/special/z_games.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s_2{
+	background: url('../../img/products/special/tin.png');
+	background-size: cover;
+}
+.owl-carousel.products .item .item_image#s_3{
+	background: url('../../img/products/special/hotel2.png');
+	background-size: cover;
+}
+
+/* ------------------------------------------------------------- */
+
+
+
+
+.owl-carousel.products .item .product_image{
+	width: 100%;
+	position: relative;
+
+}
+
+.owl-carousel.products .item img{
+	width: 95%;
+	margin: 2.5%;
+	border-radius: 5px;
+}
+
+.owl-carousel.products .item .filet{
+	width: 100%;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	height: 2px;
+	background-color: rgb(220,220,220);
+	/*display: none;*/
+}
+
+.owl-carousel.products .item .product_description {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	color: rgb(40,40,40);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.owl-carousel.products .item .product_description h1{
+	font-family: burbank;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 5px 10px 0 10px;
+}
+
+.owl-carousel.products .item .product_description p{
+	font-family: avenir_medium;
+	font-size: 15px;
+	padding: 5px 10px 12px 10px;
+	line-height: 20px;
+}
+
+/* S1 */
+
+#products_owl_s_one .item .product_description{
+	background-color: rgb(234, 33, 45);
+}
+
+
+
+
+/* Arrows */
+.series_products_box .arrow_container_products{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	z-index: 999;
+	cursor: pointer;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.series_products_box .arrow_container_products:hover{
+	background-color: rgba(0,0,0,0.8);
+	transform: scale(1.2);
+}
+
+.series_products_box .arrow_container_products .arrow_icon{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.series_products_box .arrow_container_products.left{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.series_products_box .arrow_container_products .arrow_icon.left{
+	background: url('../../img/general/left_arrow_circle.png');
+	background-size: cover;
+}
+
+.series_products_box .arrow_container_products.right{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.series_products_box .arrow_container_products .arrow_icon.right{
+	background: url('../../img/general/right_arrow_circle.png');
+	background-size: cover;
+}
+
+/* Pagination */
+.owl-carousel.products .owl-pagination {
+	margin-top: 10px;
+	display: none;
+}
+
+/* Pagination */
+.owl-carousel.products .owl-pagination .owl-page.active span{
+	background-color: rgb(85,71,139);
+}
+
+
+.owl-carousel.products .owl-pagination .owl-page:hover span{
+	background-color: rgb(85,71,139);
+}
+
+
+
+/* Phone Portrait */
+@media only screen
+and (max-width: 540px) {
+
+	.products_menu img.top_wood_img{
+		max-width: 300px;
+	}
+
+
+	.products_arrows_container {
+		/*display: none;*/
+		margin-top: 200px;
+	}
+	
+ 	.owl-carousel.products .owl-pagination {
+		display: none;
+	}
+
+	.series_products_box .arrow_container_products{
+	
+
+		width: 75px;
+		height: 75px;
+
+	}
+
+	.series_products_box .arrow_container_products .arrow_icon{
+	    width: 75px;
+	    height: 75px;
+	}
+
+	
+
+
+}
+
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 768px) {
+
+
+	.series_products_box .arrow_container_products{
+		width: 75px;
+		height: 75px;
+	}
+	.series_products_box .arrow_container_products .arrow_icon{
+	    width: 75px;
+	    height: 75px;
+	}
+
+	.series_selector_container.products select{
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media only screen
+and (min-width: 769px)
+and (max-width: 900px) {
+	.products_arrows_container {
+		margin-top: 160px;
+	}
+}
+
+/* Tablet */
+@media only screen
+and (min-width: 901px)
+and (max-width: 1024px) {
+
+	.products_arrows_container {
+		margin-top: 160px;
+	}
+
+}
+
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1200px) {
+
+	.products_arrows_container {
+		margin-top: 180px;
+	}
+
+}
+
+/* Desktop Big */
+@media only screen
+and (min-width: 1201px) {
+
+}
+
