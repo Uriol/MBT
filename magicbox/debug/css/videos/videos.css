@@ -1,0 +1,347 @@
+section.videos {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding: 30px 0px 55px 0px;
+	/*background: rgba(0,173,236,1);
+	background: -moz-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,173,236,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adec', endColorstr='#ffffff', GradientType=0 );*/
+}
+
+.section_title_videos{
+	width: 100%;
+	text-align: center;
+	cursor: default;
+}
+
+.section_title_videos .title_bg{
+	display: inline-block;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: rgb(121,186,47);
+	/*background-color: rgb(25,25,25);*/
+	color: white;
+	/*background-color: rgb(25,25,25);*/
+}
+
+.section_title_videos .title_bg h2{
+	
+}
+
+.carousel_container_full{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/* Carousel items */
+.carousel_container_full .carousel_item{
+	padding-bottom: 56.25%;
+	 transition:.4s ease all;
+	 transform:scale(.8);
+	 opacity:1;
+	 margin: 0px;
+	 cursor: pointer;
+}
+
+.active .carousel_item{
+	opacity:1;
+  transform:scale(1);
+}
+
+/* Video ------------------------- */
+.video_cover_container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(220,220,220);
+}
+
+.video_cover_container .video_cover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+.player_container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.player_container .video_player{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/* Play icons */
+.player_ux_full {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.player_ux_full .play_icon_container{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,255,1);
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.2s ease all;
+    z-index: 9;
+}
+
+.player_ux_full .play_icon_container:hover {
+	transform: scale(1.2);
+	opacity: 1;
+}
+
+.player_ux_full .play_icon_container .play_icon{
+	width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 35px solid rgb(10,10,10);
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+
+.player_ux_full .text_description_container {
+	display: none;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 20px 0px 20px 0px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+.player_ux_full .text_description_container p{
+	font-family: Montserrat;
+    color: white;
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 23px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+
+/* Videos covers */
+.video_cover_container .video_cover.four{
+	background: url('../../img/videos/z4_tv.png');
+	background-size: cover;
+}
+
+.video_cover_container .video_cover.three{
+	background: url('../../img/videos/sm2_tv.png');
+	background-size: cover;
+}
+
+.video_cover_container .video_cover.two{
+	background: url('../../img/videos/z4_tv.png');
+	background-size: cover;
+}
+
+.video_cover_container .video_cover.one{
+	background: url('../../img/videos/sm1_tv.jpg');
+	background-size: cover;
+}
+
+.video_cover_container .video_cover.zero{
+	background: url('../../img/videos/z3_tv.png');
+	background-size: cover;
+}
+
+/* Arrows controllers */
+.carousel_container_full .arrow_container{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	z-index: 99;
+	cursor: pointer;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.carousel_container_full .arrow_container:hover {
+	background-color: rgba(0,0,0,0.9);
+	transform: scale(1.2);
+}
+
+
+.carousel_container_full .arrow_container.left {
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /*left: 0;*/
+}
+
+.carousel_container_full .arrow_container.right {
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+/*    right: 500px;
+    right: 300px;*/
+}
+
+.carousel_container_full .arrow_container .arrow_icon{
+	position: absolute;
+	/*top: 15px;
+	left: 15px;*/
+    width: 100px;
+    height: 100px;
+    
+}
+
+.carousel_container_full .arrow_container .arrow_icon.right{
+	background: url('../../img/general/right_arrow_circle.png');
+	background-size: cover;
+}
+
+.carousel_container_full .arrow_container .arrow_icon.left{
+	background: url('../../img/general/left_arrow_circle.png');
+	background-size: cover;
+}
+
+
+/* Media queries */
+/* Phone Portrait */
+@media only screen
+and (max-width: 540px) {
+
+	.carousel_container_full .carousel_item{
+		transform:scale(1);
+	}
+
+	.arrow_wrapper {
+		display: none;
+	}
+
+	.player_ux_full .text_description_container {
+		display: none;
+	}
+}
+
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 768px) {
+	.carousel_container_full .carousel_item{
+		transform:scale(.8);
+	}
+	.active .carousel_item{
+		transform:scale(1);
+	}
+
+	.arrow_wrapper {
+		display: none;
+	}
+
+	.player_ux_full .text_description_container {
+		display: none;
+	}
+
+
+}
+
+/* Tablet */
+@media only screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+	.carousel_container_full .arrow_container.right {
+	    right: 70px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 70px;
+	}
+
+	.player_ux_full .text_description_container {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		padding: 15px 0px 15px 0px;
+		background-color: rgba(0,0,0,0.5);
+		text-align: center;
+	}
+
+	.player_ux_full .text_description_container p{
+	    font-size: 20px;
+	    padding-top: 10px;
+	    letter-spacing: 0.5px;
+	}
+
+}
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1200px) {
+	.carousel_container_full .arrow_container.right {
+	    right: 140px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 140px;
+	}
+
+}
+/* Desktop Big */
+@media only screen
+and (min-width: 1201px) 
+and (max-width: 1400px){
+
+	.carousel_container_full .arrow_container.right {
+	    right: 180px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 180px;
+	}
+
+}
+
+@media only screen
+and (min-width: 1401px) 
+and (max-width: 1600px){
+	.carousel_container_full .arrow_container.right {
+	    right: 240px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 240px;
+	}
+}
+
+/* Desktop Big 2 */
+@media only screen
+and (min-width: 1601px) {
+
+	.carousel_container_full .arrow_container.right {
+	    right: 280px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 280px;
+	}
+}

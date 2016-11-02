@@ -7,7 +7,7 @@ section.footer{
 	width: 100%;
 	padding: 70px 0px 35px 0px;
 	/*background-color: rgb(25,25,25);*/
-	background-color: rgb(25,25,25);
+	background-color: rgb(115, 189, 78);
 	overflow: hidden;
 }
 
@@ -136,3 +136,14 @@ section.footer{
 /* 	rgb(165, 235, 85) */
 
 /* mbi 115, 189, 78*/
+
+/* Phone Portrait */
+@media only screen
+and (max-width: 475px) {
+
+
+	.footer_container .links_container .logo_wrapper{
+		padding-bottom: 20px;
+	}
+
+}

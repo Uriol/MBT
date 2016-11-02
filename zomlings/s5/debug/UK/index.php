@@ -18,6 +18,9 @@
 		
 		<link href='../css/libraries/owl.theme.css' rel='stylesheet'>
 		<link href='../css/libraries/owl.carousel.css' rel='stylesheet'>
+
+		<!-- Icons Fonts -->
+		<link rel="stylesheet" href="../css/libraries/font_awesome/css/font-awesome.min.css">
 		
 		<!-- general styles -->
 		<link href='../css/reset.css' rel='stylesheet'>
@@ -86,7 +89,7 @@
 		?>
 
 		<?php 
-			include('../sections/footer/UK/footer.php');
+			include('../sections/footer/footer.php');
 		?>
 
 		

@@ -1,0 +1,133 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Magic Box Toys</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
+		<!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
+
+		<!-- Owl beta -->
+		<link href='../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
+		<!-- Owl -->
+		<link href='../css/libraries/owl.carousel.css' rel='stylesheet'>
+		<link href='../css/libraries/owl.theme.css' rel='stylesheet'>
+		<!-- FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<!-- Icons Fonts -->
+		<link rel="stylesheet" href="../css/libraries/font_awesome/css/font-awesome.min.css">
+		<!-- general styles -->
+		<link href='../css/reset.css' rel='stylesheet'>
+		<link href='../css/general/general.css' rel='stylesheet'>
+		<!-- MENU -->
+		<link href='../css/menu/menu.css' rel='stylesheet'>
+		<!-- Header -->
+		<link href='../css/header/header.css' rel='stylesheet'>
+		<!-- Header -->
+		<link href='../css/videos/videos.css' rel='stylesheet'>
+		<!-- Brands -->
+		<link href='../css/brands/brands.css' rel='stylesheet'>
+		<!-- Intro text -->
+		<link href='../css/intro_text/intro_text.css' rel='stylesheet'>
+		<!-- News Section -->
+		<link href='../css/news/news.css' rel='stylesheet'>
+		<!-- Pre Footer -->
+		<link href='../css/pre_footer/pre_footer.css' rel='stylesheet'>
+		<!-- Footer -->
+		<link href='../css/footer/footer.css' rel='stylesheet'>
+		<!-- Contact -->
+		<link href='../css/contact/contact_2.css' rel='stylesheet'>
+		<!-- Onload -->
+		<link href='../css/onload/onload.css' rel='stylesheet'>
+
+	</head>
+
+	<body>
+
+		<div class='onload'>
+			<div class='loading_gif_container'>
+				<div class='mbt_logo'>
+					<img src='../img/general/mbt_logo.png'>
+					<img class='gif' src='../img/general/loading.gif'>
+				</div>
+			</div>
+		</div>
+
+
+		<section class='content'>
+
+			<div class='bg_dark_full'></div>
+			<div class='message_notification_container'>
+			</div>
+
+
+			<div class='bg_dark'></div>
+
+			<?php
+				include('../sections/contact/contact.php');
+			?>
+
+			<?php
+				include('../sections/menu/UK/menu.php');
+			?>
+
+			<?php
+				// include('../sections/news/news.php');
+			?>
+
+			<?php
+				include('../sections/header/header.php');
+			?>
+			
+			<?php
+				// include('../sections/videos/videos.php');
+			?>
+
+
+			<?php
+				// include('../sections/brands/brands.php');
+			?>
+
+			<?php
+				include('../sections/intro_text/intro_text.php');
+			?>
+
+			<?php
+				include('../sections/pre_footer/pre_footer.php');
+			?>
+			<?php
+				include('../sections/footer/footer.php');
+			?>
+
+
+		</section>
+
+		<!-- JS -->
+		<script src='../js/libraries/jquery_min.js'></script>
+		<script src='../js/libraries/mobile_detect_min.js'></script>
+		<!-- Owl Beta -->
+		<script src='../js/libraries/(beta_)owl.carousel.js'></script>
+		<!-- Owl -->
+		<script src='../js/libraries/owl.carousel.js'></script>
+		<!-- Menu -->
+		<script src='../js/menu/menu.js'></script>
+		<!-- Header -->
+		<script src='../js/header/header.js'></script>
+		<!-- Videos -->
+		<script src='../js/videos/videos.js'></script>
+		<!-- Contact -->
+		<script src='../js/contact/contact.js'></script>
+
+		<!-- General -->
+		<script src='../js/general/general.js'></script>
+
+		<!-- YOUTUBE -->
+		<script src='https://www.youtube.com/iframe_api'></script>
+
+	</body>
+</html>

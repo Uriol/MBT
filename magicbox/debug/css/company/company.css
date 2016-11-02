@@ -1,0 +1,327 @@
+
+
+.content .header{
+	width: 100%;
+	padding-bottom: 45%;
+	position: relative;
+	background-color: rgba(0,0,0,0.2);
+	overflow: hidden;
+
+}
+
+.company_text_wrapper{
+	width: 100%;
+	position: relative;
+}
+
+.company_text_wrapper .company_text_container{
+	width: 90%;
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 60px 0px 50px 0px;
+	text-align: center;
+	color: rgb(25,25,25);
+	cursor: default;
+}
+
+.company_text_wrapper .company_text_container h2{
+	font-weight: 700;
+	font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+	font-size: 28px;
+	line-height: 33px;
+	letter-spacing: 0.2px;
+}
+
+.company_text_wrapper .company_text_container p{
+	margin-top: 30px;
+	font-weight: 400;
+	font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	letter-spacing: 0.2px;
+}
+
+.company_text_wrapper .company_text_container p.discover{
+	margin-top: 15px;
+	/*color: rgb(115, 189, 78);*/
+	font-weight: 700;
+	font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+}
+
+
+/* CAROUSEL TIMELINE */
+section.timeline{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+
+.timeline .timeline_wrapper{
+	width: 100%;
+	position: relative;
+}
+
+.timeline .timeline_wrapper .timeline_carousel_container{
+	width: 100%;
+	position: relative;
+}
+
+.timeline .timeline_wrapper .timeline_carousel_container #timeline_owl{
+	width: 30%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.timeline .timeline_wrapper .timeline_carousel_container #timeline_owl .item_content_wrapper{
+
+}
+
+
+#timeline_owl .carousel_item .item_content_wrapper .year_container{
+
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box{
+
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p{
+	display: inline-block;
+	padding: 10px 20px 0px 20px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p.inactive{
+	opacity: 0;
+}
+
+
+
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container{
+	width: 100%;
+	padding-bottom: 75%;
+	border-top-right-radius: 8px;
+	position: relative;
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container.rounded{
+	border-top-left-radius: 8px;
+}
+
+
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container .image_cover{
+	width: 95%;
+	height: 94%;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container .image_cover.rounded{
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container .image_cover img{
+	position: relative;
+	width: 100%;
+	overflow:hidden;
+	border-top-right-radius: 8px;
+
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container .image_cover img.rounded{
+	border-top-left-radius: 8px;
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container .timeline_line_container{
+	width: 80%;
+	height: 7px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 50%; bottom: 0; right: 0;
+	z-index: -9;
+}
+
+
+
+/* Text */
+#timeline_owl .carousel_item .item_content_wrapper .text_container{
+	width: 100%;
+	padding: 15px 20px 20px 20px;
+	box-sizing: border-box;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	text-align: center;
+}
+
+
+
+#timeline_owl .carousel_item .item_content_wrapper .text_container p{
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0.5px;
+}
+
+/* Colors */
+/* Year bg */
+#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p.red{
+	background-color: rgb(223,38,37);
+}
+#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p.green{
+	background-color: rgb(121,186,47);
+}
+#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p.yellow{
+	background-color: rgb(255,163,34);
+}
+
+/* BG */
+#timeline_owl .carousel_item .item_content_wrapper .image_container.red{
+	background-color: rgb(223,38,37);
+}
+#timeline_owl .carousel_item .item_content_wrapper .image_container.green{
+	background-color: rgb(121,186,47);
+}
+#timeline_owl .carousel_item .item_content_wrapper .image_container.yellow{
+	background-color: rgb(255,163,34);
+}
+
+
+/* Timeline */
+#timeline_owl .carousel_item .item_content_wrapper .image_container .timeline_line_container.red{
+	background-color: rgb(223,38,37);
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container .timeline_line_container.green{
+	background-color: rgb(121,186,47);
+}
+
+#timeline_owl .carousel_item .item_content_wrapper .image_container .timeline_line_container.yellow{
+	background-color: rgb(255,163,34);
+}
+
+/* Text container */
+#timeline_owl .carousel_item .item_content_wrapper .text_container.red{
+	background-color: rgb(223,38,37);
+}
+#timeline_owl .carousel_item .item_content_wrapper .text_container.green{
+	background-color: rgb(121,186,47);
+}
+#timeline_owl .carousel_item .item_content_wrapper .text_container.yellow{
+	background-color: rgb(255,163,34);
+}
+
+
+
+
+
+
+
+
+/* Arrows */
+.arrow_wrapper_timeline{
+	display: block;
+	margin-top: -10px;
+}
+
+.arrow_wrapper_timeline .arrow_container_timeline{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	z-index: 9;
+	cursor: pointer;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.arrow_wrapper_timeline .arrow_container_timeline:hover{
+	background-color: rgba(0,0,0,0.9);
+	transform: scale(1.1);
+}
+
+.arrow_wrapper_timeline .arrow_container_timeline.left{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+}
+
+.arrow_wrapper_timeline .arrow_container_timeline.right{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50px;
+}
+
+.arrow_wrapper_timeline .arrow_container_timeline .arrow_icon{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.arrow_wrapper_timeline .arrow_container_timeline .arrow_icon.right{
+	background: url('../../img/general/right_arrow_circle.png');
+	background-size: cover;
+}
+
+.arrow_wrapper_timeline .arrow_container_timeline .arrow_icon.left{
+	background: url('../../img/general/left_arrow_circle.png');
+	background-size: cover;
+}
+
+
+
+/* Phone Portrait */
+@media only screen
+and (max-width: 540px) {
+	.content .header{
+		padding-bottom: 75%;
+	}
+}
+
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 700px) {
+	.content .header{
+		padding-bottom: 60%;
+	}
+}
+
+/* Tablet */
+@media only screen
+and (min-width: 701px)
+and (max-width: 1024px) {
+	.content .header{
+		padding-bottom: 50%;
+	}
+}
+
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1200px) {
+
+}
+
+/* Desktop Big */
+@media only screen
+and (min-width: 1201px) {
+
+}

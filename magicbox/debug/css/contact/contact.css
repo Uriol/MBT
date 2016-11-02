@@ -1,0 +1,260 @@
+body{
+	/*background-color: rgb(115, 189, 78);*/
+}
+
+/* UPDATES ON MESSAGE SENT */
+.bg_dark_contact{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: none;
+	z-index: 9999;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.notification_container_full{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+/*	text-align: center;
+    vertical-align: middle;*/
+    display: none;
+}
+
+.notification_container_full .message_notification_container{
+	display: block;
+	    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+/* ------------------------------------------------------- */
+
+.contact_header {
+	width: 100%;
+	position: relative;
+	padding-bottom: 250px;
+	background-color: rgb(245,245,245)
+}
+
+
+.contact_form_wrapper{
+	width: 100%;
+	position: relative;
+}
+
+
+section.contact{
+	width: 100%;
+	position: relative;
+	background-color: white;
+}
+
+.contact .contact_container_full{
+	/*position: fixed;*/
+	width: 100%;
+	/*height: 100%;*/
+	text-align: center;
+	position: relative;
+	/*background-color: rgb(255,163,34);*/
+}
+
+.contact_container_full .contact_container{
+	display: inline-block;
+	background-color: white;
+	padding: 25px 25px 60px 25px;
+	margin-top: 0px;
+	border-radius: 8px;
+	width: 90%;
+	max-width: 720px;
+	text-align: left;
+	font-family: 'Montserrat';
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/*overflow: hidden;*/
+	box-sizing: border-box;
+
+}
+
+.contact_container_full .contact_container .form_container{
+	width: 100%;
+	position: relative;
+}
+
+.contact_container_full .contact_container .form_container .intro_text{
+	width: 100%;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+/* Text */
+.contact_container_full .contact_container .form_container .intro_text h2{
+	font-size: 28px;
+	font-weight: 700;
+	/*color: rgb(255,163,34);*/
+	color: rgb(25,25,25);
+	letter-spacing: 0.8px;
+	text-align: center;
+}
+
+.contact_container_full .contact_container .form_container .intro_text p{
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 10px;
+	line-height: 16px;
+	color: rgba(0,0,0,0.7);
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.contact_container_full .contact_container .form_container h3{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 18px;
+	/*color: rgb(255,163,34);*/
+	color: rgb(25,25,25);
+	letter-spacing: 0.8px;
+	margin-top: 15px;
+}
+
+/* Inputs */
+.form_container form input[type="text"]{
+	width: 100%;
+	/*position: relative;*/
+	padding: 20px;
+	border:none;
+	background-color: rgba(0,0,0,0.1);
+	margin-top: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+/* Message */
+.form_container form textarea{
+width: 100%;
+	/*position: relative;*/
+	padding: 20px;
+	border:none;
+	background-color: rgba(0,0,0,0.1);
+	margin-top: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+.form_container form input[type="submit"]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	border-style:none;
+	
+	margin-top: 20px;
+	font-size: 16px;
+	resize: none;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	/*background-color: rgb(119,188,31);*/
+	background-color: rgb(255,163,0);
+	color: white;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border-radius: 3px;
+}
+
+.form_container select.select_country{
+	border-style:none;
+	
+	margin-top: 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+	padding: 20px;
+	border:none;
+	background-color: rgba(0,0,0,0.1);
+	margin-top: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+::-webkit-input-placeholder {
+   color: rgb(150,150,150);
+   font-family: 'Montserrat';
+   
+}
+
+:-moz-placeholder { 
+    color: rgb(50,50,50);
+   font-family: 'Montserrat'; 
+}
+
+:-ms-input-placeholder {  
+    color: rgb(50,50,50);
+   font-family: 'Montserrat'; 
+}
+
+p {
+	/*padding-left: 40px;
+	padding-right: 40px;*/
+	line-height: 24px;
+}
+
+p.try_again {
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Montserrat'; 
+	/*margin-top: 35px;*/
+}
+
+p.try_again a{
+	font-weight: 700;
+}
+
+p.thanks {
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Montserrat'; 
+}
+
+h2.thanks{
+	text-align: center;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+p.new_message {
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Montserrat'; 
+	/*margin-top: 22px;*/
+}
+
+p.new_message a{
+	font-weight: 700;
+}
+
+a.form {
+	font-family: 'Montserrat'; 
+	text-decoration: underline;
+	color: rgb(25,25,25);
+}
+
+a:hover {
+	color: rgb(255,163,0);
+}

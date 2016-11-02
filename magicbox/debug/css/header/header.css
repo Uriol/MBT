@@ -1,0 +1,222 @@
+section.header {
+	position: relative;
+	margin: 0 auto;
+	/*background: rgba(0,173,236,1);*/
+	
+}
+
+.header_wrapper{
+	width: 100%;
+	position: relative;
+}
+
+.header_wrapper .header_carousel_container{
+	width: 100%;
+	position: relative;
+}
+
+.header_wrapper .header_carousel_container #header_owl{
+	width: 100%;
+	position: relative;
+}
+
+.header_wrapper .header_carousel_container #header_owl .carousel_item{
+	width: 100%;
+	position: relative;
+}
+
+.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover{
+	position: relative;
+	padding-bottom: 45%;
+	width: 100%;
+}
+
+.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.ztin{
+	background: url('../../img/header/tin_header.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.z4{
+	
+}
+
+
+/* Arrows */
+.arrow_wrapper_header{
+	display: block;
+	margin-top: -10px;
+}
+
+.arrow_wrapper_header .arrow_container_header{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	z-index: 9;
+	cursor: pointer;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.arrow_wrapper_header .arrow_container_header:hover{
+	background-color: rgba(0,0,0,0.9);
+	transform: scale(1.1);
+}
+
+.arrow_wrapper_header .arrow_container_header.left{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+}
+
+.arrow_wrapper_header .arrow_container_header.right{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50px;
+}
+
+.arrow_wrapper_header .arrow_container_header .arrow_icon{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.arrow_wrapper_header .arrow_container_header .arrow_icon.right{
+	background: url('../../img/general/right_arrow_circle.png');
+	background-size: cover;
+}
+
+.arrow_wrapper_header .arrow_container_header .arrow_icon.left{
+	background: url('../../img/general/left_arrow_circle.png');
+	background-size: cover;
+}
+
+
+/* Itimes links */
+.header_cover .item_link_wrapper{
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	bottom: 125px; left: 0; right: 0;
+	height: 0px;
+	text-align: center;
+}
+
+.header_cover .item_link_wrapper .item_link_container{
+	width: 80px;
+	height: 80px;
+	float: right;
+	right: 60px;
+	position: relative;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.2s ease all;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+}
+
+.header_cover .item_link_wrapper .item_link_container:hover{
+	transform: scale(1.1);
+	background-color: rgba(0,0,0,0.8);
+}
+
+.header_cover .item_link_wrapper .item_link_container .home_icon{
+	display: inline-block;
+	position: relative;
+	/*top: 0; bottom: 0;*/
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	background: url('../../img/general/home_icon.png');
+	background-size: cover;
+	margin-top: 20px;
+}
+
+
+
+/* Queries */
+@media only screen
+and (max-width: 540px) {
+	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover{
+		padding-bottom:75%;
+	}
+
+	/* Arrows */
+	.arrow_wrapper_header .arrow_container_header{
+		width: 50px;
+		height: 50px;
+	}
+
+	.arrow_wrapper_header .arrow_container_header .arrow_icon{
+		position: absolute;
+	    width: 50px;
+	    height: 50px;
+	}
+
+	.arrow_wrapper_header .arrow_container_header.left{
+	    left: 20px;
+	}
+
+	.arrow_wrapper_header .arrow_container_header.right{
+	    right: 20px;
+	}
+
+	/* Links */
+	
+
+}
+
+@media only screen
+and (min-width: 541px) 
+and (max-width: 700px){
+	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover{
+		padding-bottom: 60%;
+	}
+
+	/* Arrows */
+	.arrow_wrapper_header .arrow_container_header{
+		width: 75px;
+		height: 75px;
+	}
+
+	.arrow_wrapper_header .arrow_container_header .arrow_icon{
+		position: absolute;
+	    width: 75px;
+	    height: 75px;
+	}
+
+	.arrow_wrapper_header .arrow_container_header.left{
+	    left: 40px;
+	}
+
+	.arrow_wrapper_header .arrow_container_header.right{
+	    right: 40px;
+	}
+
+	/* Links */
+	
+
+
+
+}
+
+/* Phone Landscape */
+@media only screen
+and (min-width: 701px)
+and (max-width: 1024px) {
+	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover{
+		padding-bottom: 50%;
+	}
+}
+
+
+
+

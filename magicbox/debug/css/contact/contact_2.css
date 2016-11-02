@@ -1,0 +1,197 @@
+section.contact{
+	width: 100%;
+	position: absolute;
+	z-index: 9999;
+	padding-bottom: 0px;
+	display: none;
+}
+
+.contact .contact_container_full{
+	/*position: fixed;*/
+	width: 100%;
+	/*height: 100%;*/
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contact_container_full .contact_container{
+	display: inline-block;
+	background-color: white;
+	padding: 25px;
+	margin-top: 120px;
+	border-radius: 8px;
+	width: 90%;
+	max-width: 550px;
+	text-align: left;
+	font-family: 'Montserrat';
+	/*overflow: hidden;*/
+}
+
+.contact_container_full .contact_container .form_container{
+	width: 100%;
+	position: relative;
+}
+
+
+.contact_container_full .contact_container .form_container .intro_text{
+	width: 100%;
+	position: relative;
+}
+
+.contact_container_full .contact_container .form_container .intro_text h2{
+	
+	font-size: 25px;
+	font-weight: 400;
+	color: rgb(255,163,34);
+	letter-spacing: 0.8px;
+}
+
+.contact_container_full .contact_container .form_container .intro_text p{
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 10px;
+	line-height: 16px;
+	color: rgba(0,0,0,0.7);
+	padding-bottom: 10px;
+}
+
+.contact_container_full .contact_container .form_container h3{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 15px;
+	color: rgb(255,163,34);
+	letter-spacing: 0.8px;
+	margin-top: 15px;
+}
+
+
+.form_container form input[type="text"]{
+	width: 100%;
+	/*position: relative;*/
+	padding: 20px;
+	border:none;
+	background-color: rgba(0,0,0,0.1);
+	margin-top: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+/* Message */
+.form_container form textarea{
+width: 100%;
+	/*position: relative;*/
+	padding: 20px;
+	border:none;
+	background-color: rgba(0,0,0,0.1);
+	margin-top: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+.form_container form input[type="submit"]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	border-style:none;
+	
+	margin-top: 20px;
+	font-size: 16px;
+	resize: none;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	/*background-color: rgb(119,188,31);*/
+	background-color: rgb(255,163,0);
+	color: white;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border-radius: 3px;
+}
+
+.form_container select.select_country{
+	border-style:none;
+	
+	margin-top: 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+	padding: 20px;
+	border:none;
+	background-color: rgba(0,0,0,0.1);
+	margin-top: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+::-webkit-input-placeholder {
+   color: rgb(150,150,150);
+   font-family: 'Montserrat';
+   
+}
+
+:-moz-placeholder { 
+    color: rgb(50,50,50);
+   font-family: 'Montserrat'; 
+}
+
+:-ms-input-placeholder {  
+    color: rgb(50,50,50);
+   font-family: 'Montserrat'; 
+}
+
+p {
+	/*padding-left: 40px;
+	padding-right: 40px;*/
+	line-height: 24px;
+}
+
+p.try_again {
+	font-size: 16px;
+	font-family: 'Montserrat'; 
+	/*margin-top: 35px;*/
+}
+
+p.thanks {
+	font-size: 16px;
+	font-family: 'Montserrat'; 
+}
+
+a.form {
+	font-family: 'Montserrat'; 
+	text-decoration: underline;
+	color: rgb(25,25,25);
+}
+
+a:hover {
+	color: rgb(255,163,0);
+}
+
+
+/* CLOSE FORM */
+
+.contact_container .close_form_container{
+	width: 50px;
+	height: 50px;
+	float: right;
+	background-color: rgb(255,163,34);
+	margin-top: -37.5px; 
+	margin-right: -37.5px; 
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.2s ease all;
+}
+
+.contact_container .close_form_container:hover{
+	transform: scale(1.05);
+}

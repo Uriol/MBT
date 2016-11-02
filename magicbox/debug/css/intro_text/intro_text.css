@@ -1,0 +1,81 @@
+section.intro_text{
+	width: 100%;
+}
+
+.intro_text .text_container{
+	width: 90%;
+	max-width: 800px;
+	/*margin: 70px auto 70px auto;*/
+	margin: 0 auto;
+	padding: 60px 0px 65px 0px;
+	text-align: center;
+	color: rgb(25,25,25);
+	cursor: default;
+}
+
+
+.intro_text .text_container h2{
+	font-weight: 700;
+	font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+}
+
+
+/* Phone Portrait */
+@media only screen
+and (max-width: 540px) {
+
+	.intro_text .text_container{
+		width: 85%;
+	}
+
+	.intro_text .text_container h2{
+		font-size: 22px;
+		line-height: 27px;
+		letter-spacing: 0.2px;
+	}
+
+}
+
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 768px) {
+
+	
+
+	.intro_text .text_container h2{
+		font-size: 22px;
+		line-height: 27px;
+		letter-spacing: 0.2px;
+	}
+}
+
+/* Tablet */
+@media only screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+
+	
+
+	.intro_text .text_container h2{
+		font-size: 22px;
+		line-height: 27px;
+		letter-spacing: 0.2px;
+	}
+}
+
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1200px) {
+
+}
+
+/* Desktop Big */
+@media only screen
+and (min-width: 1201px) {
+
+}
