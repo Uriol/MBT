@@ -11,9 +11,11 @@
 			</div> -->
 
 			<div class='logo_wrapper'>
-				<div class='logo_container'>
-					<img src='http://localhost:8888/MBT/magicbox/debug/img/general/mbt_logo_pastilla.png'>
-				</div>
+				<a href='http://localhost:8888/MBT/magicbox/debug/UK'>
+					<div class='logo_container'>
+						<img src='http://192.168.1.181:8888/MBT/magicbox/debug/img/general/mbt_logo_pastilla.png'>
+					</div>
+				</a>
 			</div>
 
 			<div class='social_media_wrapper'>

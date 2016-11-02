@@ -12,3 +12,12 @@
 	background-position: center;
 	z-index: 999;
 }
+
+@media only screen
+and (max-width: 540px) {
+	.top_wood_image_container_downloads {
+		width: 100%;
+		max-width: 1600px;
+		height: 85px;
+	}
+}

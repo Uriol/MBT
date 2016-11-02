@@ -171,7 +171,7 @@ and (max-width: 399px) {
 	/* Wood title */
 	.top_wood_image_container_characters {
 		width: 100%;
-		max-width: 1720px;
+		max-width: 1600px;
 		height: 85px;
 	}
 	
@@ -231,7 +231,12 @@ and (max-width: 540px) {
 		margin-top: 30px;
 	}
 
-	
+	/* Wood title */
+	.top_wood_image_container_characters {
+		width: 100%;
+		max-width: 1600px;
+		height: 85px;
+	}
 	/* Selector */
 	.series_selector_container select{
 		margin-top: 115px;

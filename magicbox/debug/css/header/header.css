@@ -37,6 +37,12 @@ section.header {
 	background-position: center;
 }
 
+.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.sm2{
+	background: url('../../img/header/sm2.png');
+	background-size: cover;
+	background-position: center;
+}
+
 .header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.z4{
 	
 }
@@ -140,6 +146,46 @@ section.header {
 	margin-top: 20px;
 }
 
+/* Dots */
+#header_owl .owl-controls{
+	/*width: 30px;
+	height: 30px;*/
+	background-color: blue;
+	position: absolute;
+	margin-top: -55px;
+	width: 100%;
+	height: 0px;
+	text-align: center;
+}
+
+#header_owl .owl-controls .owl-dots{
+	padding: 10px 5px;
+	background-color: rgba(0,0,0,0.2);
+	display: inline-block;
+	/*border-radius: 50px;*/
+	border-radius: 40px;
+}
+
+#header_owl .owl-controls .owl-dots .owl-dot{
+	width: 20px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 50%;
+	float: left;
+	margin: 0px 5px 0px 5px;
+	cursor: pointer;
+}
+
+
+#header_owl .owl-controls .owl-dots .owl-dot.active{
+	background-color: white;
+	cursor: default;
+}
+
+#header_owl .owl-controls .owl-dots .owl-dot:hover{
+	background-color: white;
+}
+
 
 
 /* Queries */
@@ -201,8 +247,12 @@ and (max-width: 700px){
 	    right: 40px;
 	}
 
-	/* Links */
-	
+	/* Header covers */
+	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.sm2{
+		background: url('../../img/header/sm2_small.png');
+		background-size: cover;
+		background-position: center;
+	}
 
 
 
@@ -215,6 +265,7 @@ and (max-width: 1024px) {
 	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover{
 		padding-bottom: 50%;
 	}
+
 }
 
 

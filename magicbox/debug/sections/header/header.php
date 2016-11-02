@@ -6,32 +6,35 @@
 			<div class='owl-carousel' id='header_owl'>
 				<a href='http://www.zomlings.com' target="_blank">
 					<div class='carousel_item'>
-						<div class='header_cover ztin'>
-							
-							<!-- <a href='http://www.zomlings.com' target="_blank">
-								<div class='item_link_wrapper'>
-									<div class='item_link_container'>
-										<div class='home_icon'>
-										</div>
-									</div>
-								</div>
-							</a> -->
-
-						</div>
+						<div class='header_cover ztin'></div>
 					</div>
 				</a>
-				<div class='carousel_item'>
-					<div class='header_cover z4'>
-						<!-- <a href='http://www.starmonsters.net' target="_blank">
-							<div class='item_link_wrapper'>
-								<div class='item_link_container'>
-									<div class='home_icon'>
-									</div>
-								</div>
-							</div>
-						</a> -->
+
+				<a href='http://www.starmonsters.net' target="_blank">
+					<div class='carousel_item'>
+						<div class='header_cover sm2'></div>
 					</div>
-				</div>
+				</a>
+
+				<a href='http://www.zomlings.com' target="_blank">
+					<div class='carousel_item'>
+						<div class='header_cover ztin'></div>
+					</div>
+				</a>
+
+				<a href='http://www.zomlings.com' target="_blank">
+					<div class='carousel_item'>
+						<div class='header_cover ztin'></div>
+					</div>
+				</a>
+
+				<a href='http://www.zomlings.com' target="_blank">
+					<div class='carousel_item'>
+						<div class='header_cover ztin'></div>
+					</div>
+				</a>
+
+
 			</div>
 
 			<!-- Arrows -->

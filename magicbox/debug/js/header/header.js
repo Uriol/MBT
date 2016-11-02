@@ -3,12 +3,12 @@ $(function(){
 	// Init header owl
 	$('#header_owl').owlCarousel_beta({
 		nav : false,
-		dots: false,
+		dots: true,
 		slideSpeed : 300,
 		paginationSpeed : 400,
 		autoWidth: false,
 		items: 1,
-		margin: 10,
+		margin: 0,
 		responsiveRefreshRate: 20,
 		loop: true,
 		autoplay: false,

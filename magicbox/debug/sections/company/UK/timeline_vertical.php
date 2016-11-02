@@ -20,7 +20,7 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Lanzamiento Star Monsters</p>
+							<p>Launch of Star Monsters</p>
 						</div>
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>20 aniversario de Magic Box Toys</p>
+							<p>20th anniversary of Magic Box Toys</p>
 						</div>
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Inauguración nuevas oficinas</p>
+							<p>New Offices opened</p>
 						</div>
 					</div>
 				</div>
@@ -83,7 +83,7 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Nuevo logotipo</p>
+							<p>New Logo</p>
 						</div>
 					</div>
 				</div>
@@ -108,7 +108,7 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Lanzamiento Zomlings</p>
+							<p>Launch of Zomlings</p>
 						</div>
 					</div>
 				</div>
@@ -133,13 +133,27 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Lanzamiento Bungees</p>
+							<p>Launch of Bungees</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
-			<li class='left green'>
+			<li class='left red text'>
+				<div class='timeline_item red'>
+					<div class='item_content_wrapper'>
+						<!-- Selector arrow -->
+						<div class='selector_arrow_container text'></div>
+						<!-- IMAGE -->
+						<!-- DESCRIPTION -->
+						<div class='text_container text'>
+							<p>Martomagic SL becomes Magic Box Int. Toys, SLU</p>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li class='right green'>
 				<div class='timeline_item green'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -158,13 +172,13 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Creación del producto Stoppers de Dragon Ball</p>
+							<p>Dragon Ball Stoppers created</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
-			<li class='right yellow'>
+			<li class='left yellow'>
 				<div class='timeline_item yellow'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -183,13 +197,13 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Lanzamiento de la 3ª generación de Gogos - Crazy Bones</p>
+							<p>Launch of the third generation of Gogo’s / Crazy Bones</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
-			<li class='left red'>
+			<li class='right red'>
 				<div class='timeline_item red'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -208,14 +222,14 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Creación del producto Rollers de Pokemon</p>
+							<p>Pokemon Rollers created</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
 
-			<li class='right green'>
+			<li class='left green'>
 				<div class='timeline_item green'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -234,13 +248,13 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Lanzamiento del producto Shoot Out</p>
+							<p>Launch of Shoot Out</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
-			<li class='left yellow'>
+			<li class='right yellow'>
 				<div class='timeline_item yellow'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -259,14 +273,14 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Creación del producto Rappers de Digimon y Dragon Ball</p>
+							<p>Digimon and Dragon Ball Rappers created</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
 
-			<li class='right red'>
+			<li class='left red'>
 				<div class='timeline_item red'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -285,13 +299,13 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Lanzamiento de la 2ª generación de Gogos - Crazy Bones</p>
+							<p>Launch of the second generation of Gogo’s / Crazy Bones</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
-			<li class='left green'>
+			<li class='right green'>
 				<div class='timeline_item green'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -310,14 +324,14 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Creación del producto Pickers de Pokemon y Dragon Ball</p>
+							<p>Pokemon and Dragon Ball Pickers created</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
 
-			<li class='right yellow'>
+			<li class='left yellow'>
 				<div class='timeline_item yellow'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -336,14 +350,14 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Creadores del concepto foto coleccionable con la licincia de Spice Girls</p>
+							<p>Magic Box create the first Collectable Photo Collection with the Spice Girls</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
 
-			<li class='left red'>
+			<li class='right red'>
 				<div class='timeline_item red'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -362,13 +376,13 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Lanzamiento de la 1ª generación de Gogos - Crazy Bones</p>
+							<p>Launch of the first generation of Gogo’s / Crazy Bones</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
-			<li class='right red text'>
+			<li class='left red text'>
 				<div class='timeline_item red'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -376,13 +390,13 @@
 						<!-- IMAGE -->
 						<!-- DESCRIPTION -->
 						<div class='text_container text'>
-							<p>Creación de la compañia Martomagic SL</p>
+							<p>Martomagic SL founded</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
-			<li class='left green'>
+			<li class='right green'>
 				<div class='timeline_item green'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -401,13 +415,13 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Primera compañia en lanzar el producto Caps en Europa</p>
+							<p>The first European company to launch “Caps”</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
-			<li class='right yellow'>
+			<li class='left yellow'>
 				<div class='timeline_item yellow'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -426,14 +440,14 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Creadores de coleccionables de cromos y cartas basados en clubs de fútbol y selecciones nacionales</p>
+							<p>The creators of collectable trading cards based on football clubs and national teams</p>
 						</div>
 					</div>
 				</div>
 			</li>
 
 
-			<li class='left yellow'>
+			<li class='right yellow'>
 				<div class='timeline_item yellow rounded'>
 					<div class='item_content_wrapper'>
 						<!-- Selector arrow -->
@@ -446,7 +460,7 @@
 						</div>
 						<!-- DESCRIPTION -->
 						<div class='text_container'>
-							<p>Creación de la marca Magic Box International</p>
+							<p>Creation of the Magic Box Int brand name</p>
 						</div>
 					</div>
 				</div>

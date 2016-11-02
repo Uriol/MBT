@@ -51,6 +51,10 @@ and (max-width: 900px) {
 		vertical-align: middle;
 	}
 
+	.menu_container_mobile .fixed_menu_container .fixed_menu_elements a{
+		text-decoration: none;
+	}
+
 	.menu_container_mobile .fixed_menu_container .fixed_menu_elements .mbt_logo{
 		max-width: 170px;
 		display: inline-block;

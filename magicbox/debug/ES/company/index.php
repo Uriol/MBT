@@ -40,7 +40,7 @@
 			<div class='bg_dark'></div>
 
 			<?php
-				include('../../sections/menu/UK/menu.php');
+				include('../../sections/menu/ES/menu.php');
 			?>
 
 			<style>
@@ -52,14 +52,14 @@
 
 			<div class='company_text_wrapper'>
 				<div class='company_text_container'>
-					<h2>Magic Box Toys is a global leader in the creation and distribution of collectable toys.</h2>
-					<p>Our products are filled with imagination and surprise. We are proud of the excitement we bring to children through our well-designed and highly gratifying concepts. We love the challenge to create new products in order to continue to entertain children worldwide.</p>
+					<h2>Magic Box Toys es una empresa líder mundial en la creación y distribución de juguetes coleccionables.</h2>
+					<p>Nuestros productos logran despertar la imaginación, sorpresa e ilusión de los niños a través de conceptos sólidos, bien diseñados y altamente gratificantes. Nos apasiona el reto de seguir creando para continuar divirtiendo a niños y niñas en todo el mundo.</p>
 					<!-- <h2 class='discover'>Discover our history.</h2> -->
 				</div>
 			</div>
 
 			<?php
-				include('../../sections/company/UK/timeline_vertical.php');
+				include('../../sections/company/ES/timeline_vertical.php');
 			?>
 
 			<?php

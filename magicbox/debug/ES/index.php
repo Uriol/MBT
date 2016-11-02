@@ -68,9 +68,9 @@
 
 			<div class='bg_dark'></div>
 
-
+			
 			<?php
-				include('../sections/menu/UK/menu.php');
+				include('../sections/menu/ES/menu.php');
 			?>
 
 			<?php
@@ -91,7 +91,7 @@
 			?>
 
 			<?php
-				include('../sections/intro_text/UK/intro_text.php');
+				include('../sections/intro_text/ES/intro_text.php');
 			?>
 
 			<?php

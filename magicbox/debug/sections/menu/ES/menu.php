@@ -13,18 +13,18 @@
 					</a>
 					<div class='menu_list_wrapper_desktop'>
 						<div class='menu_item_container brands'>
-							<p class='red'>BRANDS
+							<p class='red'>MARCAS
 							<span class='menu_arrow'>▼</span>
 							</p>
 						</div>
 						<a href='http://localhost:8888/MBT/magicbox/debug/UK/company'>
 							<div class='menu_item_container'>
-								<p class='green'>COMPANY</p>
+								<p class='green'>COMPAÑIA</p>
 							</div>
 						</a>
 						<a href='http://localhost:8888/MBT/magicbox/debug/UK/contact'>
 							<div class='menu_item_container contact'>
-								<p class='yellow'>CONTACT</p>
+								<p class='yellow'>CONTACTO</p>
 							</div>
 						</a>
 					</div>
@@ -77,7 +77,7 @@
 				<div class='submenu_mobile_list_wrapper'>
 					<div class='filet'></div>
 					<div class='submenu_mobile_item_wrapper brands'>
-						<p>BRANDS<span class='menu_arrow'>▼</span></p>
+						<p>MARCAS<span class='menu_arrow'>▼</span></p>
 						<div class='submenu_brand_image_container'>
 							<a href='http://www.zomlings.com' target='blank'>
 								<div class='brand_cover z'></div>
@@ -90,13 +90,13 @@
 					<div class='filet'></div>
 					<a href='http://localhost:8888/MBT/magicbox/debug/UK/company'>
 						<div class='submenu_mobile_item_wrapper company'>
-							<p>COMPANY</p>
+							<p>COMPAÑIA</p>
 						</div>
 					</a>
 					<div class='filet'></div>
 					<a href='http://localhost:8888/MBT/magicbox/debug/UK/contact'>
 						<div class='submenu_mobile_item_wrapper contact'>
-							<p>CONTACT</p>
+							<p>CONTACTO</p>
 						</div>
 					</a>
 				</div>

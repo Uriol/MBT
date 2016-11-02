@@ -37,11 +37,11 @@
 			<div class='notification_container_full error'>
 				<div class='message_notification_container'>
 					<div class='info_text'>
-						<p>All fields are required, please fill the form again.</p>
+						<p>Todos los campos estan requeridos, por favor vuelve a rellenar el formulario.</p>
 					</div>
 					<div class='close_full'>
 						<div class='close_container'>
-							<h4>CLOSE</h4>
+							<h4>CERRAR</h4>
 						</div>
 					</div>
 				</div>
@@ -50,11 +50,11 @@
 			<div class='notification_container_full email'>
 				<div class='message_notification_container'>
 					<div class='info_text'>
-						<p>The email address is not in the correct format. Please, fill out the form again.</p>
+						<p>La dirección de correo electrónico no está en el formato correcto. Por favor, vuelve a rellenar el formulario.</p>
 					</div>
 					<div class='close_full'>
 						<div class='close_container'>
-							<h4>CLOSE</h4>
+							<h4>CERRAR</h4>
 						</div>
 					</div>
 				</div>
@@ -63,11 +63,11 @@
 			<div class='notification_container_full success'>
 				<div class='message_notification_container'>
 					<div class='info_text'>
-						<p>Thanks! Your message has been sent and we will get back to you as soon as possible.</p>
+						<p>Gracias! Tu mensaje ha sido enviado y nos pondremos en contacto próximamente.</p>
 					</div>
 					<div class='close_full'>
 						<div class='close_container'>
-							<h4>CLOSE</h4>
+							<h4>CERRAR</h4>
 						</div>
 					</div>
 				</div>
@@ -79,13 +79,14 @@
 			<div class='bg_dark'></div>
 
 			<?php
-				include('../../sections/menu/UK/menu.php');
+				include('../../sections/menu/ES/menu.php');
 			?>
 
 			<style>
 				.menu_item_container p.yellow{ color: rgb(255,163,34); }
 			</style>
 
+			<!-- Header -->
 			<!-- Header -->
 			<div class='contact_header'>
 				
@@ -104,13 +105,13 @@
 				<div class='contact_cloud four'>
 					<img src='../../img/general/sky/cloud_1.png'>
 				</div>
-				<h2>Contact us</h2>
+				<h2>Contáctenos</h2>
 			</div>
 
 			<!-- Contact Form -->
 			<div class='contact_form_wrapper'>
 				<?php
-					include('../../sections/contact/UK/contact.php');
+					include('../../sections/contact/ES/contact.php');
 				?>
 			</div>
 

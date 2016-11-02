@@ -8,23 +8,23 @@
 			<div class='form_container'>
 
 							<div class='intro_text'>
-								<h2>Contáctenos</h2>
-								<!-- <p>Cualquier duda, sugerencia o simplemente nos quieres decir lo mucho que te gustan nuestros productos, lo puedes hacer aquí. Prometemos contestar lo más rápido posible.</p> -->
+								<!-- <h2>Contáctenos</h2> -->
+								<p>If you would like to contact Magic Box Toys via email, please provide your contact information and a brief message in the below form and we will respond at our earliest convenience.</p>
 							</div>
 
 							
 						    <form  action="" method="POST" enctype="multipart/form-data"> 
 						    <input type="hidden" name="action" value="submit"> 
-						    <h3>Nombre</h3>
+						    <h3>Nombre*</h3>
 						    <!-- Your name:<br>  -->
 						    <input name="name" type="text" placeholder="" value="" size=""><br> 
 						    <!-- Your email:<br>  -->
-						     <h3>Email</h3>
+						     <h3>Email*</h3>
 						    <input name="email" type="text" placeholder="" value="" size="30"><br>
 						    <!-- Country -->
 						   	<!-- <label> -->
 						   	<!-- <table> -->
-						   	 <h3>País</h3>
+						   	 <h3>País*</h3>
 						   	<tr>
 						   	<td>
 						     <select name="pais" size="1" class='select_country'>
@@ -277,7 +277,7 @@
 				            <!-- <table> -->
 				            <!-- </label> -->
 						    <!-- Your message:<br>  -->
-						     <h3>Mensaje</h3>
+						     <h3>Mensaje*</h3>
 						    <textarea name="message" placeholder="" rows="7" cols="30"></textarea><br> 
 						    <input type="submit" value="ENVIAR MENSAJE"/> 
 						    </form> 

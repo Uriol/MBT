@@ -25,6 +25,11 @@ section.footer{
 	vertical-align: middle;
 	padding: 0px 15px 0px 15px;
 }
+
+.footer_container .links_container .logo_wrapper a{
+	text-decoration: none;
+}
+
 .footer_container .links_container .logo_wrapper .logo_container{
 	max-width: 200px;
 	display: inline-block;

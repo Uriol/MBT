@@ -301,6 +301,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adec', end
 @media only screen
 and (max-width: 540px) {
 
+	.section_title_container img{
+		width: 280px;
+	}
+
+
 	.carousel_container_full .carousel_item{
 		transform:scale(1);
 	}

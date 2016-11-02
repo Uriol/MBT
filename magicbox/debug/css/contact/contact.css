@@ -24,26 +24,129 @@ body{
 
 .notification_container_full .message_notification_container{
 	display: block;
-	    margin: auto;
-    position: absolute;
+	margin: auto;
+    /*position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
-	width: 200px;
-	height: 200px;
-	background-color: red;
+    right: 0;*/
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+	width: 90%;
+	max-width: 550px;
+	margin-top: 150px;
+	background-color: white;
+	border-radius: 8px;
+	padding-bottom: 20px;
 }
+
+.notification_container_full .message_notification_container .info_text p{
+	padding: 20px;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	letter-spacing: 0.4px;
+}
+
+.notification_container_full .message_notification_container .close_full{
+	width: 100%;
+	text-align: center;
+}
+
+.notification_container_full .message_notification_container .close_full h4{
+	padding: 20px;
+	display: inline-block;
+	background-color: rgb(255,163,0);
+	border-radius: 8px;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+	letter-spacing: 0.6px;
+
+}
+
 
 /* ------------------------------------------------------- */
 
 .contact_header {
 	width: 100%;
 	position: relative;
-	padding-bottom: 250px;
-	background-color: rgb(245,245,245)
+	/*padding-bottom: 250px;*/
+	background: rgba(0,173,236,1);
+background: -moz-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,173,236,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adec', endColorstr='#ffffff', GradientType=0 );
+text-align: center;
+vertical-align: middle;
+	display: inline-block;
+	
 }
 
+.contact_header h2{
+	vertical-align: middle;
+	display: inline-block;
+	padding: 110px 0px;
+	font-family: 'Montserrat';
+	color: white;
+	font-weight: 400;
+	font-size: 32px;
+	letter-spacing: 0.6px;
+}
+
+.contact_header  .contact_cloud{
+	position: absolute;
+   /* width: 600px;
+    height: 259px;
+    background: url(../../img/general/sky/cloud_2.png);
+    background-size: cover;
+    left: 5%;
+    top: -20px;*/
+}
+
+.contact_header  .contact_cloud.one{
+	max-width: 550px;
+    left: 10%;
+    top: -40px;
+}
+
+.contact_header  .contact_cloud.two{
+	max-width: 300px;
+    left: 23%;
+    top: 180px;
+}
+
+.contact_header  .contact_cloud.plane_left{
+	max-width: 400px;
+    left: 10%;
+    top: 40px;
+}
+
+.contact_header  .contact_cloud.three{
+	max-width: 280px;
+    left: 60%;
+    top: 15px;
+}
+
+.contact_header  .contact_cloud.four{
+	max-width: 500px;
+    left: 55%;
+    top: 120px;
+        -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.contact_header  .contact_cloud img{
+	width: 100%;
+}
+/* ------------------------ */
 
 .contact_form_wrapper{
 	width: 100%;
@@ -69,7 +172,7 @@ section.contact{
 .contact_container_full .contact_container{
 	display: inline-block;
 	background-color: white;
-	padding: 25px 25px 60px 25px;
+	padding: 0px 25px 60px 25px;
 	margin-top: 0px;
 	border-radius: 8px;
 	width: 90%;
@@ -106,12 +209,17 @@ section.contact{
 
 .contact_container_full .contact_container .form_container .intro_text p{
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 	margin-top: 10px;
-	line-height: 16px;
-	color: rgba(0,0,0,0.7);
+	line-height: 22px;
+	color: black;
 	padding-bottom: 10px;
 	text-align: left;
+}
+
+
+.contact_container_full .contact_container .form_container .intro_text p span{
+	color: rgb(255,163,34);
 }
 
 .contact_container_full .contact_container .form_container h3{
@@ -257,4 +365,88 @@ a.form {
 
 a:hover {
 	color: rgb(255,163,0);
+}
+
+
+@media only screen
+and (max-width: 540px) {
+
+	/* Clouds */
+	.contact_header  .contact_cloud.one{
+		width: 550px;
+	    left: -200px;
+	    top: -80px;
+	}
+
+	.contact_header  .contact_cloud.two{
+		width: 300px;
+	    left: 70px;
+	    top: 180px;
+	    display: none;
+	}
+
+	.contact_header  .contact_cloud.plane_left{
+		max-width: 400px;
+	    left: 5%;
+	    top: 40px;
+	    display: none;
+	}
+
+	.contact_header  .contact_cloud.three{
+		width: 280px;
+	    left: 380px;
+	    top: 15px;
+	}
+
+	.contact_header  .contact_cloud.four{
+		width: 500px;
+	    left: 250px;
+	    top: 80px;
+	        -moz-transform: scaleX(-1);
+	    -webkit-transform: scaleX(-1);
+	    -o-transform: scaleX(-1);
+	    transform: scaleX(-1);
+	}
+
+}
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 900px) {
+
+	/* Clouds */
+	.contact_header  .contact_cloud.one{
+		width: 550px;
+	    left: -20px;
+	    top: -40px;
+	}
+
+	.contact_header  .contact_cloud.two{
+		width: 300px;
+	    left: 70px;
+	    top: 180px;
+	}
+
+	.contact_header  .contact_cloud.plane_left{
+		max-width: 400px;
+	    left: 5%;
+	    top: 40px;
+	}
+
+	.contact_header  .contact_cloud.three{
+		width: 280px;
+	    left: 480px;
+	    top: 15px;
+	}
+
+	.contact_header  .contact_cloud.four{
+		width: 500px;
+	    left: 420px;
+	    top: 120px;
+	        -moz-transform: scaleX(-1);
+	    -webkit-transform: scaleX(-1);
+	    -o-transform: scaleX(-1);
+	    transform: scaleX(-1);
+	}
+
 }
