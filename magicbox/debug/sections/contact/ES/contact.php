@@ -9,7 +9,7 @@
 
 							<div class='intro_text'>
 								<!-- <h2>Contáctenos</h2> -->
-								<p>If you would like to contact Magic Box Toys via email, please provide your contact information and a brief message in the below form and we will respond at our earliest convenience.</p>
+								<p>Cualquier duda, sugerencia o simplemente nos quieres decir lo que más te gusta de nuestros productos, lo puedes hacer aquí. Prometemos contestar lo más rápido posible.</p>
 							</div>
 
 							
@@ -279,7 +279,7 @@
 						    <!-- Your message:<br>  -->
 						     <h3>Mensaje*</h3>
 						    <textarea name="message" placeholder="" rows="7" cols="30"></textarea><br> 
-						    <input type="submit" value="ENVIAR MENSAJE"/> 
+						    <input type="submit" value="ENVIAR"/> 
 						    </form> 
 
 					<?php 
@@ -293,8 +293,6 @@
 						    $email=$_REQUEST['email']; 
 						    $message=$_REQUEST['message'];
 						    $country=$_REQUEST['pais'];
-
-						    $message="eeceedede";
 
 						    if (!filter_var($email, FILTER_VALIDATE_EMAIL) && $email!="") {
 								$emailErr = "Invalid email format";
@@ -346,6 +344,89 @@
 						        } 
 						    }   
 					?> 	
+			</div>
+
+			<div class='social_media_container'>
+
+				<a href='http://starmonsters.net' target='blank'>
+					<div class='social_media_row'>
+						<div class='icon_container facebook'>
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</div>
+						<div class='links_container'>
+							<ul>
+								<li class='title'>FACEBOOK</li>
+								<a href='http://starmonsters.net' target='blank'>
+									<li class='link'>facebook.com/magicbox</li>
+								</a>
+							</ul>
+						</div>
+					</div>
+				</a>
+
+				<a href='http://starmonsters.net' target='blank'>
+					<div class='social_media_row'>
+						<div class='icon_container twitter'>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</div>
+						<div class='links_container'>
+							<ul>
+								<li class='title'>TWITTER</li>
+								<a href='http://starmonsters.net' target='blank'>
+									<li class='link'>twitter.com/magicbox</li>
+								</a>
+							</ul>
+						</div>
+					</div>
+				</a>
+
+
+				<a href='http://starmonsters.net' target='blank'>
+					<div class='social_media_row'>
+						<div class='icon_container youtube'>
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+						</div>
+						<div class='links_container'>
+							<ul>
+								<li class='title'>YOUTUBE</li>
+								<a href='http://starmonsters.net' target='blank'>
+									<li class='link'>youtube.com/magicbox</li>
+								</a>
+							</ul>
+						</div>
+					</div>
+				</a>
+
+				<a href='http://starmonsters.net' target='blank'>
+					<div class='social_media_row'>
+						<div class='icon_container instagram'>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+						<div class='links_container'>
+							<ul>
+								<li class='title'>INSTAGRAM</li>
+								<a href='http://starmonsters.net' target='blank'>
+									<li class='link'>instagram.com/magicbox</li>
+								</a>
+							</ul>
+						</div>
+					</div>
+				</a>
+
+				<div class='social_media_row'>
+					<div class='icon_container home'>
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</div>
+					<div class='links_container'>
+						<ul>
+							<li class='title'>DIRECCIÓN</li>
+							<li class='address'>Magic Box Int. Toys, S.L.U. Plaça Xavier Cugat 2, 08174 Sant Cugat del Vallès, Barcelona, España</li>
+						</ul>
+					</div>
+				</div>
+
+
+
 			</div>
 		</div>
 	</div>

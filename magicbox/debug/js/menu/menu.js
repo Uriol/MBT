@@ -84,7 +84,7 @@ $(function(){
 		MOUSE_IN_BRANDS_MENU = true;
 		$('.submenu_container_desktop').addClass('on');
 		$('.menu_item_container p.red').addClass('on');
-		// $('.bg_dark').fadeIn(300);
+		$('.bg_dark').fadeIn(300);
 	}).on('mouseleave', function(){
 		MOUSE_IN_BRANDS_MENU = false;
 		setTimeout(close_submenu, 200);
@@ -104,7 +104,7 @@ $(function(){
 		if( MOUSE_IN_BRANDS_MENU == false && MOUSE_IN_SUBMENU == false){
 			$('.submenu_container_desktop').removeClass('on');
 			$('.menu_item_container p.red').removeClass('on');
-			// $('.bg_dark').fadeOut(300);
+			$('.bg_dark').fadeOut(300);
 		}
 	}
 

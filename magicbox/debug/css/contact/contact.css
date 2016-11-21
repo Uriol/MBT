@@ -69,11 +69,18 @@ body{
 
 
 /* ------------------------------------------------------- */
+.contact_header{
+	width: 100%;
+	padding-bottom: 30%;
+	position: relative;
+	background: url('../../img/general/z_city.png');
+	background-size: cover;
+	background-position: center;
+}
 
-.contact_header {
+/*.contact_header {
 	width: 100%;
 	position: relative;
-	/*padding-bottom: 250px;*/
 	background: rgba(0,173,236,1);
 background: -moz-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,173,236,1)), color-stop(100%, rgba(255,255,255,1)));
@@ -101,12 +108,6 @@ vertical-align: middle;
 
 .contact_header  .contact_cloud{
 	position: absolute;
-   /* width: 600px;
-    height: 259px;
-    background: url(../../img/general/sky/cloud_2.png);
-    background-size: cover;
-    left: 5%;
-    top: -20px;*/
 }
 
 .contact_header  .contact_cloud.one{
@@ -145,12 +146,34 @@ vertical-align: middle;
 
 .contact_header  .contact_cloud img{
 	width: 100%;
+}*/
+
+
+/* Contact title -------------------------------- */
+
+.title_container_contact{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px 30px 0px;
 }
+
+.title_container_contact h2{
+	    font-weight: 700;
+    font-family: montserrat_bold,'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+    font-size: 32px;
+    line-height: 33px;
+    letter-spacing: 0.6px;
+    /*color: rgb(255,163,0);*/
+    color: rgb(25,25,25);
+}
+
 /* ------------------------ */
 
 .contact_form_wrapper{
 	width: 100%;
 	position: relative;
+	/*margin-top: 50px;*/
 }
 
 
@@ -172,29 +195,31 @@ section.contact{
 .contact_container_full .contact_container{
 	display: inline-block;
 	background-color: white;
-	padding: 0px 25px 60px 25px;
+	padding: 0px 25px 0px 25px;
 	margin-top: 0px;
 	border-radius: 8px;
-	width: 90%;
-	max-width: 720px;
+	width: 100%;
+	max-width: 850px;
 	text-align: left;
 	font-family: 'Montserrat';
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	margin-bottom: 50px;
 	/*overflow: hidden;*/
 	box-sizing: border-box;
+	overflow: hidden;
 
 }
 
 .contact_container_full .contact_container .form_container{
-	width: 100%;
-	position: relative;
+	width: 60%;
+	/*position: relative;*/
+	float: left;
 }
 
 .contact_container_full .contact_container .form_container .intro_text{
 	width: 100%;
 	position: relative;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 /* Text */
@@ -209,11 +234,11 @@ section.contact{
 
 .contact_container_full .contact_container .form_container .intro_text p{
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 	margin-top: 10px;
-	line-height: 22px;
-	color: black;
-	padding-bottom: 10px;
+	line-height: 20px;
+	color: rgba(0,0,0,0.4);
+	padding-bottom: 5px;
 	text-align: left;
 }
 
@@ -223,20 +248,24 @@ section.contact{
 }
 
 .contact_container_full .contact_container .form_container h3{
-	font-family: 'Montserrat';
+	font-family: montserrat_bold;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 15px;
 	/*color: rgb(255,163,34);*/
 	color: rgb(25,25,25);
 	letter-spacing: 0.8px;
-	margin-top: 15px;
+	padding-top: 15px;
+}
+
+.form_container form{
+	/*padding-bottom: 5px;*/
 }
 
 /* Inputs */
 .form_container form input[type="text"]{
 	width: 100%;
 	/*position: relative;*/
-	padding: 20px;
+	padding: 15px;
 	border:none;
 	background-color: rgba(0,0,0,0.1);
 	margin-top: 5px;
@@ -249,7 +278,7 @@ section.contact{
 .form_container form textarea{
 width: 100%;
 	/*position: relative;*/
-	padding: 20px;
+	padding: 15px;
 	border:none;
 	background-color: rgba(0,0,0,0.1);
 	margin-top: 5px;
@@ -260,9 +289,9 @@ width: 100%;
 }
 
 .form_container form input[type="submit"]{
-	width: 100%;
+	/*width: 80%;*/
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 20px 60px;
 	border-style:none;
 	
 	margin-top: 20px;
@@ -276,6 +305,11 @@ width: 100%;
 	cursor: pointer;
 	-webkit-appearance: none;
 	border-radius: 3px;
+	transition: 0.2s ease all;
+}
+
+.form_container form input[type="submit"]:hover{
+	/*transform: scale(1.05);*/
 }
 
 .form_container select.select_country{
@@ -286,7 +320,7 @@ width: 100%;
 	-moz-appearance: none;
 	appearance: none;
 	width: 100%;
-	padding: 20px;
+	padding: 15px;
 	border:none;
 	background-color: rgba(0,0,0,0.1);
 	margin-top: 5px;
@@ -368,8 +402,120 @@ a:hover {
 }
 
 
+/* Social media container */
+.social_media_container{
+	float: left;
+	width: 40%;
+}
+
+.social_media_container a{
+	text-decoration: none;
+	color: rgb(25,25,25);
+}
+
+.social_media_container .social_media_row{
+	width: 100%;
+	position: relative;
+	padding-left: 25px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+
+.social_media_container .social_media_row .icon_container{
+	/*display: inline-block;*/
+	position: absolute;
+	/*float: left;*/
+	font-size: 28px;
+	vertical-align: middle;
+	width: 50px;
+    height: 50px;
+    line-height: 45px;
+    border-radius: 50%;
+	/*cursor: pointer;*/
+	color: white;
+	transition: 0.2s ease all;
+	text-align: center;
+	cursor: pointer;
+}
+
+.social_media_container .social_media_row .icon_container.facebook{
+	background-color: #3b5998;
+}
+
+.social_media_container .social_media_row .icon_container.twitter{
+	background-color: #00aced;
+}
+
+.social_media_container .social_media_row .icon_container.youtube{
+	background-color: #b00;
+}
+
+.social_media_container .social_media_row .icon_container.instagram{
+	background-color: #517fa4;
+}
+
+.social_media_container .social_media_row .icon_container.home{
+	background-color: rgb(255,163,0);
+}
+
+.social_media_container .social_media_row .icon_container:hover{
+	/*transform: scale(1.1);*/
+}
+
+
+
+.social_media_container .social_media_row .icon_container i{
+	vertical-align: middle;
+	color: white;
+}
+
+
+.social_media_container .social_media_row .links_container{
+	/*display: inline-block;*/
+	/*float: left;*/
+	display: inline-block;
+	margin-left: 55px;
+	box-sizing: border-box;
+}
+
+.social_media_container .social_media_row .links_container ul li.title{
+	font-family: montserrat_bold;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+.social_media_container .social_media_row .links_container ul a{
+	text-decoration: none;
+}
+
+.social_media_container .social_media_row .links_container ul li.link{
+	font-family: montserrat_reg;
+	font-size: 15px;
+	color: rgba(0,0,0,0.4);
+	cursor: pointer;
+	padding-top: 5px;
+}
+
+.social_media_container .social_media_row .links_container ul li.link:hover{
+	color: black;
+}
+
+.social_media_container .social_media_row .links_container ul li.address{
+	font-family: montserrat_reg;
+	font-size: 15px;
+	color: rgba(0,0,0,0.4);
+	cursor: pointer;
+	padding-top: 5px;
+	line-height: 22px;
+	cursor: default;
+}
+
+
+
 @media only screen
-and (max-width: 540px) {
+and (max-width: 679px) {
 
 	/* Clouds */
 	.contact_header  .contact_cloud.one{
@@ -408,11 +554,51 @@ and (max-width: 540px) {
 	    transform: scaleX(-1);
 	}
 
+	.contact_header{
+		padding-bottom: 40%;
+	}
+
+
+	/* Social media */
+	.social_media_container{
+		/*display: none;*/
+		position: relative;
+		width: 100%;
+		margin-top: 35px;
+	}
+
+	.social_media_container .social_media_row {
+		padding-left: 0px;
+	}
+
+	.form_container form input[type="submit"]{
+		/*width: 80%;*/
+		padding: 20px 60px;
+	}
+
+
+	.contact_container_full .contact_container {
+		width: 100%;
+		padding: 0px 25px 0px 25px;
+		margin-bottom: 10px;
+	}
+
+	.contact_container_full .contact_container .form_container{
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+	}
+
+
 }
 /* Phone Landscape */
 @media only screen
-and (min-width: 541px)
-and (max-width: 900px) {
+and (min-width: 680px)
+and (max-width: 850px) {
+
+	.contact_header{
+		padding-bottom: 35%;
+	}
 
 	/* Clouds */
 	.contact_header  .contact_cloud.one{
@@ -448,5 +634,18 @@ and (max-width: 900px) {
 	    -o-transform: scaleX(-1);
 	    transform: scaleX(-1);
 	}
+
+
+	/* Social media container */
+	.social_media_container{
+		float: left;
+		width: 45%;
+	}
+
+	.contact_container_full .contact_container .form_container{
+		width: 55%;
+		float: left;
+	}
+
 
 }

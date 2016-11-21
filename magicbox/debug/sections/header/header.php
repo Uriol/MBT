@@ -6,7 +6,7 @@
 			<div class='owl-carousel' id='header_owl'>
 				<a href='http://www.zomlings.com' target="_blank">
 					<div class='carousel_item'>
-						<div class='header_cover ztin'></div>
+						<div class='header_cover zbus'></div>
 					</div>
 				</a>
 

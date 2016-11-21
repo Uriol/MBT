@@ -27,8 +27,13 @@ section.header {
 
 .header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover{
 	position: relative;
-	padding-bottom: 45%;
+	padding-bottom: 40%;
 	width: 100%;
+}
+.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.zbus{
+	background: url('../../img/header/crazy_bus.png');
+	background-size: cover;
+	background-position: center;
 }
 
 .header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.ztin{
@@ -38,7 +43,7 @@ section.header {
 }
 
 .header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.sm2{
-	background: url('../../img/header/sm2.png');
+	background: url('../../img/header/sm1_header.png');
 	background-size: cover;
 	background-position: center;
 }
@@ -152,7 +157,7 @@ section.header {
 	height: 30px;*/
 	background-color: blue;
 	position: absolute;
-	margin-top: -55px;
+	margin-top: -60px;
 	width: 100%;
 	height: 0px;
 	text-align: center;
@@ -167,8 +172,8 @@ section.header {
 }
 
 #header_owl .owl-controls .owl-dots .owl-dot{
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	background-color: rgba(0,0,0,0.4);
 	border-radius: 50%;
 	float: left;
@@ -216,6 +221,11 @@ and (max-width: 540px) {
 	}
 
 	/* Links */
+	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.sm2{
+		background: url('../../img/header/sm1_header_75.png');
+		background-size: cover;
+		background-position: center;
+	}
 	
 
 }
@@ -224,7 +234,7 @@ and (max-width: 540px) {
 and (min-width: 541px) 
 and (max-width: 700px){
 	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover{
-		padding-bottom: 60%;
+		padding-bottom: 55%;
 	}
 
 	/* Arrows */
@@ -248,8 +258,14 @@ and (max-width: 700px){
 	}
 
 	/* Header covers */
+	/*.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.ztin{
+		background: url('../../img/header/tin_header_small.png');
+		background-size: cover;
+		background-position: center;
+	}*/
+
 	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.sm2{
-		background: url('../../img/header/sm2_small.png');
+		background: url('../../img/header/sm1_header_1000.png');
 		background-size: cover;
 		background-position: center;
 	}
@@ -263,7 +279,7 @@ and (max-width: 700px){
 and (min-width: 701px)
 and (max-width: 1024px) {
 	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover{
-		padding-bottom: 50%;
+		padding-bottom: 40%;
 	}
 
 }

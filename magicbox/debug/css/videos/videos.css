@@ -2,45 +2,33 @@ section.videos {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	padding: 30px 0px 55px 0px;
-	/*background: rgba(0,173,236,1);
-	background: -moz-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,173,236,1)), color-stop(100%, rgba(255,255,255,1)));
-	background: -webkit-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-	background: -o-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-	background: -ms-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-	background: linear-gradient(to bottom, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adec', endColorstr='#ffffff', GradientType=0 );*/
+	padding: 30px 0px 10px 0px;
 }
 
-.section_title_videos{
+.videos .section_title_container{
 	width: 100%;
 	text-align: center;
-	cursor: default;
 }
 
-.section_title_videos .title_bg{
-	display: inline-block;
-	font-family: 'Montserrat';
-	font-weight: 400;
-	font-size: 30px;
-	padding: 10px;
-	border-radius: 4px;
-	background-color: rgb(121,186,47);
-	/*background-color: rgb(25,25,25);*/
-	color: white;
-	/*background-color: rgb(25,25,25);*/
+.videos .section_title_container img{
+	max-width: 230px;
 }
 
-.section_title_videos .title_bg h2{
-	
+
+.videos .section_title_container h1{
+	font-family: montserrat_bold;
+	font-size: 25px;
+
 }
 
+
+
+/* Carrousel */
 .carousel_container_full{
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 /* Carousel items */
@@ -128,22 +116,23 @@ section.videos {
 
 
 .player_ux_full .text_description_container {
-	display: none;
+	/*display: none;*/
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	padding: 20px 0px 20px 0px;
-	background-color: rgba(0,0,0,0.5);
+	padding: 15px 0px 15px 0px;
+	background-color: rgba(0,0,0,0.7);
 	text-align: center;
 }
 
 .player_ux_full .text_description_container p{
-	font-family: Montserrat;
+	font-family: montserrat_bold;
     color: white;
     font-weight: 700;
     line-height: 28px;
-    font-size: 23px;
-    padding-top: 10px;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-left: 5px; padding-right: 5px;
     letter-spacing: 1px;
 }
 
@@ -239,13 +228,35 @@ and (max-width: 540px) {
 		transform:scale(1);
 	}
 
-	.arrow_wrapper {
-		display: none;
-	}
 
 	.player_ux_full .text_description_container {
 		display: none;
 	}
+
+	.arrow_wrapper{
+		display: none;
+	}
+
+	/* Arrows */
+	/*.arrow_wrapper .arrow_container{
+		width: 50px;
+		height: 50px;
+	}
+
+	.arrow_wrapper .arrow_container .arrow_icon{
+	    width: 50px;
+	    height: 50px;
+	}
+
+	.carousel_container_full .arrow_container.right {
+	    right: 25px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 25px;
+	}*/
+
+
+
 }
 
 /* Phone Landscape */
@@ -259,8 +270,22 @@ and (max-width: 768px) {
 		transform:scale(1);
 	}
 
-	.arrow_wrapper {
-		display: none;
+	/* Arrows */
+	.arrow_wrapper .arrow_container{
+		width: 75px;
+		height: 75px;
+	}
+
+	.arrow_wrapper .arrow_container .arrow_icon{
+	    width: 75px;
+	    height: 75px;
+	}
+
+	.carousel_container_full .arrow_container.right {
+	    right: 25px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 25px;
 	}
 
 	.player_ux_full .text_description_container {
@@ -286,13 +311,13 @@ and (max-width: 1024px) {
 		position: absolute;
 		bottom: 0;
 		padding: 15px 0px 15px 0px;
-		background-color: rgba(0,0,0,0.5);
+		background-color: rgba(0,0,0,0.7);
 		text-align: center;
 	}
 
 	.player_ux_full .text_description_container p{
 	    font-size: 20px;
-	    padding-top: 10px;
+	    padding-top: 5px;
 	    letter-spacing: 0.5px;
 	}
 

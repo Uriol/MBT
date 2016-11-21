@@ -40,7 +40,7 @@
 			<div class='bg_dark'></div>
 
 			<?php
-				include('../../sections/menu/ES/menu.php');
+				include('../../sections/menu/es/menu.php');
 			?>
 
 			<style>
@@ -59,7 +59,7 @@
 			</div>
 
 			<?php
-				include('../../sections/company/ES/timeline_vertical.php');
+				include('../../sections/company/es/timeline_vertical.php');
 			?>
 
 			<?php

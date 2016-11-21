@@ -15,6 +15,35 @@
     src: url('../../fonts/Avenir_round_bold.woff');
 }
 
+@font-face {
+    font-family: montserrat_medium;
+    src: url('../../fonts/Montserrat-Medium.woff');
+}
+
+@font-face {
+    font-family: montserrat_semi;
+    src: url('../../fonts/Montserrat-SemiBold.woff');
+}
+
+@font-face {
+    font-family: montserrat_bold;
+    src: url('../../fonts/Montserrat-Bold.woff');
+}
+
+@font-face {
+    font-family: montserrat_light;
+    src: url('../../fonts/Montserrat-Light.woff');
+}
+
+@font-face {
+    font-family: montserrat_reg;
+    src: url('../../fonts/Montserrat-Regular.woff');
+}
+
+section.content{
+	overflow: hidden;
+}
+
 
 .bg_dark_full{
 	width: 100%;
@@ -37,7 +66,43 @@
 	cursor: pointer;
 }
 
+/*.floating_character{
+	position: absolute;
+	width: 300px;
+	height: 500px;
+	margin-top: -100px;
+	margin-left: -100px;
+	background-color: rgba(0,0,0,0.2);
+}*/
 
+.floating_character{
+	position: absolute;
+	/*overflow: hidden;*/
+	/*overflow: hidden;
+*/	width: 100%;
+}
+
+.floating_character .character_overflow{
+	position: relative;
+	overflow: hidden;
+}
+
+.floating_character#racer_right{
+	
+}
+
+.floating_character#racer_right .floating_character_container{
+	position: relative;
+	width: 360px;
+	float: right;
+	left: 50px;
+
+}
+
+.floating_character#racer_right .floating_character_container img{
+	position: absolute;
+	width: 100%;
+}
 
 section.content {
 	width: 100%;
@@ -52,3 +117,6 @@ and (min-width: 901px) {
 
 	
 }	
+
+
+/* Sections */

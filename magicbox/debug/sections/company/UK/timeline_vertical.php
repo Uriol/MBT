@@ -1,6 +1,16 @@
 <section class='timeline'>
 	<div class='timeline_container'>
 		<ul>
+
+		<li class='year arrow_left first'>
+			<div class='arrow_image_container'>
+				<img src='../../img/timeline/arrows/red_right.png'>
+			</div>
+			<div class='text_container'>
+				<p>2016</p>
+			</div>
+		</li>
+
 			<li class='left red'>
 				<div class='timeline_item red'>
 					<div class='item_content_wrapper'>

@@ -2,18 +2,21 @@
 
 var YT_API_READY = false;
 
-var playerInfoList = [ {
+var playerInfoList = [{
+	id: 'player5',
+    videoId: 'CiX1uDIAlqo'
+}, {
     id: 'player4',
-    videoId: '1GoxKV2Ess8'
+    videoId: 'V0if4l8r7Uo'
 }, {
     id: 'player3',
-    videoId: 'rpbA005ySM0'
-}, {
-    id: 'player2',
     videoId: '79iR2JPfoUk'
 }, {
+    id: 'player2',
+    videoId: 'PvzEqbhyN_o'
+}, {
     id: 'player1',
-    videoId: '1XMUtpSvKPE'
+    videoId: 'PvzEqbhyN_o'
 }];
 
 
@@ -24,7 +27,7 @@ $(function(){
 	var owl = $('#videos_owl');
 
 	owl.owlCarousel_beta({
-	    stagePadding: 200,
+	    stagePadding: 400,
 	    loop:false,
 	    margin: 0,
 	    nav:false,
@@ -37,7 +40,7 @@ $(function(){
 		    0:{
 		        items:1,
 		        margin: 15,
-		        stagePadding: 30
+		        stagePadding: 60
 		    },
 		    540:{
 		        items:1,

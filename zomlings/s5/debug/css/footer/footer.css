@@ -131,7 +131,15 @@ section.footer{
 	letter-spacing: 0.3px;
 }
 
+@media only screen
+and (max-width: 475px) {
 
+
+	.footer_container .links_container .logo_wrapper{
+		padding-bottom: 20px;
+	}
+
+}
 /* 	rgb(119, 191, 63) */
 /* 	rgb(165, 235, 85) */
 

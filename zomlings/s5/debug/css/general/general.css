@@ -20,16 +20,11 @@
 
 
 
-
-
-
-
-
 /* Fonts */
-@font-face {
+/*@font-face {
     font-family: rolling;
     src: url('../../fonts/rolling.woff');
-}
+}*/
 
 /* Fonts */
 @font-face {
@@ -51,11 +46,11 @@
 
 
 /* Fonts */
-@font-face {
+/*@font-face {
     font-family: avenir_bold;
     src: url('../../fonts/avenir_bold.woff');
 }
-
+*/
 
 
 /* Phone Portrait */

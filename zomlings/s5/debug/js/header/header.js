@@ -5,6 +5,7 @@ $(function(){
 	$('#owl_carousel_header').owlCarousel_beta({
 		navigation : false,
 		slideSpeed : 300,
+		dots: true,
 		paginationSpeed : 400,
 		items : 1,
 		responsiveRefreshRate: 20,

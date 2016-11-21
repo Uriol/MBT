@@ -24,7 +24,7 @@
 
 .company_text_wrapper .company_text_container h2{
 	font-weight: 700;
-	font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+	font-family: 'montserrat_bold','Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
 	font-size: 28px;
 	line-height: 33px;
 	letter-spacing: 0.2px;
@@ -33,7 +33,7 @@
 .company_text_wrapper .company_text_container p{
 	margin-top: 30px;
 	font-weight: 400;
-	font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+	font-family: 'montserrat_med', 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 23px;
 	letter-spacing: 0.2px;
@@ -121,6 +121,61 @@ section.timeline {
 }
 
 
+
+/* Year */
+.timeline_container ul li.year{
+	text-align: center;
+	padding: 30px 0px 20px 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.timeline_container ul li.year.arrow_left{
+	margin-left: 20%;
+}
+
+.timeline_container ul li.year.arrow_right{
+	margin-left: 30%;
+}
+
+
+.timeline_container ul li.year.first{
+	padding: 0px 0px 20px 0px;
+}
+
+.timeline_container ul li.year .arrow_image_container{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.timeline_container ul li.year .arrow_image_container img{
+	width: 180px;
+	position: relative;
+}
+
+.timeline_container ul li.year .text_container{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+.timeline_container ul li.year .text_container p{
+	font-size: 30px;
+	font-family: montserrat_bold;
+	margin-top: 23px;
+	color: white;
+}
+
+/* Arrow animations */
+.timeline_container ul li.year.arrow_left.on{
+	margin-left: 25%;
+}
+
+.timeline_container ul li.year.arrow_right.on{
+	margin-left: 25%;
+}
+
 /* --------- */
 
 
@@ -187,6 +242,7 @@ section.timeline {
 	z-index: -9;
 	border-radius: 8px;
 	top: 42.5px;
+	/*display: none;*/
 }
 
 .timeline_container ul li .timeline_item .item_content_wrapper .selector_arrow_container.text{
@@ -232,10 +288,12 @@ section.timeline {
 /* Year */
 .timeline_container ul li.left .timeline_item .item_content_wrapper .year_container{
 	text-align: right;
+	display: none;
 }
 
 .timeline_container ul li.right .timeline_item .item_content_wrapper .year_container{
 	text-align: left;
+	display: none;
 }
 
 .timeline_container ul li .timeline_item .item_content_wrapper .year_container .year_container_box{
@@ -249,7 +307,7 @@ section.timeline {
 	border-top-right-radius: 8px;
 	color: white;
 	letter-spacing: 1px;
-	font-family: 'Montserrat';
+	font-family: montserrat_bold;
 	font-size: 22px;
 	font-weight: 700;
 } 
@@ -304,7 +362,7 @@ section.timeline {
 }
 
 .timeline_container ul li .timeline_item .item_content_wrapper .image_container .image_cover{
-	padding: 5px;
+	padding: 10px;
 	overflow: hidden;
 }
 
@@ -313,7 +371,7 @@ section.timeline {
 	position: relative;
 }
 
-.timeline_container ul li.left .timeline_item .item_content_wrapper .image_container .image_cover img{
+/*.timeline_container ul li.left .timeline_item .item_content_wrapper .image_container .image_cover img{
 	border-top-left-radius: 8px;
 }
 
@@ -328,13 +386,13 @@ section.timeline {
 .timeline_container ul li.right .timeline_item.rounded .item_content_wrapper .image_container .image_cover img{
 	border-top-left-radius: 8px;
 }
-
+*/
 
 
 /* DESCRIPTION TEXT */
 .timeline_container ul li .timeline_item .item_content_wrapper .text_container{
 	width: 100%;
-	padding: 10px 20px 15px 20px;
+	padding: 5px 20px 15px 20px;
 	box-sizing: border-box;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
@@ -349,7 +407,7 @@ section.timeline {
 
 .timeline_container ul li .timeline_item .item_content_wrapper .text_container p{
 	color: white;
-	font-family: 'Montserrat';
+	font-family: 'montserrat_med', 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 23px;
@@ -416,7 +474,15 @@ and (max-width: 600px) {
 		transition: 0.3s ease all;
 		opacity: 0;
 		margin: 0 auto;
-		margin-top: 20px;
+		margin-top: 15px;
+	}
+
+	.timeline_container ul li.year{
+		width: 50%;
+		padding: 0px 0px 0px 0px;
+	}
+	.timeline_container ul li.year.first{
+		padding: 0px 0px 0px 0px;
 	}
 
 	.timeline_container ul li.right.text{

@@ -2,11 +2,11 @@
 
 var $series_bg = [ 'rgb(234,33,45)' , 'rgb(0,142,220)'];
 var $particles_colors = ['rgb(171,31,46)' , 'rgb(0,115,185)'];
-var $series = ['series_one', 'series_two', 'series_three', 'series_four'];
+var $series = ['series_one', 'series_two', 'series_three', 'series_four', 'series_five'];
 var $series_canvas_bg = [];
-var $character_info_img_class = ['s1' , 's2', 's3', 's4'];
+var $character_info_img_class = ['s1' , 's2', 's3', 's4', 's5'];
 
-var actual_serie_index = 3;
+var actual_serie_index = 4;
 var serie_on_display = $series[actual_serie_index];
 var new_serie_index;
 

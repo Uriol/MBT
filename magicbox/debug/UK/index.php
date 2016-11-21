@@ -6,6 +6,8 @@
 <html>
 	<head>
 		<title>Magic Box Toys</title>
+		<meta name=“description” content=“At Magic Box Toys we are creators, we build our own brands and create new trends in the collectable toy market. We are the cretors of Zomlings - In The Town and Star Monsters - Pocket Friends.”>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
 		<!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
@@ -18,7 +20,7 @@
 		<!-- FONTS -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 		<!-- Icons Fonts -->
 		<link rel="stylesheet" href="../css/libraries/font_awesome/css/font-awesome.min.css">
 		<!-- general styles -->
@@ -28,14 +30,14 @@
 		<link href='../css/menu/menu.css' rel='stylesheet'>
 		<!-- Header -->
 		<link href='../css/header/header.css' rel='stylesheet'>
-		<!-- Header -->
+		<!-- Videos -->
 		<link href='../css/videos/videos.css' rel='stylesheet'>
 		<!-- Brands -->
 		<link href='../css/brands/brands.css' rel='stylesheet'>
+		<!-- Products -->
+		<link href='../css/products/products.css' rel='stylesheet'>
 		<!-- Intro text -->
-		<link href='../css/intro_text/intro_text.css' rel='stylesheet'>
-		<!-- News Section -->
-		<link href='../css/news/news.css' rel='stylesheet'>
+		<!-- <link href='../css/intro_text/intro_text.css' rel='stylesheet'> -->
 		<!-- Pre Footer -->
 		<link href='../css/pre_footer/pre_footer.css' rel='stylesheet'>
 		<!-- Footer -->
@@ -68,9 +70,9 @@
 
 			<div class='bg_dark'></div>
 
-
+			
 			<?php
-				include('../sections/menu/UK/menu.php');
+				include('../sections/menu/uk/menu.php');
 			?>
 
 			<?php
@@ -80,18 +82,22 @@
 			<?php
 				include('../sections/header/header.php');
 			?>
+
 			
-			<?php
-				// include('../sections/videos/videos.php');
-			?>
-
-
 			<?php
 				// include('../sections/brands/brands.php');
 			?>
 
 			<?php
-				include('../sections/intro_text/UK/intro_text.php');
+				include('../sections/videos/uk/videos.php');
+			?>
+
+			<?php
+				include('../sections/products/uk/products.php');
+			?>
+
+			<?php
+				// include('../sections/intro_text/ES/intro_text.php');
 			?>
 
 			<?php
@@ -117,6 +123,8 @@
 		<script src='../js/header/header.js'></script>
 		<!-- Videos -->
 		<script src='../js/videos/videos.js'></script>
+		<!-- Products -->
+		<script src='../js/products/products.js'></script>
 		<!-- Contact -->
 		<script src='../js/contact/contact.js'></script>
 

@@ -185,8 +185,8 @@ and (max-width: 900px) {
 
 	.menu_container_mobile .submenu_container_mobile .submenu_mobile_list_wrapper .submenu_mobile_item_wrapper p{
 		display: inline-block;
-		font-weight: 700;
-		font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+		font-weight: 800;
+		font-family: montserrat_bold,'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
 		font-size: 16px;
 		letter-spacing: 0.2px;
 		margin-left: 20px;	
@@ -308,7 +308,7 @@ and (min-width: 901px) {
 
 	.menu_list_wrapper_desktop .menu_item_container{
 		display: inline-block;
-		padding: 35px 10px 35px 10px;
+		padding: 35px 15px 35px 15px;
 		cursor: pointer;
 	}
 
@@ -331,7 +331,7 @@ and (min-width: 901px) {
 	.menu_list_wrapper_desktop .menu_item_container p{
 		display: inline-block;
 		font-weight: 700;
-		font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+		font-family: montserrat_bold, 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
 		font-size: 16px;
 		letter-spacing: 0.2px;
 		/*margin-left: 20px;	*/
@@ -339,7 +339,7 @@ and (min-width: 901px) {
 
 	.menu_list_wrapper_desktop .menu_item_container p span{
 		font-size: 8px;
-		margin-left: 4px;
+		margin-left: 0px;
 		position: relative;
 		top: -2px;
 	}

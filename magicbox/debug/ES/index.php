@@ -6,6 +6,8 @@
 <html>
 	<head>
 		<title>Magic Box Toys</title>
+		<meta name=“description” content=“En Magic Box Toys somos creadores, construimos marcas y generamos tendencias en el sector de los juguetes coleccionables. Somos los creadores de Zomlings - In The Town y Star Monsters - Pocket Friends.”>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
 		<!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
@@ -18,7 +20,7 @@
 		<!-- FONTS -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 		<!-- Icons Fonts -->
 		<link rel="stylesheet" href="../css/libraries/font_awesome/css/font-awesome.min.css">
 		<!-- general styles -->
@@ -28,14 +30,14 @@
 		<link href='../css/menu/menu.css' rel='stylesheet'>
 		<!-- Header -->
 		<link href='../css/header/header.css' rel='stylesheet'>
-		<!-- Header -->
+		<!-- Videos -->
 		<link href='../css/videos/videos.css' rel='stylesheet'>
 		<!-- Brands -->
 		<link href='../css/brands/brands.css' rel='stylesheet'>
+		<!-- Products -->
+		<link href='../css/products/products.css' rel='stylesheet'>
 		<!-- Intro text -->
-		<link href='../css/intro_text/intro_text.css' rel='stylesheet'>
-		<!-- News Section -->
-		<link href='../css/news/news.css' rel='stylesheet'>
+		<!-- <link href='../css/intro_text/intro_text.css' rel='stylesheet'> -->
 		<!-- Pre Footer -->
 		<link href='../css/pre_footer/pre_footer.css' rel='stylesheet'>
 		<!-- Footer -->
@@ -70,7 +72,7 @@
 
 			
 			<?php
-				include('../sections/menu/ES/menu.php');
+				include('../sections/menu/es/menu.php');
 			?>
 
 			<?php
@@ -80,18 +82,22 @@
 			<?php
 				include('../sections/header/header.php');
 			?>
+
 			
-			<?php
-				// include('../sections/videos/videos.php');
-			?>
-
-
 			<?php
 				// include('../sections/brands/brands.php');
 			?>
 
 			<?php
-				include('../sections/intro_text/ES/intro_text.php');
+				include('../sections/videos/es/videos.php');
+			?>
+
+			<?php
+				include('../sections/products/es/products.php');
+			?>
+
+			<?php
+				// include('../sections/intro_text/ES/intro_text.php');
 			?>
 
 			<?php
@@ -117,6 +123,8 @@
 		<script src='../js/header/header.js'></script>
 		<!-- Videos -->
 		<script src='../js/videos/videos.js'></script>
+		<!-- Products -->
+		<script src='../js/products/products.js'></script>
 		<!-- Contact -->
 		<script src='../js/contact/contact.js'></script>
 
@@ -128,3 +136,6 @@
 
 	</body>
 </html>
+
+
+<!--  ADD 404 ERROR PAGE  -->

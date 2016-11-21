@@ -15,13 +15,10 @@
 		<!-- Libraries -->
 		
 		<link href='../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
-		
 		<link href='../css/libraries/owl.theme.css' rel='stylesheet'>
 		<link href='../css/libraries/owl.carousel.css' rel='stylesheet'>
-
 		<!-- Icons Fonts -->
 		<link rel="stylesheet" href="../css/libraries/font_awesome/css/font-awesome.min.css">
-		
 		<!-- general styles -->
 		<link href='../css/reset.css' rel='stylesheet'>
 		<link href='../css/onload/onload.css' rel='stylesheet'>
@@ -39,9 +36,7 @@
 		<link href='../css/products/products.css' rel='stylesheet'>
 		<!-- Downloads -->
 		<link href='../css/downloads/downloads.css' rel='stylesheet'>
-		<link href='../css/downloads/UK/downloads.css' rel='stylesheet'>
-		<!-- YT Link -->
-		<link href='../css/youtube_link/youtube_link.css' rel='stylesheet'>
+		<link href='../css/downloads/uk/downloads.css' rel='stylesheet'>
 		<!-- footer -->
 		<link href='../css/footer/footer.css' rel='stylesheet'>
 
@@ -61,7 +56,7 @@
 
 
 		<?php
-			include('../sections/menu/UK/menu.php');
+			include('../sections/menu/uk/menu.php');
 		?>
 
 		<?php
@@ -81,7 +76,7 @@
 		?>
 
 		<?php 
-			include('../sections/downloads/UK/downloads.php');
+			include('../sections/downloads/uk/downloads_new.php');
 		?>
 
 		<?php 
@@ -95,7 +90,6 @@
 		
 		<!-- JS -->
 		<script src='../js/libraries/jquery_min.js'></script>
-		
 		<script src='../js/libraries/(beta_)owl.carousel.js'></script>
 		<script src='../js/libraries/owl.carousel.js'></script>
 		<!-- Menu -->
@@ -105,14 +99,14 @@
 		<script src='../js/header/header.js'></script>
 
 		<!-- videos interaction -->
-		<script src='../js/videos/UK/videos_script.js'></script>
+		<script src='../js/videos/uk/videos.js'></script>
 		
 
 		<!-- Characters js -->
-		<script src='../js/characters/UK/characters.js'></script>
+		<script src='../js/characters/uk/characters.js'></script>
 
 		<!-- Products -->
-		<script src='../js/products/UK/products.js'></script>
+		<script src='../js/products/uk/products.js'></script>
 
 		<!-- Downloads -->
 		<!-- <script src='../js/downloads/downloads_particles.js'></script> -->

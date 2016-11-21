@@ -25,9 +25,20 @@
 		<link href='../../css/pre_footer/pre_footer.css' rel='stylesheet'>
 		<!-- Footer -->
 		<link href='../../css/footer/footer.css' rel='stylesheet'>
+		<!-- Onload -->
+		<link href='../../css/onload/onload.css' rel='stylesheet'>
 	</head>
 
 	<body>
+
+		<div class='onload'>
+			<!-- <div class='loading_gif_container'>
+				<div class='mbt_logo'>
+					<img src='../../img/general/mbt_logo.png'>
+					<img class='gif' src='../../img/general/loading.gif'>
+				</div>
+			</div> -->
+		</div>
 
 		<section class='content'>
 			
@@ -79,7 +90,7 @@
 			<div class='bg_dark'></div>
 
 			<?php
-				include('../../sections/menu/UK/menu.php');
+				include('../../sections/menu/uk/menu.php');
 			?>
 
 			<style>
@@ -88,38 +99,23 @@
 
 			<!-- Header -->
 			<div class='contact_header'>
-				
-				<div class='contact_cloud one'>
-					<img src='../../img/general/sky/cloud_1.png'>
-				</div>
-				<div class='contact_cloud two'>
-					<img src='../../img/general/sky/cloud_2.png'>
-				</div>
-				<div class='contact_cloud plane_left'>
-					<img src='../../img/general/sky/plane_left.png'>
-				</div>
-				<div class='contact_cloud three'>
-					<img src='../../img/general/sky/cloud_3.png'>
-				</div>
-				<div class='contact_cloud four'>
-					<img src='../../img/general/sky/cloud_1.png'>
-				</div>
+			</div>
+
+			<div class='title_container_contact'>
 				<h2>Contact us</h2>
+				<!-- <h2>CONTÁCTENOS</h2> -->
 			</div>
 
 			<!-- Contact Form -->
 			<div class='contact_form_wrapper'>
 				<?php
-					include('../../sections/contact/UK/contact.php');
+					include('../../sections/contact/uk/contact.php');
 				?>
 			</div>
 
+			<!-- Footer -->
 			<?php
 				include('../../sections/pre_footer/pre_footer.php');
-			?>
-
-
-			<?php
 				include('../../sections/footer/footer.php');
 			?>
 
@@ -134,6 +130,8 @@
 		<script src='../../js/menu/menu.js'></script>
 		<!-- Contact -->
 		<script src='../../js/contact/contact.js'></script>
+		<!-- Load -->
+		<script src='../../js/general/load_contact.js'></script>
 
 	</body>
 

@@ -20,7 +20,8 @@
 					 	<option value="series_two" data-index='1'>Series 2</option>
 					 	<option value="series_three" data-index='2'>Series 3</option>
 					 	<option value="series_four" data-index='3'>Series 4</option>
-					 	<option value="special" data-index='4'>Special</option>
+					 	<option value="series_five" data-index='4'>Series 5</option>
+					 	<option value="special" data-index='5'>Special</option>
 					</select>
 				</div>
 				

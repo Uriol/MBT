@@ -1,26 +1,24 @@
 <section class='brands'>
 
 	<div class='section_title_container'>
-		<div class='section_title_box'>
-			<h1>BRANDS</h1>
-		</div>
+			<!-- <h1>MARCAS</h1> -->
+			<img src='../img/general/ES/marcas.png'>
 	</div>
 
-	<div class='text_container'>
-		<h2>En Magic Box Toys somos creadores, construimos marcas y generamos tendencias en el sector de los juguetes coleccionables.</h2>
-		<!-- <h1>NUESTRAS MARCAS</h1> -->
+	<div class='brands_container'>
+		<a href='http://www.zomlings.com' target='blank'>
+			<div class='brand_container'>
+					<div class='brand_pic sm'>
+						<img src='../img/menu/z_submenu.png'>
+					</div>
+			</div>
+		</a>
+		<a href='http://www.starmonsters.net' target='blank'>
+			<div class='brand_container'>
+				<div class='brand_pic'>
+					<img src='../img/menu/sm_submenu_2.png'>
+				</div>
+			</div>
+		</a>
 	</div>
-
-	<!-- <div class='brands_container'>
-		<div class='brand_container'>
-			<div class='brand_pic sm'>
-				<img src='../img/brands/z_cover_2.png'>
-			</div>
-		</div>
-		<div class='brand_container'>
-			<div class='brand_pic'>
-				<img src='../img/brands/sm_cover.png'>
-			</div>
-		</div>
-	</div> -->
 </section>

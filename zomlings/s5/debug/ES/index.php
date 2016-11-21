@@ -13,8 +13,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
 		<!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
 		<!-- Libraries -->
-		<link href='../css/libraries/owl.carousel.css' rel='stylesheet'>
+		<link href='../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
 		<link href='../css/libraries/owl.theme.css' rel='stylesheet'>
+		<link href='../css/libraries/owl.carousel.css' rel='stylesheet'>
+		<!-- Icons Fonts -->
+		<link rel="stylesheet" href="../css/libraries/font_awesome/css/font-awesome.min.css">
 		<!-- general styles -->
 		<link href='../css/reset.css' rel='stylesheet'>
 		<link href='../css/onload/onload.css' rel='stylesheet'>
@@ -25,16 +28,14 @@
 		<!-- Header -->
 		<link href='../css/header/header.css' rel='stylesheet'>
 		<!-- Videos -->
-		<link href='../css/videos/videos_new.css' rel='stylesheet'>
+		<link href='../css/videos/videos.css' rel='stylesheet'>
 		<!-- Characters -->
 		<link href='../css/characters/characters_style.css' rel='stylesheet'>
 		<!-- Products -->
 		<link href='../css/products/products.css' rel='stylesheet'>
 		<!-- Downloads -->
 		<link href='../css/downloads/downloads.css' rel='stylesheet'>
-		<link href='../css/downloads/ES/downloads.css' rel='stylesheet'>
-		<!-- YT Link -->
-		<link href='../css/youtube_link/youtube_link.css' rel='stylesheet'>
+		<link href='../css/downloads/es/downloads.css' rel='stylesheet'>
 		<!-- footer -->
 		<link href='../css/footer/footer.css' rel='stylesheet'>
 
@@ -74,7 +75,7 @@
 		?>
 
 		<?php 
-			include('../sections/downloads/ES/downloads.php');
+			include('../sections/downloads/es/downloads.php');
 		?>
 
 		<?php 
@@ -82,12 +83,13 @@
 		?>
 
 		<?php 
-			include('../sections/footer/ES/footer.php');
+			include('../sections/footer/footer.php');
 		?>
 
 		
 		<!-- JS -->
 		<script src='../js/libraries/jquery_min.js'></script>
+		<script src='../js/libraries/(beta_)owl.carousel.js'></script>
 		<script src='../js/libraries/owl.carousel.js'></script>
 
 		<!-- Menu -->
@@ -97,14 +99,14 @@
 		<script src='../js/header/header.js'></script>
 
 		<!-- videos interaction -->
-		<script src='../js/videos/ES/videos_script.js'></script>
+		<script src='../js/videos/es/videos.js'></script>
 		
 
 		<!-- Characters js -->
-		<script src='../js/characters/ES/characters.js'></script>
+		<script src='../js/characters/es/characters.js'></script>
 
 		<!-- Products -->
-		<script src='../js/products/ES/products.js'></script>
+		<script src='../js/products/es/products.js'></script>
 
 		<!-- Downloads -->
 		<!-- <script src='../js/downloads/downloads_particles.js'></script> -->

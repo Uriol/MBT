@@ -1,6 +1,16 @@
 <section class='timeline'>
 	<div class='timeline_container'>
 		<ul>
+
+			<li class='year arrow_left first'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/red_right.png'>
+				</div>
+				<div class='text_container'>
+					<p>2016</p>
+				</div>
+			</li>
+
 			<li class='left red'>
 				<div class='timeline_item red'>
 					<div class='item_content_wrapper'>
@@ -44,6 +54,16 @@
 					</div>
 				</div>
 			</li>
+
+			<li class='year arrow_right'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/green_left.png'>
+				</div>
+				<div class='text_container'>
+					<p>2015</p>
+				</div>
+			</li>
+
 
 			<li class='left green'>
 				<div class='timeline_item green'>
@@ -89,6 +109,15 @@
 				</div>
 			</li>
 
+			<li class='year arrow_left'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/yellow_right.png'>
+				</div>
+				<div class='text_container'>
+					<p>2014</p>
+				</div>
+			</li>
+
 
 			<li class='left yellow'>
 				<div class='timeline_item yellow'>
@@ -104,7 +133,7 @@
 						<!-- IMAGE -->
 						<div class='image_container'>
 							<div class='image_cover'>
-								<img src='../../img/timeline/z1.png'>
+								<img src='../../img/timeline/zomlings.png'>
 							</div>
 						</div>
 						<!-- DESCRIPTION -->
@@ -112,6 +141,15 @@
 							<p>Lanzamiento Zomlings</p>
 						</div>
 					</div>
+				</div>
+			</li>
+
+			<li class='year arrow_right'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/red_left.png'>
+				</div>
+				<div class='text_container'>
+					<p>2012</p>
 				</div>
 			</li>
 
@@ -154,6 +192,15 @@
 				</div>
 			</li>
 
+			<li class='year arrow_left'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/green_right.png'>
+				</div>
+				<div class='text_container'>
+					<p>2009</p>
+				</div>
+			</li>
+
 			<li class='right green'>
 				<div class='timeline_item green'>
 					<div class='item_content_wrapper'>
@@ -176,6 +223,15 @@
 							<p>Creación del producto Stoppers de Dragon Ball</p>
 						</div>
 					</div>
+				</div>
+			</li>
+
+			<li class='year arrow_right'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/yellow_left.png'>
+				</div>
+				<div class='text_container'>
+					<p>2008</p>
 				</div>
 			</li>
 
@@ -204,6 +260,15 @@
 				</div>
 			</li>
 
+			<li class='year arrow_left'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/red_right.png'>
+				</div>
+				<div class='text_container'>
+					<p>2007</p>
+				</div>
+			</li>
+
 			<li class='right red'>
 				<div class='timeline_item red'>
 					<div class='item_content_wrapper'>
@@ -226,6 +291,15 @@
 							<p>Creación del producto Rollers de Pokemon</p>
 						</div>
 					</div>
+				</div>
+			</li>
+
+			<li class='year arrow_right'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/green_left.png'>
+				</div>
+				<div class='text_container'>
+					<p>2005</p>
 				</div>
 			</li>
 
@@ -255,6 +329,15 @@
 				</div>
 			</li>
 
+			<li class='year arrow_left'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/yellow_right.png'>
+				</div>
+				<div class='text_container'>
+					<p>2002</p>
+				</div>
+			</li>
+
 			<li class='right yellow'>
 				<div class='timeline_item yellow'>
 					<div class='item_content_wrapper'>
@@ -280,6 +363,14 @@
 				</div>
 			</li>
 
+			<li class='year arrow_right'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/red_left.png'>
+				</div>
+				<div class='text_container'>
+					<p>2000</p>
+				</div>
+			</li>
 
 			<li class='left red'>
 				<div class='timeline_item red'>
@@ -303,6 +394,15 @@
 							<p>Lanzamiento de la 2ª generación de Gogos - Crazy Bones</p>
 						</div>
 					</div>
+				</div>
+			</li>
+
+			<li class='year arrow_left'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/green_right.png'>
+				</div>
+				<div class='text_container'>
+					<p>1999</p>
 				</div>
 			</li>
 
@@ -331,6 +431,14 @@
 				</div>
 			</li>
 
+			<li class='year arrow_right'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/yellow_left.png'>
+				</div>
+				<div class='text_container'>
+					<p>1997</p>
+				</div>
+			</li>
 
 			<li class='left yellow'>
 				<div class='timeline_item yellow'>
@@ -357,6 +465,14 @@
 				</div>
 			</li>
 
+			<li class='year arrow_left'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/red_right.png'>
+				</div>
+				<div class='text_container'>
+					<p>1996</p>
+				</div>
+			</li>
 
 			<li class='right red'>
 				<div class='timeline_item red'>
@@ -397,6 +513,16 @@
 				</div>
 			</li>
 
+
+			<li class='year arrow_right'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/green_left.png'>
+				</div>
+				<div class='text_container'>
+					<p>1995</p>
+				</div>
+			</li>
+
 			<li class='right green'>
 				<div class='timeline_item green'>
 					<div class='item_content_wrapper'>
@@ -419,6 +545,15 @@
 							<p>Primera compañia en lanzar el producto Caps en Europa</p>
 						</div>
 					</div>
+				</div>
+			</li>
+
+			<li class='year arrow_left'>
+				<div class='arrow_image_container'>
+					<img src='../../img/timeline/arrows/yellow_right.png'>
+				</div>
+				<div class='text_container'>
+					<p>1994</p>
 				</div>
 			</li>
 

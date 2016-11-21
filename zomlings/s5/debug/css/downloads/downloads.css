@@ -7,151 +7,27 @@ section.downloads {
 }
 
 
-
 .downloads_container_bg{
 	margin-top: 10px;
 	position: relative;
 	width: 100%;
-	padding: 120px 0px 100px 0px;
+	padding: 120px 0px 80px 0px;
 	background: rgba(0,173,236,1);
-background: -moz-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,173,236,1)), color-stop(100%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-background: -o-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-background: -ms-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-background: linear-gradient(to bottom, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adec', endColorstr='#ffffff', GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,173,236,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,173,236,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adec', endColorstr='#ffffff', GradientType=0 );
 
 }
-
-
-.downloads_menu{
-	width: 100%;
-	position: relative;
-	margin: 0 auto;
-}
-
-.menu_container{
-	width: auto;
-	position: relative;
-	margin: 0 auto;
-	overflow: hidden;
-	/*display: inline-block;*/
-	text-align: center;
-}
-
-.menu_item_container{
-	position: relative;
-	text-align: center;
-	display: inline-block;
-}
-
-.menu_item_container .menu_item{
-	float: left;
-	padding: 12px 15px 10px 15px;
-	border-radius: 5px;
-	color: white;
-	background-color: rgba(0,0,0,0.2);
-	font-family: burbank;
-	font-size: 20px;
-	letter-spacing: 1.2px;
-}
-
-
-.dowloads_links_container{
-	top: 30px;
-	width: auto;
-	max-width: 540px;
-	position: relative;
-	margin: 0 auto;
-	overflow: hidden;
-	text-align: center;
-}
-
-.dowloads_links_container .albums_container{
-	position: relative;
-	text-align: center;
-	display: inline-block;
-}
-
-.download_item{
-	float: left;
-	margin: 10px 10px 10px 10px;
-	width: 250px;
-	height: 98px;
-	
-}
-
-.download_item.one{
-	background: url('../../img/downloads/covers/s1_2.png');
-	background-size: cover;
-}
-.download_item.two{
-	background: url('../../img/downloads/covers/s2_2.png');
-	background-size: cover;
-}
-.download_item.three{
-	background: url('../../img/downloads/covers/s3_2.png');
-	background-size: cover;
-}
-.download_item.four{
-	background: url('../../img/downloads/covers/s4_2.png');
-	background-size: cover;
-}
-
-.download_item .item_info{
-	display: none;
-	width: 100%;
-	height: 100%;
-	position: relative;
-	background-color: white;
-	border-radius: 5px;
-}
-
-.download_item .item_info .download_link{
-	text-align: center;
-	width: auto;
-	position: relative;
-	display: inline-block;
-	
-	border-radius: 5px;
-	top: 25px;
-	padding: 12px 25px 10px 25px;
-	
-}
-
-/*.download_item.one .item_info{
-	background-color: rgb(205, 27, 40);
-}*/
-.download_item .item_info .download_link.one{
-	background-color: rgb(205, 27, 40);
-}
-
-.download_item .item_info .download_link.two{
-	background-color: rgb(248, 165, 49);
-}
-
-.download_item .item_info .download_link.three{
-	background-color: rgb(0,102,47);
-}
-
-.download_item .item_info .download_link.four{
-	background-color: rgb(99, 110, 168);
-}
-
-.download_item .item_info .download_link p{
-	font-size: 20px;
-	font-family: burbank;
-	color: white;
-	text-decoration: none;
-}
-
-.download_item .item_info .download_link p:hover{
-	text-decoration: underline;
-}
-
 
 /* Sky */
+.clouds_container{
+
+}
+
 #plane_left {
 	position: absolute;
 	width: 350px;
@@ -208,67 +84,218 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adec', end
 	top: 220px;
 }
 
-/* Phone Portrait */
+
+/* Menu */
+.downloads_menu{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.menu_container{
+	width: auto;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.menu_item_container{
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+
+.menu_item_container .menu_item{
+	float: left;
+	padding: 12px 15px 10px 15px;
+	border-radius: 5px;
+	color: white;
+	background-color: rgba(0,0,0,0.2);
+	font-family: burbank;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+}
+
+
+.downloads_links_container{
+	top: 30px;
+	width: auto;
+	width: 95%;
+	max-width: 1200px;
+	position: relative;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+	text-align: center;
+	z-index: 99;
+}
+
+.downloads_links_container .albums_container{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+
+.downloads_links_container .albums_container a{
+	text-decoration: none;
+}
+
+
+.downloads_links_container .albums_container a .download_item{
+	float: left;
+	width: 18%;
+	margin: 1%;
+}
+
+
+.downloads_links_container .albums_container a .download_item img{
+	position: relative;
+	width: 100%;
+	transition: 0.3s ease all;
+	cursor: pointer;
+}
+
+
+.downloads_links_container .albums_container a .download_item img:hover{
+	transform: scale(1.1);
+}
+
 @media only screen
-and (max-width: 540px) {
-
-	#cloud_two {
-		left: 60%;
-		top: 100px;
+and (max-width: 349px) {
+	.downloads_links_container{
+		width: 70%;
 	}
 
-	#cloud_three{
-		left: -10%;
-		top: 300px;
+	.downloads_links_container .albums_container a .download_item{
+		float: left;
+		width: 96%;
+		margin: 2%;
 	}
 
-	#plane_right {
-		display: none;
-	}
-
-
-	.dowloads_links_container{
-		top: 30px;
-		max-width: 270px;
+	.downloads_links_container .albums_container a .download_item img:hover{
+		transform: scale(1.05);
 	}
 }
 
-/* Phone Landscape */
 @media only screen
-and (min-width: 541px)
-and (max-width: 768px) {
+and (min-width: 350px)
+and (max-width: 439px) {
+	.downloads_links_container{
+		width: 55%;
+	}
 
-	#cloud_one{
-		position: absolute;
-		width: 380px;
-		height: 138px;
-		background: url('../../img/general/sky/cloud_1.png');
-		background-size: cover;
-		left: 0%;
-		top: 80px;
+	.downloads_links_container .albums_container a .download_item{
+		float: left;
+		width: 96%;
+		margin: 2%;
+	}
+
+	.downloads_links_container .albums_container a .download_item img:hover{
+		transform: scale(1.05);
+	}
+}
+
+@media only screen
+and (min-width: 440px)
+and (max-width: 499px) {
+	.downloads_links_container{
+		width: 85%;
+	}
+
+	.downloads_links_container .albums_container a .download_item{
+		float: left;
+		width: 47%;
+		margin: 1.5%;
+	}
+
+	.downloads_links_container .albums_container a .download_item img:hover{
+		transform: scale(1.05);
+	}
+
+}
+
+
+@media only screen
+and (min-width: 500px)
+and (max-width: 629px) {
+	.downloads_links_container{
+		width: 75%;
+	}
+
+	.downloads_links_container .albums_container a .download_item{
+		float: left;
+		width: 47%;
+		margin: 1.5%;
+	}
+
+	.downloads_links_container .albums_container a .download_item img:hover{
+		transform: scale(1.05);
+	}
+}
+
+@media only screen
+and (min-width: 630px)
+and (max-width: 739px) {
+
+	.downloads_links_container{
+		width: 85%;
+	}
+
+	.downloads_links_container .albums_container a .download_item{
+		float: left;
+		width: 31.333%;
+		margin: 1%;
+	}
+
+	.downloads_links_container .albums_container a .download_item img:hover{
+		transform: scale(1.05);
+	}
+}
+
+
+@media only screen
+and (min-width: 740px)
+and (max-width: 999px) {
+
+	.downloads_links_container{
+		width: 75%;
+	}
+
+	.downloads_links_container .albums_container a .download_item{
+		float: left;
+		width: 31.333%;
+		margin: 1%;
+	}
+
+	.downloads_links_container .albums_container a .download_item img:hover{
+		transform: scale(1.05);
 	}
 
 }
 
 /* Tablet */
 @media only screen
-and (min-width: 769px)
-and (max-width: 1024px) {
-
-}
-
-/* Desktop */
-@media only screen
-and (min-width: 1025px)
+and (min-width: 1000px)
 and (max-width: 1200px) {
 
+	.downloads_links_container{
+		width: 65%;
+	}
 
+	.downloads_links_container .albums_container a .download_item{
+		float: left;
+		width: 31.333%;
+		margin: 1%;
+	}
 
+	.downloads_links_container .albums_container a .download_item img:hover{
+		transform: scale(1.05);
+	}
 }
 
-/* Desktop Big */
-@media only screen
-and (min-width: 1201px) {
 
-}
+
+
 

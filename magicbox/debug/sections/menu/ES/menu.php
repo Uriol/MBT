@@ -8,7 +8,7 @@
 				<div class='fixed_menu_elements_desktop'>
 					<a href='http://localhost:8888/MBT/magicbox/debug/UK'>
 						<div class='mbt_logo'>
-							<img src='http://192.168.1.181:8888/MBT/magicbox/debug/img/general/mbt_logo.png'>
+							<img alt='Magic Box Toys' src='http://localhost:8888/MBT/magicbox/debug/img/general/mbt_logo.png'>
 						</div>
 					</a>
 					<div class='menu_list_wrapper_desktop'>
@@ -64,7 +64,7 @@
 				<div class='fixed_menu_elements'>
 					<a href='http://localhost:8888/MBT/magicbox/debug/UK'>
 						<div class='mbt_logo'>
-							<img src='http://192.168.1.181:8888/MBT/magicbox/debug/img/general/mbt_logo.png'>
+							<img alt='Magic Box Toys' src='http://localhost:8888/MBT/magicbox/debug/img/general/mbt_logo.png'>
 						</div>
 					</a>
 					<div class='menu_icon_container'>

@@ -141,7 +141,7 @@ and (max-width: 540px) {
 	}
 
 	.arrow_wrapper_header {
-		display: none;
+		/*display: none;*/
 	}
 
 }
@@ -151,7 +151,7 @@ and (max-width: 540px) {
 and (min-width: 541px)
 and (max-width: 768px) {
 	.arrow_wrapper_header {
-		display: none;
+		/*display: none;*/
 	}
 
 }
