@@ -61,6 +61,7 @@ section.menu {
 	width: 100%;
 	margin-top: -10px;
 	cursor: pointer;
+	transition: 0.2s ease all;
 }
 
 .menu_column_container .menu_item:hover{

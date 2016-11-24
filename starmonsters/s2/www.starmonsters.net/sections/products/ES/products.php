@@ -3,17 +3,17 @@
 	<div class='products_section_wrapper'>
 		<div class='products_rounded_top'></div>
 
-		<div class='section_tittle_container' id='products_tittle'>
-			<img src="../img/general/titles/ES/productos.png" alt="products_tittle">
+		<div class='section_title_container' id='products_tittle'>
+			<img src="../img/general/titles/es/productos.png" alt="products_tittle">
 		</div>
 
 
-		<div class='series_selector_container products'>
+		<!-- <div class='series_selector_container products'>
 			<select name="series" id='series_selection_products' data-role="none">
 			 	<option value="series_one" data-index='0'>Series 1</option>
 			 	<option value="series_two" data-index='1'>Series 2</option>
 			</select>
-		</div>
+		</div> -->
 
 		<div class='carousel_products_container_full'>
 			<div class='series_products_box' id='series_one_products'>

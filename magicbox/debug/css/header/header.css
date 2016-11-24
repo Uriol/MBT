@@ -1,8 +1,6 @@
 section.header {
 	position: relative;
 	margin: 0 auto;
-	/*background: rgba(0,173,236,1);*/
-	
 }
 
 .header_wrapper{
@@ -31,7 +29,7 @@ section.header {
 	width: 100%;
 }
 .header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.zbus{
-	background: url('../../img/header/crazy_bus.png');
+	background: url('../../img/header/tin_header.png');
 	background-size: cover;
 	background-position: center;
 }
@@ -43,13 +41,9 @@ section.header {
 }
 
 .header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.sm2{
-	background: url('../../img/header/sm1_header.png');
+	background: url('../../img/header/sm2.png');
 	background-size: cover;
 	background-position: center;
-}
-
-.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.z4{
-	
 }
 
 
@@ -142,7 +136,6 @@ section.header {
 .header_cover .item_link_wrapper .item_link_container .home_icon{
 	display: inline-block;
 	position: relative;
-	/*top: 0; bottom: 0;*/
 	vertical-align: middle;
 	width: 40px;
 	height: 40px;
@@ -153,8 +146,6 @@ section.header {
 
 /* Dots */
 #header_owl .owl-controls{
-	/*width: 30px;
-	height: 30px;*/
 	background-color: blue;
 	position: absolute;
 	margin-top: -60px;
@@ -167,7 +158,6 @@ section.header {
 	padding: 10px 5px;
 	background-color: rgba(0,0,0,0.2);
 	display: inline-block;
-	/*border-radius: 50px;*/
 	border-radius: 40px;
 }
 
@@ -226,7 +216,13 @@ and (max-width: 540px) {
 		background-size: cover;
 		background-position: center;
 	}
-	
+
+	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.sm2{
+		background: url('../../img/header/sm2_small.png');
+		background-size: cover;
+		background-position: center;
+	}
+		
 
 }
 
@@ -257,15 +253,9 @@ and (max-width: 700px){
 	    right: 40px;
 	}
 
-	/* Header covers */
-	/*.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.ztin{
-		background: url('../../img/header/tin_header_small.png');
-		background-size: cover;
-		background-position: center;
-	}*/
 
 	.header_wrapper .header_carousel_container #header_owl .carousel_item .header_cover.sm2{
-		background: url('../../img/header/sm1_header_1000.png');
+		background: url('../../img/header/sm2_small.png');
 		background-size: cover;
 		background-position: center;
 	}

@@ -9,8 +9,8 @@ $(function(){
 		pagination: false,
 		slideSpeed : 300,
 		paginationSpeed : 400,
-		items : 3,
-		itemsDesktop : [1000,3], //5 items between 1000px and 901px
+		items : 4,
+		itemsDesktop : [1100,3], //3 items between 1000px and 901px
       	itemsDesktopSmall : [900,2], // betweem 900px and 601px
       	itemsTablet: [600,2],
       	itemsMobile : [540,1],

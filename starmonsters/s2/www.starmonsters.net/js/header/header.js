@@ -1,32 +1,26 @@
 $(function(){
 
-
-	// Init owl carousel
-	$('#owl_carousel_header').owlCarousel({
-		navigation : true,
+	// Init header owl
+	$('#header_owl').owlCarousel_beta({
+		nav : false,
+		dots: true,
 		slideSpeed : 300,
 		paginationSpeed : 400,
-		singleItem : true
+		autoWidth: false,
+		items: 1,
+		margin: 0,
+		responsiveRefreshRate: 20,
+		loop: true,
+		autoplay: false,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true
 	})
 
-	// Arrows
-	var header_owl = $('#owl_carousel_header').data('owlCarousel');
-	// Next
-	$('.header_arrows_container .arrow_container.right').on('click', function(){
-		header_owl.next();
-	})
-	// Prev
-	$('.header_arrows_container .arrow_container.left').on('click', function(){
-		header_owl.prev();
+	$('.arrow_container_header.right').on('click', function(){
+		$('#header_owl').trigger('next.owl.carousel');
 	})
 
-	// Update all owl carousels on resize
-	window.addEventListener("resize", onResize);
-	function onResize(){
-		 $(".owl-carousel").each(function(){
-		    $(this).data('owlCarousel').updateVars();
-		 });
-	}
-
-
+	$('.arrow_container_header.left').on('click', function(){
+		$('#header_owl').trigger('prev.owl.carousel');
+	})
 })

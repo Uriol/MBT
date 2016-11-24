@@ -1,0 +1,24 @@
+
+/* Keyframes */
+/* Menu column animation */
+@keyframes menu_out {
+	from {  left: -500px; }
+	to {  left: 0px; }
+}
+
+@keyframes menu_in {
+	from {  left: 0px; }
+	to {  left: -500px; }
+}
+
+.menu_column_container.off {
+	left: -500px;
+	animation-name: menu_in;
+	animation-duration: 0.2s;
+}
+
+.menu_column_container.on {
+	left: 0px;
+	animation-name: menu_out;
+	animation-duration: 0.2s;
+}

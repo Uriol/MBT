@@ -57,6 +57,7 @@ $(function(){
 			 $('section.character_info').fadeIn(200);
 			// Get character data index
 			character_index = $(this).data('index');
+			//console.log(character_index)
 			//  Setup swipe options
 			info_swipe_setup();
 			// Add class to info img
@@ -88,6 +89,7 @@ $(function(){
 				$('.character_info_container .arrow_container.left').removeClass('able').addClass('disabled');
 				// console.log('disable')
 				left_disabled = true;
+				console.log('now')
 			} else {
 				$('.character_info_container .arrow_container.left').removeClass('disabled').addClass('able');
 				// console.log('able')
@@ -149,7 +151,7 @@ $(function(){
 				$('#character_info_img').fadeIn(500);
 			}
 			// Attr src to img
-			$('#character_info_img').attr('src', '../img/characters/characters_info/UK/' + character_index + '.png')
+			$('#character_info_img').attr('src', '../img/characters/characters_info/uk/' + character_index + '.png')
 		}
 
 

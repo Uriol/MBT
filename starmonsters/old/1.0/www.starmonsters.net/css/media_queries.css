@@ -1,0 +1,32 @@
+/* Phone Portrait */
+@media only screen
+and (max-width: 540px) {
+
+}
+
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 768px) {
+
+}
+
+/* Tablet */
+@media only screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+
+}
+
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1200px) {
+
+}
+
+/* Desktop Big */
+@media only screen
+and (min-width: 1201px) {
+
+}

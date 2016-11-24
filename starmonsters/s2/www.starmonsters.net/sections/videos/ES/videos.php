@@ -1,69 +1,78 @@
-
 <section class='videos'>
 
-	
-
-	<div class='section_tittle_container videos'>
-		<img src="../img/general/titles/ES/videos.png" alt="videos_tittle">
+	<div class='section_title_container'>
+		<img src='../img/general/titles/es/videos.png'>
 	</div>
-	
-
 
 	<div class='carousel_container_full'>
 
-		<div class='carousel_container'>
-			<div class='arrow_container_video left'>
-				<div class='arrow_icon'></div>
+		<!-- Arrows  -->
+		<div class='arrow_wrapper'>
+			<div class='arrow_container left'>
+				<div class='arrow_icon left'></div>
 			</div>
-			<div class='arrow_container_video right'>
-				<div class='arrow_icon'></div>
+		</div>
+		
+		<div class='arrow_wrapper'>
+			<div class='arrow_container right'>
+				<div class='arrow_icon right'></div>
 			</div>
+		</div>
 
-			<div class='video_border_container'>
-				<div class='video_border_bg'></div>
-			</div>
+		<div class='owl-carousel' id='videos_owl'>
 
-			<div class='iframe_container'>
-				<div id='video_player'></div>
-			</div>
-			<div id="owl_carousel" class="owl-carousel videos">
-				<div class="item one">
-					<div id='video_one' class='video_pic' data-index='0'>
+
+			<div class="carousel_item">
+				<div class='player_container'>
+					<div class='video_player' id='player3'></div>
+				</div>
+				<div class='video_cover_container' data-index='2'>
+					<div class='video_cover two'></div>
+					<div class='player_ux_full'>
 						<div class='play_icon_container'>
-							<div class='play_icon_box'>
-								<div class='play_triangle'></div>
-							</div>
+							<div class='play_icon'></div>
 						</div>
-						<div class='video_info'>
+						<div class='text_description_container'>
 							<p>SERIES 2 - ANUNCIO TV</p>
 						</div>
 					</div>
 				</div>
-		        <div class="item two">
-		        	<div id='video_two' class='video_pic' data-index='1'>
-		        		<div class='play_icon_container'>
-							<div class='play_icon_box'>
-								<div class='play_triangle'></div>
-							</div>
+			</div>
+
+			<div class="carousel_item">
+				<div class='player_container'>
+					<div class='video_player' id='player2'></div>
+				</div>
+				<div class='video_cover_container' data-index='1'>
+					<div class='video_cover one'></div>
+					<div class='player_ux_full'>
+						<div class='play_icon_container'>
+							<div class='play_icon'></div>
 						</div>
-		        		<div class='video_info'>
+						<div class='text_description_container'>
 							<p>SERIES 1 - ANUNCIO TV</p>
 						</div>
-		        	</div>
-		        </div>
-		        <div class="item three">
-		        	<div id='video_three' class='video_pic' data-index='2'>
-		        		<div class='play_icon_container'>
-							<div class='play_icon_box'>
-								<div class='play_triangle'></div>
-							</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="carousel_item">
+				<div class='player_container'>
+					<div class='video_player' id='player1'></div>
+				</div>
+				<div class='video_cover_container' data-index='0'>
+					<div class='video_cover zero'></div>
+					<div class='player_ux_full'>
+						<div class='play_icon_container'>
+							<div class='play_icon'></div>
 						</div>
-		        		<div class='video_info'>
+						<div class='text_description_container'>
 							<p>STAR MONSTERS - LA PELÍCULA</p>
 						</div>
-		        	</div>
-		        </div>
+					</div>
+				</div>
 			</div>
+
 		</div>
 	</div>
 

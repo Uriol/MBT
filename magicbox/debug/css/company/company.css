@@ -1,12 +1,10 @@
 
-
 .content .header{
 	width: 100%;
 	padding-bottom: 45%;
 	position: relative;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.1);
 	overflow: hidden;
-
 }
 
 .company_text_wrapper{
@@ -26,7 +24,7 @@
 
 .company_text_wrapper .company_text_container h2{
 	font-weight: 700;
-	font-family: 'montserrat_medium', 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+	font-family: 'montserrat_bold','Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
 	font-size: 28px;
 	line-height: 33px;
 	letter-spacing: 0.2px;
@@ -35,7 +33,7 @@
 .company_text_wrapper .company_text_container p{
 	margin-top: 30px;
 	font-weight: 400;
-	font-family: 'montserrat_medium','Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+	font-family: 'montserrat_med', 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 23px;
 	letter-spacing: 0.2px;
@@ -52,255 +50,482 @@
 }
 
 
-/* CAROUSEL TIMELINE */
-section.timeline{
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-	padding-bottom: 60px;
+/* Timeline */
+* {
+   box-sizing: border-box;
 }
 
-.timeline .timeline_wrapper{
-	width: 100%;
+section.timeline {
 	position: relative;
+	width: 100%;
+	padding: 25px 0px 40px 0px;
 }
 
-.timeline .timeline_wrapper .timeline_carousel_container{
-	width: 100%;
-	position: relative;
-}
-
-.timeline .timeline_wrapper .timeline_carousel_container #timeline_owl{
-	width: 30%;
+.timeline .timeline_container{
+	width: 85%;
+	max-width: 1100px;
 	position: relative;
 	margin: 0 auto;
 }
 
-.timeline .timeline_wrapper .timeline_carousel_container #timeline_owl .item_content_wrapper{
 
+.timeline_container ul:after{
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: rgba(0,0,0,0.1);
+	left: 50%;
+	border-radius: 8px;
+	top: 0;
+	bottom: 0;
+	margin-left: -3px;
+	z-index: -99;
+}
+
+.timeline_container ul li{
+	padding: 0px 10px 0px 10px;
+	width: 50%;
+	position: relative;
+	transition: 0.3s ease all;
+	opacity: 0;
+	
+}
+
+.timeline_container ul li.right.text{
+	margin-top: 10px; margin-bottom: 10px;
+}
+
+.timeline_container ul li.right{
+	margin-left: 50%;
 }
 
 
-#timeline_owl .carousel_item .item_content_wrapper .year_container{
-
+/* Animation */
+.timeline_container ul li.left{
+	transform: translate3d(-10%, 0, 0);
+	opacity: 0;
 }
 
-#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box{
-
+.timeline_container ul li.right{
+	transform: translate3d(10%, 0, 0);
 }
 
-#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p{
+.timeline_container ul li.on{
+	transform: none;
+	opacity: 1;
+}
+
+
+
+/* Year */
+.timeline_container ul li.year{
+	text-align: center;
+	padding: 30px 0px 20px 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.timeline_container ul li.year.arrow_left{
+	margin-left: 20%;
+}
+
+.timeline_container ul li.year.arrow_right{
+	margin-left: 30%;
+}
+
+
+.timeline_container ul li.year.first{
+	padding: 0px 0px 20px 0px;
+}
+
+.timeline_container ul li.year .arrow_image_container{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.timeline_container ul li.year .arrow_image_container img{
+	width: 180px;
+	position: relative;
+}
+
+.timeline_container ul li.year .text_container{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+.timeline_container ul li.year .text_container p{
+	font-size: 30px;
+	font-family: montserrat_bold;
+	margin-top: 23px;
+	color: white;
+}
+
+/* Arrow animations */
+.timeline_container ul li.year.arrow_left.on{
+	margin-left: 25%;
+}
+
+.timeline_container ul li.year.arrow_right.on{
+	margin-left: 25%;
+}
+
+.timeline_container ul li .timeline_item{
+	position: relative;
+	cursor: default;
+	transition: all 0.3s ease 0s;
+}
+
+.timeline_container ul li.right{
+	padding: 0px 10px 0px 40px;
+}
+
+.timeline_container ul li.left{
+	padding: 0px 40px 0px 10px;
+}
+
+/* Item dots in timeline */
+.timeline_container ul li:before{
+	content: '';
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	top: 55px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.timeline_container ul li.text:before{
+	top: 15px;
+}
+
+.timeline_container ul li.red:before{
+	background-color: rgb(223,38,37);
+}
+
+.timeline_container ul li.green:before{
+	background-color: rgb(121,186,47);
+}
+
+.timeline_container ul li.yellow:before{
+	background-color: rgb(255,163,34);
+}
+
+.timeline_container ul li.left:before{
+	right: -14px;
+}
+
+.timeline_container ul li.right:before{
+	right: auto;
+	left: -13px;
+}
+
+/* Item content */
+/* Selector arrow */
+.timeline_container ul li .timeline_item .item_content_wrapper .selector_arrow_container{
+	width: 0; 
+  	height: 0; 
+	position: absolute;
+	z-index: -9;
+	border-radius: 8px;
+	top: 42.5px;
+}
+
+.timeline_container ul li .timeline_item .item_content_wrapper .selector_arrow_container.text{
+	top: 2.5px;
+}
+
+.timeline_container ul li.left .timeline_item .item_content_wrapper .selector_arrow_container{
+	right: -12px;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent; 
+}
+
+.timeline_container ul li.left .timeline_item.red .item_content_wrapper .selector_arrow_container{
+	border-left:25px solid rgb(223,38,37);
+}
+
+.timeline_container ul li.left .timeline_item.green .item_content_wrapper .selector_arrow_container{
+	border-left:25px solid rgb(121,186,47);
+}
+.timeline_container ul li.left .timeline_item.yellow .item_content_wrapper .selector_arrow_container{
+	border-left:25px solid rgb(255,163,34);
+}
+
+/* Right */
+.timeline_container ul li.right .timeline_item .item_content_wrapper .selector_arrow_container{
+	left: -12px;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent; 
+}
+
+.timeline_container ul li.right .timeline_item.red .item_content_wrapper .selector_arrow_container{
+	border-right:25px solid rgb(223,38,37);
+}
+
+.timeline_container ul li.right .timeline_item.green .item_content_wrapper .selector_arrow_container{
+	border-right:25px solid rgb(121,186,47);
+}
+.timeline_container ul li.right .timeline_item.yellow .item_content_wrapper .selector_arrow_container{
+	border-right:25px solid rgb(255,163,34);
+}
+
+
+/* Year */
+.timeline_container ul li.left .timeline_item .item_content_wrapper .year_container{
+	text-align: right;
+	display: none;
+}
+
+.timeline_container ul li.right .timeline_item .item_content_wrapper .year_container{
+	text-align: left;
+	display: none;
+}
+
+.timeline_container ul li .timeline_item .item_content_wrapper .year_container .year_container_box{
+	
+}
+
+.timeline_container ul li .timeline_item .item_content_wrapper .year_container .year_container_box p{
 	display: inline-block;
 	padding: 10px 20px 0px 20px;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	color: white;
-	font-family: 'Montserrat';
-	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: montserrat_bold;
+	font-size: 22px;
 	font-weight: 700;
+} 
+
+.timeline_container ul li .timeline_item.red .item_content_wrapper .year_container .year_container_box p{
+	background-color: rgb(223,38,37);
 }
 
-#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p.inactive{
-	opacity: 0;
+.timeline_container ul li .timeline_item.green .item_content_wrapper .year_container .year_container_box p{
+	background-color: rgb(121,186,47);
+}
+
+.timeline_container ul li .timeline_item.yellow .item_content_wrapper .year_container .year_container_box p{
+	background-color: rgb(255,163,34);
 }
 
 
-
-
-#timeline_owl .carousel_item .item_content_wrapper .image_container{
+/* IMAGE */
+.timeline_container ul li .timeline_item .item_content_wrapper .image_container{
 	width: 100%;
-	padding-bottom: 75%;
-	border-top-right-radius: 8px;
 	position: relative;
+	background-color: yellow;
 }
 
-#timeline_owl .carousel_item .item_content_wrapper .image_container.rounded{
+.timeline_container ul li.left .timeline_item .item_content_wrapper .image_container{
+	border-top-left-radius: 8px;
+}
+
+.timeline_container ul li.right .timeline_item .item_content_wrapper .image_container{
+	border-top-right-radius: 8px;
+}
+
+.timeline_container ul li.left .timeline_item.rounded .item_content_wrapper .image_container{
+	border-top-right-radius: 8px;
+}
+
+.timeline_container ul li.right .timeline_item.rounded .item_content_wrapper .image_container{
 	border-top-left-radius: 8px;
 }
 
 
-
-#timeline_owl .carousel_item .item_content_wrapper .image_container .image_cover{
-	width: 95%;
-	height: 94%;
-	margin: auto;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
+.timeline_container ul li .timeline_item.red .item_content_wrapper .image_container{
+	background-color: rgb(223,38,37);
 }
 
-#timeline_owl .carousel_item .item_content_wrapper .image_container .image_cover.rounded{
+.timeline_container ul li .timeline_item.green .item_content_wrapper .image_container{
+	background-color: rgb(121,186,47);
 }
 
-#timeline_owl .carousel_item .item_content_wrapper .image_container .image_cover img{
+.timeline_container ul li .timeline_item.yellow .item_content_wrapper .image_container{
+	background-color: rgb(255,163,34);
+}
+
+.timeline_container ul li .timeline_item .item_content_wrapper .image_container .image_cover{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.timeline_container ul li .timeline_item .item_content_wrapper .image_container .image_cover img{
+	width: 100%;
 	position: relative;
+}
+
+/* DESCRIPTION TEXT */
+.timeline_container ul li .timeline_item .item_content_wrapper .text_container{
 	width: 100%;
-	overflow:hidden;
-	border-top-right-radius: 8px;
-
-}
-
-#timeline_owl .carousel_item .item_content_wrapper .image_container .image_cover img.rounded{
-	border-top-left-radius: 8px;
-}
-
-#timeline_owl .carousel_item .item_content_wrapper .image_container .timeline_line_container{
-	width: 80%;
-	height: 7px;
-	margin: auto;
-	position: absolute;
-	top: 0; left: 50%; bottom: 0; right: 0;
-	z-index: -9;
-}
-
-
-
-/* Text */
-#timeline_owl .carousel_item .item_content_wrapper .text_container{
-	width: 100%;
-	padding: 15px 20px 20px 20px;
+	padding: 5px 20px 15px 20px;
 	box-sizing: border-box;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 	text-align: center;
 }
 
+.timeline_container ul li .timeline_item .item_content_wrapper .text_container.text{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 15px 20px 15px 20px;
+}
 
-
-#timeline_owl .carousel_item .item_content_wrapper .text_container p{
+.timeline_container ul li .timeline_item .item_content_wrapper .text_container p{
 	color: white;
-	font-family: 'Montserrat';
+	font-family: 'montserrat_med', 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 23px;
 	letter-spacing: 0.5px;
 }
 
-/* Colors */
-/* Year bg */
-#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p.red{
-	background-color: rgb(223,38,37);
-}
-#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p.green{
-	background-color: rgb(121,186,47);
-}
-#timeline_owl .carousel_item .item_content_wrapper .year_container .year_container_box p.yellow{
-	background-color: rgb(255,163,34);
-}
-
-/* BG */
-#timeline_owl .carousel_item .item_content_wrapper .image_container.red{
-	background-color: rgb(223,38,37);
-}
-#timeline_owl .carousel_item .item_content_wrapper .image_container.green{
-	background-color: rgb(121,186,47);
-}
-#timeline_owl .carousel_item .item_content_wrapper .image_container.yellow{
-	background-color: rgb(255,163,34);
-}
-
-
-/* Timeline */
-#timeline_owl .carousel_item .item_content_wrapper .image_container .timeline_line_container.red{
+.timeline_container ul li .timeline_item.red .item_content_wrapper .text_container{
 	background-color: rgb(223,38,37);
 }
 
-#timeline_owl .carousel_item .item_content_wrapper .image_container .timeline_line_container.green{
+.timeline_container ul li .timeline_item.green .item_content_wrapper .text_container{
 	background-color: rgb(121,186,47);
 }
 
-#timeline_owl .carousel_item .item_content_wrapper .image_container .timeline_line_container.yellow{
+.timeline_container ul li .timeline_item.yellow .item_content_wrapper .text_container{
 	background-color: rgb(255,163,34);
 }
 
-/* Text container */
-#timeline_owl .carousel_item .item_content_wrapper .text_container.red{
-	background-color: rgb(223,38,37);
-}
-#timeline_owl .carousel_item .item_content_wrapper .text_container.green{
-	background-color: rgb(121,186,47);
-}
-#timeline_owl .carousel_item .item_content_wrapper .text_container.yellow{
-	background-color: rgb(255,163,34);
-}
-
-
-
-
-
-
-
-
-/* Arrows */
-.arrow_wrapper_timeline{
-	display: block;
-	margin-top: -10px;
-}
-
-.arrow_wrapper_timeline .arrow_container_timeline{
-	width: 100px;
-	height: 100px;
-	background-color: rgba(0,0,0,0.2);
-	position: absolute;
-	z-index: 9;
-	cursor: pointer;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.2s ease all;
-}
-
-.arrow_wrapper_timeline .arrow_container_timeline:hover{
-	background-color: rgba(0,0,0,0.9);
-	transform: scale(1.1);
-}
-
-.arrow_wrapper_timeline .arrow_container_timeline.left{
-	margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50px;
-}
-
-.arrow_wrapper_timeline .arrow_container_timeline.right{
-	margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 50px;
-}
-
-.arrow_wrapper_timeline .arrow_container_timeline .arrow_icon{
-	position: absolute;
-    width: 100px;
-    height: 100px;
-}
-
-.arrow_wrapper_timeline .arrow_container_timeline .arrow_icon.right{
-	background: url('../../img/general/right_arrow_circle.png');
-	background-size: cover;
-}
-
-.arrow_wrapper_timeline .arrow_container_timeline .arrow_icon.left{
-	background: url('../../img/general/left_arrow_circle.png');
-	background-size: cover;
-}
-
-
-
-/* Phone Portrait */
+/*Phone Portrait */
 @media only screen
-and (max-width: 540px) {
+and (max-width: 600px) {
 	.content .header{
 		padding-bottom: 75%;
 	}
+
+	/* Text */
+	.company_text_wrapper .company_text_container{
+		padding: 30px 0px 20px 0px;
+	}
+
+	.company_text_wrapper .company_text_container{
+		width: 80%;
+	}
+
+	.company_text_wrapper .company_text_container h2{
+		font-size: 22px;
+		line-height: 27px;
+		letter-spacing: 0.4px;
+	}
+
+	.company_text_wrapper .company_text_container p{
+		margin-top: 30px;
+		font-weight: 400;
+		font-family: 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 0.2px;
+	}
+
+
+	/* Timeline */
+	section.timeline {
+		padding: 15px 0px 40px 0px;
+	}
+
+	.timeline .timeline_container{
+		width: 100%;
+	}
+
+	.timeline_container ul li{
+		padding: 0px 10px 0px 10px;
+		width: 80%;
+		position: relative;
+		transition: 0.3s ease all;
+		opacity: 0;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+
+	.timeline_container ul li.year{
+		width: 50%;
+		padding: 0px 0px 0px 0px;
+	}
+	.timeline_container ul li.year.first{
+		padding: 0px 0px 0px 0px;
+	}
+
+	.timeline_container ul li.right.text{
+		margin-top: 20px;
+	}
+
+	.timeline_container ul li.right{
+		margin-left: auto;
+	}
+
+	.timeline_container ul li.left .timeline_item .item_content_wrapper .image_container{
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
+
+	.timeline_container ul li.right .timeline_item .item_content_wrapper .image_container{
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
+
+	.timeline_container ul li .timeline_item .item_content_wrapper .selector_arrow_container{
+		display: none;
+	}
+
+	/* Animation */
+	.timeline_container ul li.left{
+		transform: translate3d(10%, 0, 0);
+		opacity: 0;
+	}
+
+	.timeline_container ul li.right{
+		transform: translate3d(-10%, 0, 0);
+	}
+
+	.timeline_container ul li.on{
+		transform: none;
+		opacity: 1;
+	}
+
+	/* Item dots in timeline */
+	.timeline_container ul li:before{
+		display: none;	
+	}
+
+	.timeline_container ul li.right{
+		padding: 0px 10px 0px 10px;
+	}
+
+	.timeline_container ul li.left{
+		padding: 0px 10px 0px 10px;
+	}
+
+
+	.timeline_container ul li.left .timeline_item .item_content_wrapper .year_container{
+		text-align: center;
+	}
+
+	.timeline_container ul li.right .timeline_item .item_content_wrapper .year_container{
+		text-align: center;
+	}
+
 }
+
 
 /* Phone Landscape */
 @media only screen
-and (min-width: 541px)
+and (min-width: 601px)
 and (max-width: 700px) {
 	.content .header{
 		padding-bottom: 60%;
+	}
+
+	.company_text_wrapper .company_text_container{
+		width: 80%;
 	}
 }
 
@@ -310,6 +535,10 @@ and (min-width: 701px)
 and (max-width: 1024px) {
 	.content .header{
 		padding-bottom: 50%;
+	}
+
+	.company_text_wrapper .company_text_container{
+		width: 90%;
 	}
 }
 

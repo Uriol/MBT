@@ -1,0 +1,705 @@
+section.characters{
+	width: 100%;
+	position: relative;
+	margin-top: -25px;
+	padding-bottom: 20px;
+}
+
+
+
+/* DOM Particles */
+#particles {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+#particles #particles_container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#particles #particles_container .particle{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	border-radius: 50%;
+	opacity: 0.7;
+
+	background-color: rgb(0,115,185);
+	
+}
+
+
+/* Series Selector container --------------------------------- */
+.series_selector_container {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 0px;
+}
+
+.series_selector_container select{
+	border-radius: 5px;
+	border: 0;
+	font-family: calibri;
+	-webkit-appearance: none;
+	background: white;
+	font-size: 18px;
+	/*letter-spacing: 1px;*/
+	color: black;
+	padding: 10px 150px 10px 15px;
+	background-image: url(../../img/characters/select_arrow_2.png);
+	    background-position: right center;
+    background-repeat: no-repeat;
+
+}
+
+.series_selector_container select:focus {
+	outline: none;
+}
+
+
+
+/* Checklist ----------------------------------------- */
+.checklist_BG{
+	width: 100%;
+	position: relative;
+	padding-top: 15px;
+}
+
+.checklist_container{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.serie_checklist_container{
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: none;
+	overflow: hidden;
+	padding-bottom: 45px;
+}
+
+
+
+
+/* General checklist */
+.character {
+	width: 14.3%;
+	margin-left: 2%;
+	float: left;
+	overflow: hidden;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.character.extra_margin_three {
+	margin-left: 26.45%;
+}
+
+.character:hover {
+	transform: scale(1.05);
+}
+
+.character img{
+	position: relative;
+	width: 100%;
+}
+
+.character.shadow {
+	width: 15.46%;
+	margin-left: 1%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+
+
+.characters_container_wrapper{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.characters_container{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.characters_container.rare {
+	margin-top: 25px;
+}
+
+.characters_container.evolution {
+	margin-top: 25px;
+}
+
+/* Shadows */
+.shadow_characters_container{
+	position: relative;
+	width: 80%;
+	/*background-color: red;*/
+	margin: 0 auto;
+	margin-top: 15px;
+	/*padding-bottom: 15px;*/
+	overflow: hidden;
+}
+
+
+.shadow_characters {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 60px;
+	background: rgba(0,82,123,1);
+background: -moz-linear-gradient(top, rgba(0,82,123,1) 0%, rgba(0,82,123,1) 8%, rgba(142,208,238,1) 30%, rgba(0,82,123,1) 73%, rgba(0,82,123,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,82,123,1)), color-stop(8%, rgba(0,82,123,1)), color-stop(30%, rgba(142,208,238,1)), color-stop(73%, rgba(0,82,123,1)), color-stop(100%, rgba(0,82,123,1)));
+background: -webkit-linear-gradient(top, rgba(0,82,123,1) 0%, rgba(0,82,123,1) 8%, rgba(142,208,238,1) 30%, rgba(0,82,123,1) 73%, rgba(0,82,123,1) 100%);
+background: -o-linear-gradient(top, rgba(0,82,123,1) 0%, rgba(0,82,123,1) 8%, rgba(142,208,238,1) 30%, rgba(0,82,123,1) 73%, rgba(0,82,123,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,82,123,1) 0%, rgba(0,82,123,1) 8%, rgba(142,208,238,1) 30%, rgba(0,82,123,1) 73%, rgba(0,82,123,1) 100%);
+background: linear-gradient(to bottom, rgba(0,82,123,1) 0%, rgba(0,82,123,1) 8%, rgba(142,208,238,1) 30%, rgba(0,82,123,1) 73%, rgba(0,82,123,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00527b', endColorstr='#00527b', GradientType=0 );
+
+}
+
+.shadow_characters_wrapper{
+	position: relative;
+	margin: 0 auto;
+	width: 93%;
+	overflow: hidden;
+}
+
+
+
+.shadow_text_container {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	
+	text-align: center;
+	font-family: rolling;
+	color: rgb(255,245,90);
+	font-size: 35px;
+	letter-spacing: 1px;
+
+	padding: 25px 0 5px 0;
+}
+
+
+
+/* Rare + Ultra Rare ---------------------------------------------- */
+.gold_characters_container{
+	float: left;
+	overflow: hidden;
+	width: 50%;
+}
+
+.silver_characters_container{
+	float: left;
+	overflow: hidden;
+	width: 50%;
+}
+
+.rare_text_container{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.rare_text_box {
+	width: 80%;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px 0 15px 0;
+	border-radius: 30px;
+}
+
+.rare_text_box.gold {
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(225,172,13,1) 67%, rgba(225,172,13,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(67%, rgba(225,172,13,1)), color-stop(100%, rgba(225,172,13,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(225,172,13,1) 67%, rgba(225,172,13,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(225,172,13,1) 67%, rgba(225,172,13,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(225,172,13,1) 67%, rgba(225,172,13,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(225,172,13,1) 67%, rgba(225,172,13,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1ac0d', GradientType=0 );
+}
+
+.rare_text_box.silver {
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(152,159,171,1) 67%, rgba(152,159,171,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(67%, rgba(152,159,171,1)), color-stop(100%, rgba(152,159,171,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(152,159,171,1) 67%, rgba(152,159,171,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(152,159,171,1) 67%, rgba(152,159,171,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(152,159,171,1) 67%, rgba(152,159,171,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(152,159,171,1) 67%, rgba(152,159,171,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#989fab', GradientType=0 );
+}
+
+.rare_text_box h2{
+	font-size: 30px;
+	font-family: rolling;
+	color: white;
+	letter-spacing: 1px;
+	
+}
+
+.rare_text_box h2 span {
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+.rare_text_box h2 span.gold{
+		color: rgb(125, 77, 4);
+}
+
+.rare_text_box h2 span.silver{
+		color: rgb(80,81,83);
+}
+
+.rare_characters_container{
+	width: 100%;
+	position: relative;
+}
+
+.character.rare{
+	width: 28.6%;
+	margin-left: 4%;
+}
+
+/* Evolution --------------------------------------- */
+.evo_text_container{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.evolution_text_box{
+	width: 40%;
+	position: relative;
+	margin: 0 auto;
+	padding: 15px 0 15px 0;
+	text-align: center;
+	border-radius: 30px;
+	background: rgba(233,229,14,1);
+	background: -moz-linear-gradient(top, rgba(233,229,14,1) 0%, rgba(124,190,48,1) 30%, rgba(0,83,35,1) 60%, rgba(0,83,35,1) 99%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(233,229,14,1)), color-stop(30%, rgba(124,190,48,1)), color-stop(60%, rgba(0,83,35,1)), color-stop(99%, rgba(0,83,35,1)));
+	background: -webkit-linear-gradient(top, rgba(233,229,14,1) 0%, rgba(124,190,48,1) 30%, rgba(0,83,35,1) 60%, rgba(0,83,35,1) 99%);
+	background: -o-linear-gradient(top, rgba(233,229,14,1) 0%, rgba(124,190,48,1) 30%, rgba(0,83,35,1) 60%, rgba(0,83,35,1) 99%);
+	background: -ms-linear-gradient(top, rgba(233,229,14,1) 0%, rgba(124,190,48,1) 30%, rgba(0,83,35,1) 60%, rgba(0,83,35,1) 99%);
+	background: linear-gradient(to bottom, rgba(233,229,14,1) 0%, rgba(124,190,48,1) 30%, rgba(0,83,35,1) 60%, rgba(0,83,35,1) 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e50e', endColorstr='#005323', GradientType=0 );
+}
+
+.evolution_text_box h2{
+	font-size: 30px;
+	font-family: rolling;
+	color: white;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+/* Media queries ------------------------------------------------------------------- */
+/* Phone Portrait */
+@media only screen
+and (max-width: 399px) {
+
+	/* select */
+	.series_selector_container {
+		margin-top: 20px;
+	}
+
+	.series_selector_container {
+		padding-top: 10px;
+	}
+
+	.checklist_BG{
+		padding-top: 10px;
+	}
+
+	.characters_container{
+		width: 90%;
+	}
+
+	.character {
+		width: 44%;
+		margin-left: 4%;
+		float: left;
+		overflow: hidden;
+		margin-top: 15px;
+		cursor: pointer;
+	}
+
+	.character.extra_margin_three {
+		margin-left: 4%;
+	}
+
+	.character.extra_margin_one {
+		margin-left: 28%;
+	}
+
+	/* Shadow */
+	.shadow_characters_container{
+		width: 100%;
+	}
+
+	.shadow_characters {
+		border-radius: 0px;
+		width: 100%;
+	}
+
+	.shadow_characters_wrapper{
+		position: relative;
+		margin: 0 auto;
+		width: 90%;
+		overflow: hidden;
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.character.shadow {
+		width: 44%;
+		margin-left: 4%;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+
+	/* Rare and Ultra rare */
+	.characters_container.rare{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.character.rare {
+		width: 44%;
+		margin-left: 4%;
+	}
+
+	.character.rare.extra_margin_one {
+		margin-left: 28%;
+	}
+
+	/* Gold */
+	.gold_characters_container {
+		width: 90%;
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		margin-top: 15px;
+	}
+
+	/* Silver */
+	.silver_characters_container {
+		width: 90%;
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		margin-top: 15px;
+	}
+
+	/* Rare text */
+	.rare_text_box {
+		/*width: 90%;*/
+	}
+
+
+	.rare_text_box h2{
+		font-size: 20px;
+		letter-spacing: 0.6px;
+	}
+
+	.rare_text_box h2 span {
+		font-size: 15px;
+		padding-left: 15px;
+	}
+
+	/* Evo text */
+	.evolution_text_box {
+		width: 80%;
+	}
+
+
+	.evolution_text_box h2{
+		font-size: 20px;
+		letter-spacing: 0.8px;
+	}
+
+}
+
+@media only screen
+and (min-width: 400px)
+and (max-width: 540px) {
+
+	/* select */
+	.series_selector_container {
+		margin-top: 20px;
+	}
+
+	.character {
+		width: 30.6%;
+		margin-left: 2%;
+		float: left;
+		overflow: hidden;
+		margin-top: 15px;
+		cursor: pointer;
+	}
+
+	.character.extra_margin_three {
+		margin-left: 2%;
+	}
+
+	/* Shadow */
+	.shadow_characters_container{
+		width: 100%;
+	}
+
+	.shadow_characters {
+		border-radius: 0px;
+		width: 100%;
+	}
+
+	.shadow_characters_wrapper{
+		position: relative;
+		margin: 0 auto;
+		width: 80%;
+		overflow: hidden;
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.character.shadow {
+		width: 30.6%;
+		margin-left: 2%;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+
+
+	/* Rare and Ultra rare */
+	.characters_container.rare{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.character.rare {
+		width: 30.6%;
+		margin-left: 2%;
+	}
+
+	/* Gold */
+	.gold_characters_container {
+		width: 65.5%;
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		margin-top: 15px;
+	}
+	/* Silver */
+	.silver_characters_container {
+		width: 65.5%;
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		margin-top: 15px;
+	}
+	/* Rare text */
+	.rare_text_box h2{
+		font-size: 25px;
+		letter-spacing: 0.8px;
+	}
+
+	.rare_text_box h2 span {
+		font-size: 20px;
+		padding-left: 17.5px;
+	}
+
+	.evolution_text_box{
+		width: 58%;
+	}
+
+	.evolution_text_box h2{
+		font-size: 25px;
+		letter-spacing: 0.8px;
+	}
+
+}
+/* Phone Landscape */
+@media only screen
+and (min-width: 541px)
+and (max-width: 768px) {
+
+	/* 4 characters x row */
+	.character {
+		width: 22.5%;
+		margin-left: 2%;
+		float: left;
+		overflow: hidden;
+		margin-top: 15px;
+		cursor: pointer;
+	}
+
+
+	.character.extra_margin_three{
+		margin-left: 13.25%;
+	}
+
+	.character.extra_margin_two{
+		margin-left: 26.5%;
+	}
+
+	.characters_container{
+		width: 90%;
+	}
+
+	/* Shadow v2 100% */
+	.shadow_characters_container {
+		width: 100%;
+	}
+
+	.shadow_characters {
+		border-radius: 0px;
+		width: 100%;
+	}
+
+	.shadow_characters_wrapper{
+		position: relative;
+		margin: 0 auto;
+		width: 90%;
+		overflow: hidden;
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.character.shadow {
+		width: 22.5%;
+		margin-left: 2%;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+
+	.character.shadow.extra_margin_three {
+		margin-left: 13.25%;
+	}
+
+
+
+	/* Rare and Ultra rare */
+	.characters_container.rare{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.character.rare {
+		width: 30.6%;
+		margin-left: 2%;
+	}
+
+	/* Gold */
+	.gold_characters_container {
+		width: 65.5%;
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		margin-top: 15px;
+	}
+	/* Silver */
+	.silver_characters_container {
+		width: 65.5%;
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		margin-top: 15px;
+	}
+	/* Rare text */
+	.rare_text_box h2{
+		font-size: 25px;
+		letter-spacing: 0.8px;
+	}
+
+	.rare_text_box h2 span {
+		font-size: 20px;
+		padding-left: 17.5px;
+	}
+
+	.evolution_text_box{
+		width: 58%;
+	}
+
+	.evolution_text_box h2{
+		font-size: 25px;
+		letter-spacing: 0.8px;
+	}
+
+
+}
+
+/* Tablet */
+@media only screen
+and (min-width: 769px)
+and (max-width: 1024px) {
+
+	.characters_container{
+		width: 95%;
+	}
+
+	.shadow_characters_container{
+		width: 95%;
+	}
+
+	/* Gold ultra rare text too big*/
+	.rare_text_box h2{
+		font-size: 25px;
+		letter-spacing: 0.8px;
+	}
+
+	.rare_text_box h2 span {
+		font-size: 20px;
+		padding-left: 17.5px;
+	}
+
+
+	.evolution_text_box h2{
+		font-size: 25px;
+		letter-spacing: 0.8px;
+	}
+
+}
+
+/* Desktop */
+@media only screen
+and (min-width: 1025px)
+and (max-width: 1200px) {
+
+	.characters_container{
+		width: 90%;
+	}
+
+	.shadow_characters_container{
+		width: 90%;
+	}
+
+}
+
+/* Desktop Big */
+@media only screen
+and (min-width: 1201px) {
+
+}
+
+
+

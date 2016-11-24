@@ -4,8 +4,8 @@
 		<div id='particles_container'></div>
 	</div>
 
-	<div class='section_tittle_container' id='characters_tittle'>
-		<img src="../img/general/titles/UK/characters.png" alt="characters_tittle">
+	<div class='section_title_container' id='characters_tittle'>
+		<img src="../img/general/titles/uk/characters.png" alt="characters_tittle">
 	</div>
 
 	<div class='series_selector_container'>

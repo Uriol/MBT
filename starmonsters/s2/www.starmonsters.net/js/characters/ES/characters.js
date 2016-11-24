@@ -152,7 +152,7 @@ $(function(){
 				$('#character_info_img').fadeIn(500);
 			}
 			// Attr src to img
-			$('#character_info_img').attr('src', '../img/characters/characters_info/ES/' + character_index + '.png')
+			$('#character_info_img').attr('src', '../img/characters/characters_info/es/' + character_index + '.png')
 		}
 
 

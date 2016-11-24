@@ -3,9 +3,6 @@
 var YT_API_READY = false;
 
 var playerInfoList = [{
-	id: 'player5',
-    videoId: '1GoxKV2Ess8'
-}, {
     id: 'player4',
     videoId: '1GoxKV2Ess8'
 }, {

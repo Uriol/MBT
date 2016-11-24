@@ -7,7 +7,6 @@ section.footer{
 .footer .footer_container{
 	width: 100%;
 	padding: 70px 0px 35px 0px;
-	/*background-color: rgb(25,25,25);*/
 	background-color: rgb(115, 189, 78);
 	overflow: hidden;
 }
@@ -21,7 +20,6 @@ section.footer{
 
 /* Logo wrapper */
 .footer_container .links_container .logo_wrapper{
-	/*padding: 40px 0px 15px 0px;*/
 	display: inline-block;
 	vertical-align: middle;
 	padding: 0px 15px 0px 15px;
@@ -75,36 +73,24 @@ section.footer{
 .links_container .social_media_wrapper .media_icon.facebook{
 	background-color: #3b5998;
 }
-.links_container .social_media_wrapper .media_icon.facebook:hover{
-	/*background-color: white;
-	color: #3b5998;*/
-}
+
 /* Twitter */
 .links_container .social_media_wrapper .media_icon.twitter{
 	background-color: #00aced;
 }
-.links_container .social_media_wrapper .media_icon.twitter:hover{
-	/*background-color: white;
-	color: #00aced;*/
-}
+
 
 /* Instagram */
 .links_container .social_media_wrapper .media_icon.instagram{
 	background-color: #517fa4;
 }
-.links_container .social_media_wrapper .media_icon.instagram:hover{
-	/*background-color: white;
-	color: #517fa4;*/
-}
+
 
 /* Instagram */
 .links_container .social_media_wrapper .media_icon.youtube{
 	background-color: #b00;
 }
-.links_container .social_media_wrapper .media_icon.youtube:hover{
-	/*background-color: white;
-	color: #b00;*/
-}
+
 
 
 /* Youtube */
@@ -117,9 +103,6 @@ section.footer{
 	vertical-align: middle;
 }
 
-/*.links_container .social_media_wrapper .media_icon img{
-	width: 100%;
-}*/
 
 /* Rights */
 .links_container .rights_container{
@@ -138,10 +121,6 @@ section.footer{
 }
 
 
-/* 	rgb(119, 191, 63) */
-/* 	rgb(165, 235, 85) */
-
-/* mbi 115, 189, 78*/
 
 /* Phone Portrait */
 @media only screen

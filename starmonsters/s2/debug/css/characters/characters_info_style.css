@@ -43,12 +43,14 @@ section.character_info .character_info_container .arrow_container{
 	margin: auto;
     position: absolute;
     z-index: 9999;
-    /*float: left;*/
     width: 80px;
     height: 80px;
-   
-    
+    transition: 0.2s ease all;
     cursor: pointer;
+}
+
+section.character_info .character_info_container .arrow_container:hover{
+	transform: scale(1.15);
 }
 
 section.character_info .character_info_container .arrow_container.left{
@@ -70,6 +72,7 @@ section.character_info .character_info_container .arrow_container:hover {
 section.character_info .character_info_container .arrow_container.disabled {
 	opacity: 0.2;
 	cursor: auto;
+	display: none;
 }
 
 section.character_info .character_info_container .arrow_container.able{

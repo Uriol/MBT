@@ -1,5 +1,5 @@
 /* Section tittle container */
-.section_tittle_container {
+.section_title_container {
 	width: 100%;
 	position: relative;
 	margin: 0 auto;
@@ -7,69 +7,32 @@
 	overflow: hidden;
 }
 
-.section_tittle_container.videos{
+.section_title_container.videos{
 	padding-bottom: 0px;
 	padding-top: 15px;
 }
 
-.section_tittle_container img{
+.section_title_container img{
 	width: 100%;
 	max-width: 400px;
 }
 
-.section_tittle_container .tittle_box{
-	text-align: center;
-	position: relative;
-	margin: 0 auto;
-	border-radius: 35px;
-	height: 70px;
-}
 
-.section_tittle_container .tittle_box h1{
-	font-family: rolling;
-	font-size: 35px;
-	padding-top: 17px;
-	text-align: center;
-	color: white;
-}
 
 /* Custom tittles */
 /* Videos */
 #videos_tittle {
 	margin-top: 40px;
 }
-.tittle_box.videos {
-	width: 250px;
-	background-color: rgb(243, 130,48);
-}
+
 /* Characters */
 #characters_tittle {
 	padding-top: 40px;
 }
-/* Characters */
-.tittle_box.characters {
-	width: 350px;
-	background-color: rgb(255,255,255);
-}
-.tittle_box.characters h1{
-	color: rgb(0, 142, 220);
-}
-/* Products */
-.tittle_box.products {
-	width: 310px;
-	background-color: rgb(251, 181, 49);
-}
+
 /* Downloads */
 #downloads_tittle {
 	padding-top: 40px;
-}
-.tittle_box.downloads{
-	width: 310px;
-	background-color: white;
-}
-
-.tittle_box.downloads h1{
-	color: rgb(129,193,74);
 }
 
 

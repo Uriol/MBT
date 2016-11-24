@@ -6,30 +6,28 @@
 <html>
 	<head>
 		<title>Magic Box Toys - Company</title>
+		<!-- Description -->
+		<meta name=“description” content=“At Magic Box Toys we are creators, we build our own brands and create new trends in the collectable toy market. We are the cretors of Zomlings - In The Town and Star Monsters - Pocket Friends.”>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
-
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="../../favicon.png">
 		<!-- Owl beta -->
 		<link href='../../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
 
 		<!-- FONTS -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 		<!-- Icons Fonts -->
 		<link rel="stylesheet" href="../../css/libraries/font_awesome/css/font-awesome.min.css">
-
 		<!-- general styles -->
 		<link href='../../css/reset.css' rel='stylesheet'>
 		<link href='../../css/general/general.css' rel='stylesheet'>
 		<!-- MENU -->
 		<link href='../../css/menu/menu.css' rel='stylesheet'>
-		<!-- Pre Footer -->
-		<link href='../../css/pre_footer/pre_footer.css' rel='stylesheet'>
 		<!-- Footer -->
 		<link href='../../css/footer/footer.css' rel='stylesheet'>
 		<!-- Company -->
-		<link href='../../css/company/company_2.css' rel='stylesheet'>
+		<link href='../../css/company/company.css' rel='stylesheet'>
 
 	</head>
 
@@ -54,7 +52,6 @@
 				<div class='company_text_container'>
 					<h2>Magic Box Toys is a global leader in the creation and distribution of collectable toys.</h2>
 					<p>Our products are filled with imagination and surprise. We are proud of the excitement we bring to children through our well-designed and highly gratifying concepts. We love the challenge to create new products in order to continue to entertain children worldwide.</p>
-					<!-- <h2 class='discover'>Discover our history.</h2> -->
 				</div>
 			</div>
 
@@ -62,9 +59,6 @@
 				include('../../sections/company/uk/timeline_vertical.php');
 			?>
 
-			<?php
-				include('../../sections/pre_footer/pre_footer.php');
-			?>
 			<?php
 				include('../../sections/footer/footer.php');
 			?>

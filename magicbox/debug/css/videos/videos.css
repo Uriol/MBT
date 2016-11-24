@@ -22,7 +22,6 @@ section.videos {
 }
 
 
-
 /* Carrousel */
 .carousel_container_full{
 	position: relative;
@@ -59,7 +58,6 @@ section.videos {
 	width: 100%;
 	height: 100%;
 }
-
 
 .player_container {
 	position: absolute;
@@ -116,7 +114,6 @@ section.videos {
 
 
 .player_ux_full .text_description_container {
-	/*display: none;*/
 	width: 100%;
 	position: absolute;
 	bottom: 0;
@@ -187,7 +184,6 @@ section.videos {
     position: absolute;
     top: 0;
     bottom: 0;
-    /*left: 0;*/
 }
 
 .carousel_container_full .arrow_container.right {
@@ -195,14 +191,10 @@ section.videos {
     position: absolute;
     top: 0;
     bottom: 0;
-/*    right: 500px;
-    right: 300px;*/
 }
 
 .carousel_container_full .arrow_container .arrow_icon{
 	position: absolute;
-	/*top: 15px;
-	left: 15px;*/
     width: 100px;
     height: 100px;
     
@@ -236,25 +228,6 @@ and (max-width: 540px) {
 	.arrow_wrapper{
 		display: none;
 	}
-
-	/* Arrows */
-	/*.arrow_wrapper .arrow_container{
-		width: 50px;
-		height: 50px;
-	}
-
-	.arrow_wrapper .arrow_container .arrow_icon{
-	    width: 50px;
-	    height: 50px;
-	}
-
-	.carousel_container_full .arrow_container.right {
-	    right: 25px;
-	}
-	.carousel_container_full .arrow_container.left {
-	    left: 25px;
-	}*/
-
 
 
 }

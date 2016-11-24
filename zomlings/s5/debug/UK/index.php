@@ -9,11 +9,15 @@
 <html>
 	<head>
 		<title>Zomlings - In The Town</title>
+		<!-- Description -->
+		<meta name="description" content="Zomlings are invading playgrounds everywhere! There are more than 100 cheeky, miniature monsters to collect and build into your own Zomlings Town. There are even rare silver and gold Zomlings to discover and collect. Use your houses and towers to build your own Zomlings Town!">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
-		<!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
-		<!-- Libraries -->
-		
+
+		<!-- Libraries -->		
 		<link href='../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
 		<link href='../css/libraries/owl.theme.css' rel='stylesheet'>
 		<link href='../css/libraries/owl.carousel.css' rel='stylesheet'>
@@ -64,7 +68,7 @@
 		?>
 		
 		<?php
-			include('../sections/videos/videos.php')
+			include('../sections/videos/uk/videos.php')
 		?>
 
 		<?php

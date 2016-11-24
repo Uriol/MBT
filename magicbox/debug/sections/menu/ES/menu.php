@@ -6,7 +6,7 @@
 			<!-- Fixed: Logo + menu list -->
 			<div class='fixed_menu_container_desktop'>
 				<div class='fixed_menu_elements_desktop'>
-					<a href='http://localhost:8888/MBT/magicbox/debug/UK'>
+					<a href='http://localhost:8888/MBT/magicbox/debug/es'>
 						<div class='mbt_logo'>
 							<img alt='Magic Box Toys' src='http://localhost:8888/MBT/magicbox/debug/img/general/mbt_logo.png'>
 						</div>
@@ -17,12 +17,12 @@
 							<span class='menu_arrow'>▼</span>
 							</p>
 						</div>
-						<a href='http://localhost:8888/MBT/magicbox/debug/UK/company'>
+						<a href='http://localhost:8888/MBT/magicbox/debug/es/compañia'>
 							<div class='menu_item_container'>
 								<p class='green'>COMPAÑIA</p>
 							</div>
 						</a>
-						<a href='http://localhost:8888/MBT/magicbox/debug/UK/contact'>
+						<a href='http://localhost:8888/MBT/magicbox/debug/es/contacto'>
 							<div class='menu_item_container contact'>
 								<p class='yellow'>CONTACTO</p>
 							</div>
@@ -62,7 +62,7 @@
 			<!-- Fixed: Logo + submenu icon -->
 			<div class='fixed_menu_container'>
 				<div class='fixed_menu_elements'>
-					<a href='http://localhost:8888/MBT/magicbox/debug/UK'>
+					<a href='http://localhost:8888/MBT/magicbox/debug/es'>
 						<div class='mbt_logo'>
 							<img alt='Magic Box Toys' src='http://localhost:8888/MBT/magicbox/debug/img/general/mbt_logo.png'>
 						</div>
@@ -88,13 +88,13 @@
 						</div>
 					</div>
 					<div class='filet'></div>
-					<a href='http://localhost:8888/MBT/magicbox/debug/UK/company'>
+					<a href='http://localhost:8888/MBT/magicbox/debug/es/compañia'>
 						<div class='submenu_mobile_item_wrapper company'>
 							<p>COMPAÑIA</p>
 						</div>
 					</a>
 					<div class='filet'></div>
-					<a href='http://localhost:8888/MBT/magicbox/debug/UK/contact'>
+					<a href='http://localhost:8888/MBT/magicbox/debug/es/contacto'>
 						<div class='submenu_mobile_item_wrapper contact'>
 							<p>CONTACTO</p>
 						</div>

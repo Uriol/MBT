@@ -58,7 +58,7 @@ section.products{
 	position: relative;
 	margin: 0 auto;
 	width: 80%;
-	max-width: 1024px;
+	max-width: 1280px;
 }
 
 
@@ -126,60 +126,61 @@ section.products{
 
 
 /* Arrows */
-.products_arrows_container {
-	width: 100%;
-	position: absolute;
-	z-index: 99;
-	margin-top: 120px;
-}
-.series_products_box .arrow_container_products{
-	
-	top: 0; bottom: 0; left: 0px; 
-	margin-top: 0px;
+.products_arrows_container .arrow_container_products{
 	width: 100px;
 	height: 100px;
 	background-color: rgba(0,0,0,0.2);
-	border-radius: 50%;
+	position: absolute;
+	z-index: 999;
 	cursor: pointer;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease all;
 }
 
-.series_products_box .arrow_container_products:hover {
-	background-color: rgba(0,0,0,0.7);
+.products_arrows_container .arrow_container_products:hover{
+	background-color: rgba(0,0,0,0.8);
+	transform: scale(1.2);
 }
 
-.series_products_box .arrow_container_products.left {
-	float: left;
-	margin-left: -50px;
+.products_arrows_container .arrow_container_products .arrow_icon{
+	position: absolute;
+    width: 100px;
+    height: 100px;
 }
 
-.series_products_box .arrow_container_products.right {
-	float: right;
-	margin-right: -50px;
+.products_arrows_container .arrow_container_products.left{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -40px;
 }
 
-.series_products_box .arrow_container_products .arrow_icon {
-	width: 100%;
-	height: 100%;
-	position: relative;
+.products_arrows_container .arrow_container_products.right{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -40px;
 }
 
-.series_products_box .arrow_container_products .arrow_icon.left{
+
+.products_arrows_container .arrow_container_products .arrow_icon.left{
 	background: url('../../img/general/left_arrow_circle.png');
 	background-size: cover;
 }
 
-.series_products_box .arrow_container_products .arrow_icon.right{
+.products_arrows_container .arrow_container_products .arrow_icon.right{
 	background: url('../../img/general/right_arrow_circle.png');
 	background-size: cover;
 }
 
 /* Pagination */
-.owl-carousel.products .owl-pagination {
+/*.owl-carousel.products .owl-pagination {
 	margin-top: 10px;
 
 }
-
-/* Pagination */
 .owl-carousel.products .owl-pagination .owl-page.active span{
 	background-color: rgb(251, 181, 49);
 }
@@ -190,7 +191,7 @@ section.products{
 
 .owl-carousel.products .owl-pagination .owl-page:hover span{
 	background-color: rgb(251, 181, 49);
-}
+}*/
 
 section.products .rounded_bottom{
 	position: relative;
@@ -248,9 +249,24 @@ and (max-width: 540px) {
 @media only screen
 and (max-width: 768px) {
 
-	.products_arrows_container {
-		/*display: none;*/
-		margin-top: 110px;
+	/* Arrows */
+	.products_arrows_container .arrow_container_products{
+		width: 75px;
+		height: 75px;
+	}
+
+	.products_arrows_container .arrow_container_products .arrow_icon{
+		position: absolute;
+	    width: 75px;
+	    height: 75px;
+	}
+
+	.products_arrows_container .arrow_container_products.left{
+	    left: 10px;
+	}
+
+	.products_arrows_container .arrow_container_products.right{
+	    right: 10px;
 	}
 
 }
@@ -258,9 +274,9 @@ and (max-width: 768px) {
 @media only screen
 and (min-width: 769px)
 and (max-width: 900px) {
-	.products_arrows_container {
+	/*.products_arrows_container {
 		margin-top: 110px;
-	}
+	}*/
 }
 
 /* Tablet */
@@ -268,9 +284,9 @@ and (max-width: 900px) {
 and (min-width: 901px)
 and (max-width: 1024px) {
 
-	.products_arrows_container {
+	/*.products_arrows_container {
 		margin-top: 80px;
-	}
+	}*/
 
 }
 
@@ -279,9 +295,9 @@ and (max-width: 1024px) {
 and (min-width: 1025px)
 and (max-width: 1200px) {
 
-	.products_arrows_container {
+	/*.products_arrows_container {
 		margin-top: 100px;
-	}
+	}*/
 
 }
 

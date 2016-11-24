@@ -4,8 +4,8 @@
 		<div id='particles_container_downloads'></div>
 	</div>
 
-	<div class='section_tittle_container' id='downloads_tittle'>
-		<img src="../img/general/titles/UK/downloads.png" alt="downloads_tittle">
+	<div class='section_title_container' id='downloads_tittle'>
+		<img src="../img/general/titles/uk/downloads.png" alt="downloads_tittle">
 	</div>
 
 

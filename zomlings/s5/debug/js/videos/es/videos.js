@@ -3,17 +3,14 @@
 var YT_API_READY = false;
 
 var playerInfoList = [{
-	id: 'player5',
+    id: 'player4',
     videoId: 'CiX1uDIAlqo'
 }, {
-    id: 'player4',
+    id: 'player3',
     videoId: 'V0if4l8r7Uo'
 }, {
-    id: 'player3',
-    videoId: '79iR2JPfoUk'
-}, {
     id: 'player2',
-    videoId: 'PvzEqbhyN_o'
+    videoId: '79iR2JPfoUk'
 }, {
     id: 'player1',
     videoId: 'PvzEqbhyN_o'

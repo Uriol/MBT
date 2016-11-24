@@ -44,7 +44,7 @@
 						<!-- IMAGE -->
 						<div class='image_container'>
 							<div class='image_cover'>
-								<img src='../../img/timeline/aniversari_2.png'>
+								<img src='../../img/timeline/aniversari.png'>
 							</div>
 						</div>
 						<!-- DESCRIPTION -->
@@ -133,7 +133,7 @@
 						<!-- IMAGE -->
 						<div class='image_container'>
 							<div class='image_cover'>
-								<img src='../../img/timeline/zomlings.png'>
+								<img src='../../img/timeline/z1.png'>
 							</div>
 						</div>
 						<!-- DESCRIPTION -->

@@ -3,8 +3,8 @@
 	<div class='products_section_wrapper'>
 		<div class='products_rounded_top'></div>
 
-		<div class='section_tittle_container' id='products_tittle'>
-			<img src="../img/general/titles/UK/products.png" alt="products_tittle">
+		<div class='section_title_container' id='products_tittle'>
+			<img src="../img/general/titles/uk/products.png" alt="products_tittle">
 		</div>
 
 

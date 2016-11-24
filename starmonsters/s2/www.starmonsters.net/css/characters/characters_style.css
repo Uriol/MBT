@@ -99,13 +99,18 @@ section.characters{
 	overflow: hidden;
 	margin-top: 15px;
 	cursor: pointer;
+	transition: 0.2s ease all;
 }
 
 .character.extra_margin_three {
 	margin-left: 26.45%;
 }
 
-.character:hover {
+.character img{
+	transition: 0.2s ease all;
+}
+
+.character img:hover {
 	transform: scale(1.05);
 }
 

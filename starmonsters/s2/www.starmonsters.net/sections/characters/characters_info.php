@@ -8,6 +8,7 @@
 		<!-- <div class='arrow_container left'></div> -->
 		<img id='loading_gif' src='../img/general/loading.gif' alt='loading'>
 		<img id='character_info_img' src='' alt='characters_info'>
+		
 		<div class='arrow_container left'></div>
 		<div class='arrow_container right'></div>
 	</div>

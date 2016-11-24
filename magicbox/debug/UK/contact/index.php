@@ -6,8 +6,13 @@
 <html>
 	<head>
 		<title>Magic Box Toys - Contact</title>
+		<!-- Description -->
+		<meta name=“description” content=“At Magic Box Toys we are creators, we build our own brands and create new trends in the collectable toy market. We are the cretors of Zomlings - In The Town and Star Monsters - Pocket Friends.”>
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="../../favicon.png">
 		<!-- FONTS -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 		<!-- Icons Fonts -->
@@ -19,6 +24,8 @@
 		<link href='../../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
 		<!-- MENU -->
 		<link href='../../css/menu/menu.css' rel='stylesheet'>
+		<!-- Owl beta -->
+		<link href='../../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
 		<!-- Contact -->
 		<link href='../../css/contact/contact.css' rel='stylesheet'>
 		<!-- Pre Footer -->
@@ -32,67 +39,64 @@
 	<body>
 
 		<div class='onload'>
-			<!-- <div class='loading_gif_container'>
-				<div class='mbt_logo'>
-					<img src='../../img/general/mbt_logo.png'>
-					<img class='gif' src='../../img/general/loading.gif'>
-				</div>
-			</div> -->
 		</div>
 
 		<section class='content'>
 			
-			<div class='bg_dark_contact'></div>
 
-			<!-- Contact notifications -->
-			<div class='notification_container_full error'>
-				<div class='message_notification_container'>
-					<div class='info_text'>
-						<p>All fields are required, please fill the form again.</p>
+			<!-- Form notifications -->
+			<div class='form_notifications'>
+				<div class='bg_dark_contact'></div>
+				<!-- Contact notifications -->
+				<div class='notification_container_full error'>
+					<div class='message_notification_container'>
+						<div class='info_text'>
+							<p>All fields are required, please fill the form again.</p>
+						</div>
+						<div class='close_full'>
+							<div class='close_container'>
+								<h4>CLOSE</h4>
+							</div>
+						</div>
 					</div>
-					<div class='close_full'>
-						<div class='close_container'>
-							<h4>CLOSE</h4>
+				</div>
+
+				<div class='notification_container_full email'>
+					<div class='message_notification_container'>
+						<div class='info_text'>
+							<p>The email address is not in the correct format. Please, fill out the form again.</p>
+						</div>
+						<div class='close_full'>
+							<div class='close_container'>
+								<h4>CLOSE</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='notification_container_full success'>
+					<div class='message_notification_container'>
+						<div class='info_text'>
+							<p>Thanks! Your message has been sent and we will get back to you as soon as possible.</p>
+						</div>
+						<div class='close_full'>
+							<div class='close_container'>
+								<h4>CLOSE</h4>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class='notification_container_full email'>
-				<div class='message_notification_container'>
-					<div class='info_text'>
-						<p>The email address is not in the correct format. Please, fill out the form again.</p>
-					</div>
-					<div class='close_full'>
-						<div class='close_container'>
-							<h4>CLOSE</h4>
-						</div>
-					</div>
-				</div>
-			</div>
 
-			<div class='notification_container_full success'>
-				<div class='message_notification_container'>
-					<div class='info_text'>
-						<p>Thanks! Your message has been sent and we will get back to you as soon as possible.</p>
-					</div>
-					<div class='close_full'>
-						<div class='close_container'>
-							<h4>CLOSE</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-
-
+			<!-- When brands menu is on -->
 			<div class='bg_dark'></div>
 
 			<?php
 				include('../../sections/menu/uk/menu.php');
 			?>
 
+			<!-- Select contacto option from menu -->
 			<style>
 				.menu_item_container p.yellow{ color: rgb(255,163,34); }
 			</style>
@@ -101,12 +105,12 @@
 			<div class='contact_header'>
 			</div>
 
+			<!-- Title -->
 			<div class='title_container_contact'>
 				<h2>Contact us</h2>
-				<!-- <h2>CONTÁCTENOS</h2> -->
 			</div>
 
-			<!-- Contact Form -->
+			<!-- Form -->
 			<div class='contact_form_wrapper'>
 				<?php
 					include('../../sections/contact/uk/contact.php');
@@ -115,7 +119,6 @@
 
 			<!-- Footer -->
 			<?php
-				include('../../sections/pre_footer/pre_footer.php');
 				include('../../sections/footer/footer.php');
 			?>
 

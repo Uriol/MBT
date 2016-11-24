@@ -108,7 +108,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00adec', end
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: rgb(220,220,220);
+	background-color: rgb(255,255,255);
 }
 
 .video_cover_container .video_cover{
@@ -377,8 +377,8 @@ and (max-width: 1024px) {
 		position: absolute;
 		bottom: 0;
 		padding: 15px 0px 15px 0px;
-		background-color: rgba(0,0,0,0.5);
-		text-align: center;
+		/*background-color: rgba(0,0,0,0.5);
+		text-align: center;*/
 	}
 
 	.player_ux_full .text_description_container p{

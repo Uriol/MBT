@@ -1,82 +1,133 @@
-section.footer {
+section.footer{
 	width: 100%;
-	
 	position: relative;
+}
+
+.footer .footer_container{
+	width: 100%;
+	padding: 70px 0px 35px 0px;
 	background-color: rgb(20,20,20);
+	overflow: hidden;
 }
 
-.footer_wrapper{
-	position: relative;
-	padding: 70px 20px 70px 20px;
-	/*width: 100%;*/
-	margin: 0 auto;
+.footer_container .links_container{
+	width: 100%;
 	text-align: center;
-}
-
-.footer_wrapper .mbt_logo{
-	text-align: center;
-	margin: 0 auto;
-	display: inline-block;
-	/*padding: 50px 0 50px 0;*/
-	
-	/*width: 250px;*/
 	vertical-align: middle;
 }
 
-.footer_wrapper .mbt_logo img{
-	max-width: 220px;
+
+/* Logo wrapper */
+.footer_container .links_container .logo_wrapper{
 	display: inline-block;
+	vertical-align: middle;
+	padding: 0px 15px 0px 15px;
 }
 
-.footer_wrapper .mbt_logo img:hover{
-	transform: scale(1.04);
-}
-
-.links_container {
-	display: inline-block;
-	margin-left: 25px;
-}
-
-.footer_wrapper .links_container a{
-	padding: 20px 15px 20px 15px;
-	font-family: avenir_medium;
-	color: rgba(255,255,255, 0.6);
+.footer_container .links_container .logo_wrapper a{
 	text-decoration: none;
+}
+
+.footer_container .links_container .logo_wrapper .logo_container{
+	max-width: 200px;
+	display: inline-block;
+	transition: 0.2s ease all;
+	cursor: pointer;
+}
+
+.footer_container .links_container .logo_wrapper .logo_container:hover{
+	transform: scale(1.05);
+}
+
+.footer_container .links_container .logo_wrapper .logo_container img{
+	width: 100%;
+}
+
+
+/* Social media */
+.links_container .social_media_wrapper{
+	vertical-align: middle;
+	display: inline-block;
+	padding: 0px 15px 0px 15px;
+}
+
+.links_container .social_media_wrapper a{
+	text-decoration: none;
+}
+
+.links_container .social_media_wrapper .media_icon{
+	display: inline-block;
+	font-size: 28px;
+	vertical-align: middle;
+	width: 50px;
+    height: 50px;
+    line-height: 45px;
+    border-radius: 50%;
+	cursor: pointer;
+	color: white;
+	transition: 0.2s ease all;
+}
+
+/* Facebook */
+.links_container .social_media_wrapper .media_icon.facebook{
+	background-color: #3b5998;
+}
+
+/* Twitter */
+.links_container .social_media_wrapper .media_icon.twitter{
+	background-color: #00aced;
+}
+
+
+/* Instagram */
+.links_container .social_media_wrapper .media_icon.instagram{
+	background-color: #517fa4;
+}
+
+
+/* Instagram */
+.links_container .social_media_wrapper .media_icon.youtube{
+	background-color: #b00;
+}
+
+
+
+/* Youtube */
+
+.links_container .social_media_wrapper .media_icon:hover{
+	transform: scale(1.1);
+}
+
+.links_container .social_media_wrapper .media_icon i{
+	vertical-align: middle;
+}
+
+
+/* Rights */
+.links_container .rights_container{
+	text-align: center;
+	padding-top: 0px;
+	cursor: default;
+	padding: 30px 10px;
+}
+
+.links_container .rights_container p{
+	color: white;
+	font-family: 'Montserrat';
+	font-weight: 400;
 	font-size: 15px;
-}
-
-.footer_wrapper a:hover{
-	color: rgba(255,255,255, 1);
-
+	letter-spacing: 0.3px;
 }
 
 
+
+/* Phone Portrait */
 @media only screen
-and (max-width: 650px) {
+and (max-width: 475px) {
 
-	.footer_wrapper .mbt_logo{
-		display: block;
+
+	.footer_container .links_container .logo_wrapper{
+		padding-bottom: 20px;
 	}
-
-	.footer_wrapper .mbt_logo img{
-		max-width: 200px;
-	}
-
-	.links_container {
-		max-width: 250px;
-		text-align: center;
-		/*display: block;*/
-		margin-top: 25px;
-		line-height: 30px;
-		margin-left: 0px;
-	}
-
-	.footer_wrapper .links_container a{
-		/*top: 25px;*/
-		padding: 0px 20px 0px 20px;
-		font-size: 15px;
-	}
-
-
 
 }

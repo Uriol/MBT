@@ -1,0 +1,78 @@
+.onload{
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			background-color: white;
+			z-index: 99999;
+			overflow: hidden;
+		}
+
+		.onload .loading_gif_container{
+			 position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin-top: auto;
+			margin-bottom: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.loading_gif_container .sm_logo{
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin-top: auto;
+			margin-bottom: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.loading_gif_container .sm_logo img{
+			max-width: 350px;
+			position: absolute;
+			display: block;
+			left: 0;
+			right: 0;
+			top: -100px;
+			bottom: 0;
+			margin-top: auto;
+			margin-bottom: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.loading_gif_container .sm_logo img.gif{
+			position: absolute;
+			max-width: 120px;
+			display: block;
+			left: 0;
+			right: 0;
+			top: 130px;
+			bottom: 0;
+			margin-top: auto;
+			margin-bottom: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+	/* Phone Portrait */
+@media only screen
+and (max-width: 400px) {
+
+	.loading_gif_container .sm_logo img{
+		width: 88%;
+	}
+
+	.loading_gif_container .sm_logo img.gif{
+		max-width: 120px;
+		top: 120px;
+	}
+
+}
+
+

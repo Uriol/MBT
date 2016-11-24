@@ -9,9 +9,14 @@
 <html>
 	<head>
 		<title>Zomlings - In The Town</title>
+		<!-- Description -->
+		<meta name="description" content="¡Los Zomlings han llegado y están por todas partes! Hay más de 100 figuras para coleccionar, incluyendo figuras especiales doradas y plateadas. Puedes encontrar casas, torres y mansiones de muchos colores. Juega con tus casas, apila las torres y ¡crea tu propia Zomlings Town!">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
-		<!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
+
 		<!-- Libraries -->
 		<link href='../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
 		<link href='../css/libraries/owl.theme.css' rel='stylesheet'>
@@ -63,7 +68,7 @@
 		?>
 		
 		<?php
-			include('../sections/videos/videos.php')
+			include('../sections/videos/es/videos.php')
 		?>
 
 		<?php
@@ -85,7 +90,6 @@
 		<?php 
 			include('../sections/footer/footer.php');
 		?>
-
 		
 		<!-- JS -->
 		<script src='../js/libraries/jquery_min.js'></script>
@@ -101,7 +105,6 @@
 		<!-- videos interaction -->
 		<script src='../js/videos/es/videos.js'></script>
 		
-
 		<!-- Characters js -->
 		<script src='../js/characters/es/characters.js'></script>
 
