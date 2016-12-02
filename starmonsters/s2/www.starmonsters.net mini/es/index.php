@@ -4,11 +4,13 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang='es'>
 	<head>
 		<title>Star Monsters - Pocket Friends</title>
 		<!-- Description -->
-		<meta name="description" content="¡Ya están aquí los Star Monsters! Cada personaje se ha formado de una estrella que ha caído a la tierra. Hay 72 Star Monsters para coleccionar, incluyendo personajes plateados, dorados y evolucionados. ¡Descúbrelos, llévatelos contigo y juega con ellos! ¡La diversión está asegurada!">
+		<meta name="description" content="¡Ya están aquí los Star Monsters! ¡Conoce tus personajes favoritos, mira los vídeos, descarga los álbumes y descubre nuevos productos! ¡Descubre todas las sorpresas de Star Monsters Series 2!"/>
+		<!-- Disable sitelinks -->
+		<meta name="google" content="nositelinkssearchbox" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
 		<!-- Favicon -->

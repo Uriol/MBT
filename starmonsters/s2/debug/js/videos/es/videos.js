@@ -65,6 +65,26 @@ $(function(){
 		        items:1,
 		        // margin: -50,
 		        stagePadding: 400
+		    },
+		    1800:{
+		        items:1,
+		        // margin: -50,
+		        stagePadding: 400
+		    },  
+		    1900:{
+		        items:1,
+		        // margin: -50,
+		        stagePadding: 450
+		    }, 
+		     2100:{
+		        items:1,
+		        // margin: -50,
+		        stagePadding: 500
+		    }, 
+		     2200:{
+		        items:1,
+		        // margin: -50,
+		        stagePadding: 550
 		    }
 		}
 	})

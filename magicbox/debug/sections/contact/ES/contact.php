@@ -2,15 +2,15 @@
 	<div class='contact_container_full'>
 		<div class='contact_container'>
 			
-			<div class='close_form_container'>
-			</div>
+			<!-- <div class='close_form_container'>
+			</div> -->
 
 			<div class='form_container'>
 
-							<div class='intro_text'>
-								<!-- <h2>Contáctenos</h2> -->
+							<!-- <div class='intro_text'>
+								<h2>Contáctenos</h2>
 								<p>Cualquier duda, sugerencia o simplemente nos quieres decir lo que más te gusta de nuestros productos, lo puedes hacer aquí. Prometemos contestar lo más rápido posible.</p>
-							</div>
+							</div> -->
 
 							
 						    <form  action="" method="POST" enctype="multipart/form-data"> 
@@ -313,7 +313,7 @@
 						        	echo "<script>
 
 						        		message_result = 'error';
-
+						        		
 						        		window.onload = function() {
 						        			onMessageSent(message_result);
 						        		};
@@ -346,7 +346,7 @@
 					?> 	
 			</div>
 
-			<div class='social_media_container'>
+<!-- 			<div class='social_media_container'>
 
 				<a href='http://starmonsters.net' target='blank'>
 					<div class='social_media_row'>
@@ -427,7 +427,7 @@
 
 
 
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>

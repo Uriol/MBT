@@ -443,5 +443,48 @@ and (max-width: 1800px){
 	}
 }
 
+@media only screen
+and (min-width: 1800px) {
 
+	.carousel_container_full .arrow_container.right {
+	    right: 300px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 300px;
+	}
+}
+
+@media only screen
+and (min-width: 1900px) {
+
+	.carousel_container_full .arrow_container.right {
+	    right: 350px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 350px;
+	}
+}
+
+
+@media only screen
+and (min-width: 2100px) {
+
+	.carousel_container_full .arrow_container.right {
+	    right: 400px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 400px;
+	}
+}
+
+@media only screen
+and (min-width: 2200px) {
+
+	.carousel_container_full .arrow_container.right {
+	    right: 450px;
+	}
+	.carousel_container_full .arrow_container.left {
+	    left: 450px;
+	}
+}
 

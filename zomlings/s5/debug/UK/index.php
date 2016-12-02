@@ -10,7 +10,7 @@
 	<head>
 		<title>Zomlings - In The Town</title>
 		<!-- Description -->
-		<meta name="description" content="Zomlings are invading playgrounds everywhere! There are more than 100 cheeky, miniature monsters to collect and build into your own Zomlings Town. There are even rare silver and gold Zomlings to discover and collect. Use your houses and towers to build your own Zomlings Town!">
+		<meta name="description" content="Welcome to Zomlings Town! Meet your favoutite characters, watch videos, discover new products and more! Zomlings are invading playgrounds everywhere!">
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 		

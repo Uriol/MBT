@@ -24,7 +24,7 @@ $(function(){
 	var owl = $('#videos_owl');
 
 	owl.owlCarousel_beta({
-	    stagePadding: 400,
+	    stagePadding: 200,
 	    loop:false,
 	    margin: 0,
 	    nav:false,
@@ -37,7 +37,7 @@ $(function(){
 		    0:{
 		        items:1,
 		        margin: 15,
-		        stagePadding: 60
+		        stagePadding: 40
 		    },
 		    540:{
 		        items:1,
@@ -68,6 +68,21 @@ $(function(){
 		        items:1,
 		        // margin: -50,
 		        stagePadding: 400
+		    },  
+		    1900:{
+		        items:1,
+		        // margin: -50,
+		        stagePadding: 450
+		    }, 
+		     2100:{
+		        items:1,
+		        // margin: -50,
+		        stagePadding: 500
+		    }, 
+		     2200:{
+		        items:1,
+		        // margin: -50,
+		        stagePadding: 550
 		    }
 		}
 	})

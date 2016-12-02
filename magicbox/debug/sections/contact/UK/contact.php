@@ -2,15 +2,15 @@
 	<div class='contact_container_full'>
 		<div class='contact_container'>
 			
-			<div class='close_form_container'>
-			</div>
+			<!-- <div class='close_form_container'>
+			</div> -->
 
 			<div class='form_container'>
 
-							<div class='intro_text'>
-								<!-- <h2>Contáctenos</h2> -->
+							<!-- <div class='intro_text'>
+								<h2>Contáctenos</h2>
 								<p>If you would like to contact Magic Box Toys via email, please provide your contact information and a brief message in the below form and we will respond at our earliest convenience.</p>
-							</div>
+							</div> -->
 
 							
 						    <form  action="" method="POST" enctype="multipart/form-data"> 
@@ -344,7 +344,7 @@
 						    }   
 					?> 	
 			</div>
-
+<!-- 
 			<div class='social_media_container'>
 
 				<a href='http://starmonsters.net' target='blank'>
@@ -422,11 +422,11 @@
 							<li class='address'>Magic Box Int. Toys, S.L.U. Plaça Xavier Cugat 2, 08174 Sant Cugat del Vallès, Barcelona, España</li>
 						</ul>
 					</div>
-				</div>
+				</div> 
 
 
 
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>

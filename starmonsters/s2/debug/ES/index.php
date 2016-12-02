@@ -6,7 +6,7 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang='es'>
 	<head>
 		<title>Star Monsters - Pocket Friends</title>
 		<!-- Description -->

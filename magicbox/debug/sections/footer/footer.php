@@ -19,24 +19,36 @@
 			</div>
 
 			<div class='social_media_wrapper'>
+
 				<a href='http://starmonsters.net' target='blank'>
-					<div class='media_icon facebook'>
-						<i class="fa fa-facebook" aria-hidden="true"></i>
+					<div class='media_icon_container'>
+						<div class='media_icon facebook'>
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</div>
 					</div>
 				</a>
+
 				<a href='http://starmonsters.net' target='blank'>
-					<div class='media_icon twitter'>
-						<i class="fa fa-twitter" aria-hidden="true"></i>
+					<div class='media_icon_container'>
+						<div class='media_icon twitter'>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</div>
 					</div>
 				</a>
+
 				<a href='http://starmonsters.net' target='blank'>
-					<div class='media_icon youtube'>
-						<i class="fa fa-youtube" aria-hidden="true"></i>
+					<div class='media_icon_container'>
+						<div class='media_icon youtube'>
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+						</div>
 					</div>
 				</a>
+
 				<a href='http://starmonsters.net' target='blank'>
-					<div class='media_icon instagram'>
-						<i class="fa fa-instagram" aria-hidden="true"></i>
+					<div class='media_icon_container'>
+						<div class='media_icon instagram'>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
 					</div>
 				</a>
 				

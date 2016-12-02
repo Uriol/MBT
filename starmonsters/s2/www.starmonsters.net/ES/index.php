@@ -4,11 +4,11 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang='es'>
 	<head>
 		<title>Star Monsters - Pocket Friends</title>
 		<!-- Description -->
-		<meta name=“description” content=“¡Ya están aquí los Star Monsters! Cada personaje se ha formado de una estrella que ha caído a la tierra. Hay 72 Star Monsters para coleccionar, incluyendo personajes plateados, dorados y evolucionados. ¡Descúbrelos, llévatelos contigo y juega con ellos! ¡La diversión está asegurada!”>
+		<meta name="description" content="¡Ya están aquí los Star Monsters! Cada personaje se ha formado de una estrella que ha caído a la tierra. Hay 72 Star Monsters para coleccionar, incluyendo personajes plateados, dorados y evolucionados. ¡Descúbrelos, llévatelos contigo y juega con ellos! ¡La diversión está asegurada!">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
 		<!-- Favicon -->

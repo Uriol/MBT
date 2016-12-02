@@ -1,5 +1,5 @@
 
-$(function(){
+// $(function(){
 
 	var message_result;
 
@@ -12,12 +12,12 @@ $(function(){
 		});
 
 		if(message_error_success == 'error'){
-			console.log('error');
+			// console.log('error');
 			// Show error screenshot
 			$('.notification_container_full.error').fadeIn(200);
 
 		} else if(message_error_success == 'email_error'){
-			console.log('email error');
+			// console.log('email error');
 			// Show email error screenshot
 			$('.notification_container_full.email').fadeIn(200);
 		} else {
@@ -44,4 +44,4 @@ $(function(){
 
 	})
 	
-});
+// });

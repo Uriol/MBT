@@ -66,7 +66,7 @@ body{
 	width: 100%;
 	padding-bottom: 30%;
 	position: relative;
-	background: url('../../img/general/z_city.png');
+	background: url('../../img/general/z_city_2.png');
 	background-size: cover;
 	background-position: center;
 }
@@ -77,14 +77,25 @@ body{
 	width: 100%;
 	text-align: center;
 	padding: 50px 0px 30px 0px;
+	margin: 0 auto;
+	max-width: 760px;
 }
 
 .title_container_contact h2{
 	    font-weight: 700;
-    font-family: montserrat_bold,'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
-    font-size: 32px;
+    font-family: 'montserrat_bold','Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+    font-size: 40px;
     line-height: 33px;
     letter-spacing: 0.6px;
+    color: rgb(25,25,25);
+}
+
+.title_container_contact p{
+    font-family: 'montserrat_light','Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-top: 24px;
     color: rgb(25,25,25);
 }
 
@@ -127,6 +138,7 @@ section.contact{
 .contact_container_full .contact_container .form_container{
 	width: 60%;
 	float: left;
+	display: none;
 }
 
 .contact_container_full .contact_container .form_container .intro_text{
@@ -302,6 +314,7 @@ a:hover {
 .social_media_container{
 	float: left;
 	width: 40%;
+	display: none;
 }
 
 .social_media_container a{

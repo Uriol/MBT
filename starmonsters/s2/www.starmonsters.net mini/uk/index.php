@@ -4,12 +4,13 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 	<head>
 		<title>Star Monsters - Pocket Friends</title>
 		<!-- Description -->
-		<meta name="description" content="Star Monsters Series 2 is here with lots of surprises! Discover our new crystal Star Monsters, crystal mini capsules and crystal capsules too. Look out for the mysterious new Shadow Star Monsters… You could even find the first ever Evolution Level 3 Star Monster. Discover them all and play lots of Star Monsters games.">
-
+		<meta name="description" content="Welcome to the Star Monsters official site! Meet your favourite characters, watch videos, download posters and discover new products! Star Monsters Series 2 is here with lots of surprises!" />
+		<!-- Disable sitelinks -->
+		<meta name="google" content="nositelinkssearchbox" />
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
 		<!-- Favicon -->

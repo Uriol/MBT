@@ -18,7 +18,7 @@
 							</p>
 						</div>
 						<a href='http://localhost:8888/MBT/magicbox/debug/es/compañia'>
-							<div class='menu_item_container'>
+							<div class='menu_item_container company'>
 								<p class='green'>COMPAÑIA</p>
 							</div>
 						</a>

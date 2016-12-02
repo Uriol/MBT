@@ -7,7 +7,7 @@
 	<head>
 		<title>Magic Box Toys - Contacto</title>
 		<!-- Description -->
-		<meta name=“description” content=“En Magic Box Toys somos creadores, construimos marcas y generamos tendencias en el sector de los juguetes coleccionables. Somos los creadores de Zomlings - In The Town y Star Monsters - Pocket Friends.”>
+		<meta name="description" content="En Magic Box Toys somos creadores, construimos marcas y generamos tendencias en el sector de los juguetes coleccionables. Somos los creadores de Zomlings - In The Town y Star Monsters - Pocket Friends.">
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1.0">
@@ -25,9 +25,7 @@
 		<!-- Owl beta -->
 		<link href='../../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
 		<!-- Contact -->
-		<link href='../../css/contact/contact.css' rel='stylesheet'>
-		<!-- Pre Footer -->
-		<link href='../../css/pre_footer/pre_footer.css' rel='stylesheet'>
+		<link href='../../css/contact/contact_2.css' rel='stylesheet'>
 		<!-- Footer -->
 		<link href='../../css/footer/footer.css' rel='stylesheet'>
 		<!-- Onload -->
@@ -104,6 +102,7 @@
 			<!-- Title -->
 			<div class='title_container_contact'>
 				<h2>Contáctenos</h2>
+				<p>Cualquier duda, sugerencia o simplemente nos quieres decir lo que más te gusta de nuestros productos, lo puedes hacer aquí. Prometemos contestar lo más rápido posible.</p>
 			</div>
 
 			<!-- Form -->

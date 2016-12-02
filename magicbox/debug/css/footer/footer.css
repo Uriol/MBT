@@ -2,12 +2,13 @@ section.footer{
 	width: 100%;
 	position: relative;
 	margin-top: 35px;
+	/*box-sizing: border-box;*/
 }
 
 .footer .footer_container{
 	width: 100%;
 	padding: 70px 0px 35px 0px;
-	background-color: rgb(115, 189, 78);
+	background-color: rgb(121,186,47);
 	overflow: hidden;
 }
 
@@ -56,17 +57,42 @@ section.footer{
 	text-decoration: none;
 }
 
-.links_container .social_media_wrapper .media_icon{
+.links_container .social_media_wrapper .media_icon_container{
 	display: inline-block;
+	width: 67px;
+    height: 67px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0px 2px 0px 2px;
+    transition: 0.2s ease all;
+}
+
+.links_container .social_media_wrapper .media_icon_container:hover{
+	transform: scale(1.1);
+}
+
+.links_container .social_media_wrapper .media_icon{
+	
+	
 	font-size: 28px;
 	vertical-align: middle;
-	width: 50px;
-    height: 50px;
-    line-height: 45px;
+	width: 55px;
+    height: 55px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 6px;
+    /*line-height: 45px;*/
     border-radius: 50%;
 	cursor: pointer;
 	color: white;
 	transition: 0.2s ease all;
+	/*border-width: 6px;
+	border-style: solid;
+	border-color: white;*/
+}
+
+.links_container .social_media_wrapper .media_icon i{
+	margin-top: 13px;
 }
 
 /* Facebook */
@@ -95,10 +121,10 @@ section.footer{
 
 /* Youtube */
 
-.links_container .social_media_wrapper .media_icon:hover{
+/*.links_container .social_media_wrapper .media_icon:hover{
 	transform: scale(1.1);
 }
-
+*/
 .links_container .social_media_wrapper .media_icon i{
 	vertical-align: middle;
 }
@@ -109,7 +135,7 @@ section.footer{
 	text-align: center;
 	padding-top: 0px;
 	cursor: default;
-	padding: 30px 10px;
+	padding: 20px 10px;
 }
 
 .links_container .rights_container p{
@@ -118,17 +144,39 @@ section.footer{
 	font-weight: 400;
 	font-size: 15px;
 	letter-spacing: 0.3px;
+	line-height: 22px;
 }
 
 
 
 /* Phone Portrait */
 @media only screen
-and (max-width: 475px) {
+and (max-width: 650px) {
 
+	.footer .footer_container{
+		padding: 45px 0px 5px 0px;
+	}
 
 	.footer_container .links_container .logo_wrapper{
-		padding-bottom: 20px;
+		width: 100%;
+		padding: 0px;
+	}
+
+	.footer_container .links_container .logo_wrapper{
+		padding-bottom: 18px;
+	}
+
+	.links_container .social_media_wrapper .media_icon{
+		/*display: inline-block;*/
+		/*margin: 0px 2px 8px 2px;*/
+	}
+
+	.links_container .social_media_wrapper .media_icon i{
+		margin-top: 13px;
+	}
+
+	.links_container .rights_container{
+		padding: 25px 10px;
 	}
 
 }

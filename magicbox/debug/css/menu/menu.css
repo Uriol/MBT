@@ -265,6 +265,9 @@ and (min-width: 901px) {
 		display: inline-block;
 		background-color: white;
 		vertical-align: middle;
+
+		padding: 25px 0px 25px 0px;
+
 	}
 
 	.menu_wrapper_desktop .menu_container_desktop .fixed_menu_container_desktop .fixed_menu_elements_desktop .mbt_logo{
@@ -299,17 +302,20 @@ and (min-width: 901px) {
 
 	.menu_list_wrapper_desktop .menu_item_container{
 		display: inline-block;
-		padding: 35px 15px 35px 15px;
+		/*margin: 0px 4px;*/
+		padding: 15px 15px 15px 15px;
 		cursor: pointer;
+		color: rgb(20,20,20);
+		border-radius: 2px;
 	}
 
-	.menu_list_wrapper_desktoplink .menu_item_container:hover p.red{
+	.menu_list_wrapper_desktop .menu_item_container:hover p.red{
 		color: rgb(223,38,37);
 	}
 
-	.menu_list_wrapper_desktop .menu_item_container p.red.on{
+	/*.menu_list_wrapper_desktop .menu_item_container p.red.on{
 		color: rgb(223,38,37);
-	}
+	}*/
 
 	.menu_list_wrapper_desktop .menu_item_container:hover p.green{
 		color: rgb(121,186,47);
@@ -319,11 +325,22 @@ and (min-width: 901px) {
 		color: rgb(255,163,34);
 	}
 
+	/* Test */
+	/*.menu_list_wrapper_desktop .menu_item_container.brands{
+		background-color: rgb(223,38,37);
+	}
+	.menu_list_wrapper_desktop .menu_item_container.company{
+		background-color: rgb(121,186,47);
+	}
+	.menu_list_wrapper_desktop .menu_item_container.contact{
+		background-color: rgb(255,163,34);
+	}*/
+
 	.menu_list_wrapper_desktop .menu_item_container p{
 		display: inline-block;
 		font-weight: 700;
-		font-family: montserrat_bold, 'Montserrat', 'avenir_bold', 'Open Sans', sans-serif;
-		font-size: 16px;
+		font-family: 'montserrat_bold', 'montserrat_reg', 'avenir_bold', 'Open Sans', sans-serif;
+		font-size: 17px;
 		letter-spacing: 0.2px;
 	}
 

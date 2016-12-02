@@ -1,1 +1,3 @@
-Sitemap: http://wwww.starmonsters.net/sitemap.xml
+Sitemap: http://wwww.starmonsters.net/uk/sitemap.xml
+
+Sitemap: http://wwww.starmonsters.net/es/sitemap.xml

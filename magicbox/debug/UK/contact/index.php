@@ -27,7 +27,7 @@
 		<!-- Owl beta -->
 		<link href='../../css/libraries/(beta)owl.carousel.css' rel='stylesheet'>
 		<!-- Contact -->
-		<link href='../../css/contact/contact.css' rel='stylesheet'>
+		<link href='../../css/contact/contact_2.css' rel='stylesheet'>
 		<!-- Pre Footer -->
 		<link href='../../css/pre_footer/pre_footer.css' rel='stylesheet'>
 		<!-- Footer -->
@@ -108,6 +108,7 @@
 			<!-- Title -->
 			<div class='title_container_contact'>
 				<h2>Contact us</h2>
+				<p>If you would like to contact Magic Box Toys via email, please provide your contact information and a brief message in the below form and we will respond at our earliest convenience.</p>
 			</div>
 
 			<!-- Form -->

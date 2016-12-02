@@ -10,7 +10,7 @@
 	<head>
 		<title>Zomlings - In The Town</title>
 		<!-- Description -->
-		<meta name="description" content="¡Los Zomlings han llegado y están por todas partes! Hay más de 100 figuras para coleccionar, incluyendo figuras especiales doradas y plateadas. Puedes encontrar casas, torres y mansiones de muchos colores. Juega con tus casas, apila las torres y ¡crea tu propia Zomlings Town!">
+		<meta name="description" content="¡Bienvenido a Zomlings Town! ¡Conoce a tus personages favoritos, mira los videos, descubre nuevos productos y mucho más! ¡Los Zomlings han llegado y están por todas partes!">
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 

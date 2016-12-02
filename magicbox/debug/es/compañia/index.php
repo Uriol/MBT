@@ -45,15 +45,17 @@
 				.menu_item_container p.green{ color: rgb(115, 189, 78); }
 			</style>
 
-			<div class='header'>
-			</div>
+			<!-- <div class='header'>
+			</div> -->
 
-			<div class='company_text_wrapper'>
+			<!-- <div class='company_text_wrapper'>
 				<div class='company_text_container'>
+					<h2>SOBRE MAGIC BOX TOYS</h2>
+					<p>Magic Box Toys es una empresa líder mundial en la creación y distribución de juguetes coleccionables. Nuestros productos logran despertar la imaginación, sorpresa e ilusión de los niños. Nos apasiona el reto de seguir creando para continuar divirtiendo a niños y niñas en todo el mundo.</p>
 					<h2>Magic Box Toys es una empresa líder mundial en la creación y distribución de juguetes coleccionables.</h2>
 					<p>Nuestros productos logran despertar la imaginación, sorpresa e ilusión de los niños a través de conceptos sólidos, bien diseñados y altamente gratificantes. Nos apasiona el reto de seguir creando para continuar divirtiendo a niños y niñas en todo el mundo.</p>
 				</div>
-			</div>
+			</div> -->
 
 			<?php
 				include('../../sections/company/es/timeline_vertical.php');
